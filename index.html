@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heliópolis</title>
+  <style>
+    :root { --ink: #17211b; --muted: #5a665e; --paper: #f6f3ec; --card: #fffdf8; --accent: #b84e31; --line: #ded8cd; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 16px/1.55 Georgia, serif; }
+    main { max-width: 780px; margin: 0 auto; padding: 32px 20px 56px; }
+    header { padding: 18px 0 28px; border-bottom: 1px solid var(--line); }
+    .eyebrow { margin: 0 0 8px; color: var(--accent); font: 700 12px/1.2 Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { max-width: 620px; margin: 0; font-size: clamp(36px, 7vw, 64px); line-height: 1; font-weight: 400; }
+    h2 { margin: 34px 0 10px; font-size: 28px; font-weight: 400; }
+    p { max-width: 680px; }
+    .intro { color: var(--muted); font-size: 18px; }
+    form { margin-top: 26px; padding: 24px; background: var(--card); border: 1px solid var(--line); }
+    label { display: block; margin-top: 18px; font: 700 14px/1.3 Arial, sans-serif; }
+    label:first-child { margin-top: 0; }
+    input, textarea, select { width: 100%; margin-top: 7px; padding: 12px; border: 1px solid #c7c0b4; border-radius: 3px; background: #fff; color: var(--ink); font: 16px/1.4 Arial, sans-serif; }
+    textarea { min-height: 130px; resize: vertical; }
+    input[type=file] { padding: 10px; }
+    .consent { display: flex; gap: 10px; align-items: flex-start; margin-top: 22px; font: 14px/1.4 Arial, sans-serif; }
+    .consent input { width: auto; margin: 2px 0 0; }
+    button { margin-top: 24px; padding: 13px 18px; border: 0; border-radius: 3px; background: var(--accent); color: white; cursor: pointer; font: 700 15px Arial, sans-serif; }
+    .privacy { color: var(--muted); font-size: 14px; }
+    .map-card { margin-top: 34px; padding: 14px; background: var(--card); border: 1px solid var(--line); }
+    .map-card img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+    .caption { margin: 10px 4px 2px; color: var(--muted); font: 13px/1.4 Arial, sans-serif; }
+    footer { margin-top: 28px; color: var(--muted); font: 13px/1.4 Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Cartografia social participativa</p>
+      <h1>Heliópolis</h1>
+      <p class="intro">Qual lugar de Heliópolis guarda uma lembrança, oferece acolhimento, reúne pessoas ou merece ser conhecido?</p>
+    </header>
+
+    <section>
+      <h2>Um território feito de histórias</h2>
+      <p>Heliópolis não é apenas um conjunto de ruas. É um território formado por moradia, escola, comunicação comunitária, cultura, circulação, apoio e memória. Este primeiro mapa reúne pontos aproximados e imagens de referência; as próximas contribuições serão construídas com os moradores.</p>
+      <p class="privacy"><strong>Contexto:</strong> a ocupação de Heliópolis começou a se consolidar no início dos anos 1970, após a transferência de famílias removidas de outras áreas. O Instituto Brasileiro de Geografia e Estatística (IBGE) registrou 55.583 moradores no recorte oficial da Comunidade Urbana de Heliópolis no Censo 2022. Estimativas maiores, divulgadas para áreas mais amplas, não representam exatamente o mesmo limite territorial.</p>
+      <div class="map-card">
+        <img src="/mural-cartografico-heliopolis.png" alt="Mural cartográfico afetivo de Heliópolis com um mapa-base, fotografias e pontos de encontro, cuidado, cultura e pertencimento">
+        <p class="caption">Mural cartográfico afetivo: mapa-base e pontos aproximados para orientar a participação.</p>
+      </div>
+
+      <h2>Compartilhe um lugar</h2>
+      <p>Envie uma fotografia e conte o que esse espaço significa para você. A imagem será analisada pela equipe do projeto antes de aparecer no mapa público.</p>
+      <form action="/enviar" method="post" enctype="multipart/form-data">
+        <label for="foto">Fotografia do local</label>
+        <input id="foto" name="foto" type="file" accept="image/jpeg,image/png,image/webp" required>
+
+        <label for="local">Que lugar é esse?</label>
+        <input id="local" name="local" maxlength="160" placeholder="Ex.: uma praça, escola ou espaço comunitário" required>
+
+        <label for="categoria">O que esse lugar representa?</label>
+        <select id="categoria" name="categoria">
+          <option value="">Escolha uma opção</option>
+          <option>Encontro</option><option>Acolhimento</option><option>Cuidado</option>
+          <option>Cultura</option><option>Lazer</option><option>Pertencimento</option>
+          <option>Resistência</option><option>Tensão ou insegurança</option>
+        </select>
+
+        <label for="relato">Conte por que esse lugar é importante</label>
+        <textarea id="relato" name="relato" maxlength="1200" placeholder="Escreva um pequeno relato sobre sua relação com esse espaço." required></textarea>
+
+        <label for="nome">Como deseja ser identificado? (opcional)</label>
+        <input id="nome" name="nome" maxlength="100" placeholder="Você também pode deixar em branco">
+
+        <label class="consent"><input type="checkbox" name="autorizacao" value="sim" required><span>Autorizo o uso da fotografia e do relato neste projeto acadêmico. Entendo que a equipe poderá entrar em contato para confirmar informações e que a publicação será feita somente após revisão.</span></label>
+        <button type="submit">Enviar contribuição</button>
+      </form>
+      <p class="privacy">Não envie rostos de pessoas sem autorização, documentos, endereços residenciais ou informações que possam colocar alguém em risco.</p>
+    </section>
+    <footer>Projeto de Psicologia Social Comunitária · Heliópolis, São Paulo</footer>
+  </main>
+</body>
+</html>
+
