@@ -53,4 +53,13 @@ app.post('/enviar', upload.single('foto'), (req, res) => {
 });
 
 app.get('/health', (_req, res) => res.json({ ok: true }));
+
+app.get('/contagem', (_req, res) => {
+  let submissions = [];
+  try { submissions = JSON.parse(fs.readFileSync(submissionsFile, 'utf8')); } catch (_err) {}
+  let photos = 0;
+  try { photos = fs.readdirSync(uploadDir).filter((name) => /\.(jpe?g|png|webp)$/i.test(name)).length; } catch (_err) {}
+  res.json({ respostas: submissions.length, fotos: photos });
+});
+
 app.listen(port, () => console.log(`Mapa afetivo em http://localhost:${port}`));
