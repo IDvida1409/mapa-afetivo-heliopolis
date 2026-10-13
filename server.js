@@ -7,6 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const uploadDir = process.env.UPLOAD_DIR || path.join(__dirname, 'data', 'uploads');
 const submissionsFile = path.join(__dirname, 'data', 'submissions.json');
+const adminToken = process.env.ADMIN_TOKEN || '';
 
 fs.mkdirSync(uploadDir, { recursive: true });
 fs.mkdirSync(path.dirname(submissionsFile), { recursive: true });
@@ -54,12 +55,24 @@ app.post('/enviar', upload.single('foto'), (req, res) => {
 
 app.get('/health', (_req, res) => res.json({ ok: true }));
 
-app.get('/contagem', (_req, res) => {
+app.get('/contagem', (req, res) => {
+  if (!adminToken || req.query.token !== adminToken) return res.status(401).send('Acesso restrito.');
   let submissions = [];
   try { submissions = JSON.parse(fs.readFileSync(submissionsFile, 'utf8')); } catch (_err) {}
   let photos = 0;
   try { photos = fs.readdirSync(uploadDir).filter((name) => /\.(jpe?g|png|webp)$/i.test(name)).length; } catch (_err) {}
-  res.json({ respostas: submissions.length, fotos: photos });
+  res.type('html').send(`<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contribuições</title><style>body{margin:0;background:#f4f0e8;color:#1d2922;font:16px/1.5 Arial,sans-serif}main{max-width:760px;margin:0 auto;padding:32px 18px}h1{font:36px Georgia,serif;margin:0 0 8px}p{color:#526058}.stats{display:flex;gap:12px;margin:24px 0}.stat{background:#fff;border:1px solid #ddd5c8;padding:16px 20px;border-radius:8px}.stat strong{display:block;font-size:28px}.card{background:#fff;border:1px solid #ddd5c8;border-radius:8px;padding:18px;margin-top:18px}.card img{max-width:100%;border-radius:6px;margin-top:12px}.label{font-size:12px;text-transform:uppercase;color:#69776e;letter-spacing:.08em;margin-top:14px}</style><main><h1>Contribuições recebidas</h1><p>Área de consulta do projeto de Psicologia Social Comunitária.</p><div class="stats"><div class="stat"><strong>${submissions.length}</strong>resposta(s)</div><div class="stat"><strong>${photos}</strong>foto(s)</div></div>${submissions.map((item) => `<article class="card"><div class="label">Local</div><div>${escapeHtml(item.local)}</div><div class="label">Categoria</div><div>${escapeHtml(item.categoria || 'Não informada')}</div><div class="label">Relato</div><div>${escapeHtml(item.relato)}</div>${item.nome ? `<div class="label">Identificação</div><div>${escapeHtml(item.nome)}</div>` : ''}<img src="/contribuicao-foto/${encodeURIComponent(item.foto)}?token=${encodeURIComponent(adminToken)}" alt="Foto enviada para o projeto"></article>`).join('')}</main></html>`);
+});
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+}
+
+app.get('/contribuicao-foto/:filename', (req, res) => {
+  if (!adminToken || req.query.token !== adminToken) return res.sendStatus(401);
+  const filename = path.basename(req.params.filename);
+  if (!filename || !fs.existsSync(path.join(uploadDir, filename))) return res.sendStatus(404);
+  res.sendFile(path.join(uploadDir, filename));
 });
 
 app.listen(port, () => console.log(`Mapa afetivo em http://localhost:${port}`));
