@@ -1,0 +1,22 @@
+// Verifica a sequência, os relógios e a restauração sem alterar os dados do site.
+const vm=require('node:vm'),fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const records=JSON.parse(fs.readFileSync(path.join(__dirname,'public/places.json'),'utf8'));
+function scenario(reducedMotion=false){let now=0,next=1,jobs=new Map(),events={},opened=[],view={center:[-23.62,-46.59],zoom:17},zoomHistory=[];const elements=new Map(),classes=new Set();
+ const el=id=>{if(!elements.has(id))elements.set(id,{hidden:true,textContent:'',value:'',dataset:{},style:{},classList:{add(){}},setAttribute(){},close(){this.open=false}});return elements.get(id)};
+ el('#search').value='saúde';el('#place-card').hidden=false;el('#map-location').textContent='Local inicial';el('#map-street').textContent='Rua inicial';
+ const timer=(fn,ms,interval=false)=>{const id=next++;jobs.set(id,{fn,due:now+ms,ms:interval?ms:0});return id};
+ const tick=ms=>{const end=now+ms;let iterations=0;while(true){const pending=[...jobs].filter(([,j])=>j.due<=end).sort((a,b)=>a[1].due-b[1].due)[0];if(!pending)break;assert(++iterations<1000);now=pending[1].due;jobs.delete(pending[0]);pending[1].fn();if(pending[1].ms)jobs.set(pending[0],{...pending[1],due:now+pending[1].ms})}now=end};
+ const map={getCenter:()=>view.center,getZoom:()=>view.zoom,getSize:()=>({x:1280,y:800}),invalidateSize(){},closePopup(){},stop(){},off(e,fn){if(events[e]===fn)delete events[e]},once(e,fn){events[e]=fn},project(t){return{x:t[1]*1000,y:t[0]*1000}},unproject(p){return[p.y/1000,p.x/1000]},setView(c,z){view={center:c,zoom:z}},flyTo(c,z,options){view={center:c,zoom:z};zoomHistory.push(z);timer(()=>{const fn=events.moveend;delete events.moveend;fn?.()},options.duration*1000)}};
+ const ctx={console,innerWidth:1280,Date:{now:()=>now},$:el,document:{body:{classList:{toggle(k,v){v?classes.add(k):classes.delete(k)}}},addEventListener(){},querySelector(){return null}},setTimeout:(f,n)=>timer(f,n),clearTimeout:id=>jobs.delete(id),setInterval:(f,n)=>timer(f,n,true),clearInterval:id=>jobs.delete(id),requestAnimationFrame:f=>f(),reduced:()=>reducedMotion,map,places:records,activeId:'gotas',category:'Saúde',showIllustration:false,tourState:'idle',tourIndex:0,tourToken:0,tourStops:[],tourTimer:null,tourRemaining:0,tourDue:0,setPlacing(){},ensureMap(){},buildFilters(){},refreshMarkers(){},renderList(){},overview(){},openPlace(id){ctx.activeId=id;opened.push(id);el('#place-card').hidden=false},photoCredit:()=>'',openPhoto(){}};
+ vm.createContext(ctx);vm.runInContext(fs.readFileSync(path.join(__dirname,'public/tour.js'),'utf8'),ctx);
+ return {ctx,el,tick,opened,classes,zoomHistory,view:()=>view,run:s=>vm.runInContext(s,ctx)};
+}
+for(const reduced of [false,true]){
+ const s=scenario(reduced);s.run('startTour()');assert(s.classes.has('presenting'));assert.equal(s.ctx.tourStops.length,27);s.tick(1700);assert.equal(s.opened.at(-1),'unas');assert.equal(s.zoomHistory[0],19);assert(s.el('.card-summary').textContent.length>80);
+ s.run('pauseTour()');const held=s.ctx.tourIndex;s.tick(35000);assert.equal(s.ctx.tourIndex,held);assert.equal(s.ctx.tourState,'paused');s.run('resumeTour()');s.tick(28000);assert(s.ctx.tourIndex>held);
+ s.run('pauseTour();visitStop(26)');s.tick(1700);assert.equal(s.opened.at(-1),'demo-10');assert.equal(s.ctx.tourState,'paused');s.run('resumeTour()');s.tick(30000);assert.equal(s.ctx.tourState,'complete');
+ s.run('stopTour()');assert(!s.classes.has('presenting'));assert.equal(s.ctx.category,'Saúde');assert.equal(s.el('#search').value,'saúde');assert.equal(s.ctx.activeId,'gotas');assert.equal(s.view().zoom,17);assert.equal(s.el('#map-location').textContent,'Local inicial');
+ s.run('startTour();pauseTour()');s.tick(1700);assert.equal(s.ctx.tourState,'paused');s.run('stopTour()');const count=s.opened.length;s.tick(40000);assert.equal(s.opened.length,count);
+ const all=scenario(reduced);all.run('startTour()');all.tick(800000);assert.equal(all.ctx.tourState,'complete');for(const p of records)assert(all.opened.includes(p.id),p.id);
+}
+console.log('OK: tour visita os 27 locais; aproxima o mapa; abre a história ao chegar; pausa, continua e conclui; inclui pontos sem coordenada sem inventar posição; restaura navegação e cancela tarefas ao sair; movimento reduzido verificado.');

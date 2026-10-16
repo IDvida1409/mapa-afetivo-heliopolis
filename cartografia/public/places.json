@@ -581,11 +581,11 @@
     "address": "Rua da Mina, 53, Heliópolis",
     "photos": [
       {
-        "src": "assets/web/novo-1-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Mina",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297560/194290",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-1-registro-real.webp",
+        "alt": "Sala de atividades do CEI Mina na reabertura após a reforma, em fevereiro de 2024.",
+        "source": "https://www.unas.org.br/single-post/cei-mina-reabre-para-atendimento-as-criancas-apos-fechamento-para-reformas",
+        "credit": "Publicação: UNAS · 2024",
+        "kind": "documentary"
       }
     ],
     "story": "Educar e cuidar caminham juntos neste ponto da rede comunitária. O CEI Mina participa da história da educação infantil construída pelas famílias e pela UNAS.",
@@ -603,7 +603,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Registro público da reabertura do CEI Mina, em 2024, divulgado pela UNAS. Mostra o espaço de atividades; não integra as fotografias produzidas pelo grupo.",
     "recordNo": 18,
     "reviewedAt": "2026-10-16"
   },
@@ -619,16 +619,16 @@
     "address": "Estrada das Lágrimas, 2385",
     "photos": [
       {
-        "src": "assets/web/novo-2-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Aparecida das Graças Silva Roseira",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297563/194291",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-2-registro-real.webp",
+        "alt": "Crianças do CEI Aparecida das Graças Roseira visitam a Rádio Comunitária de Heliópolis em atividade pedagógica publicada em 2025.",
+        "source": "https://educacao.sme.prefeitura.sp.gov.br/noticias/criancas-do-cei-aparecida-das-gracas-roseira-levam-suas-vozes-a-radio-comunitaria-do-heliopolis/",
+        "credit": "Publicação: SME / Prefeitura de São Paulo · 2025",
+        "kind": "documentary"
       }
     ],
     "story": "Um lugar de cuidado e aprendizagem na primeira infância. A unidade aproxima famílias, educadores e os equipamentos do complexo educacional de Heliópolis.",
-    "history": "A unidade integra a rede de CEIs administrada pela UNAS em parceria com a Secretaria Municipal de Educação. A organização a inclui entre os serviços do complexo da Estrada das Lágrimas. Seu registro na cartografia destaca os vínculos entre o cuidado das crianças, a educação e os percursos cotidianos das famílias.",
-    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "history": "Em 2025, a Secretaria Municipal de Educação publicou uma saída pedagógica das crianças do Minigrupo II à Rádio Comunitária de Heliópolis. A caminhada pelas ruas e a participação na rádio ampliaram as experiências de escuta, expressão e convivência. Essa atividade aproxima a educação infantil da memória do bairro e do direito das crianças de ocupar a cidade.",
+    "historySource": "https://educacao.sme.prefeitura.sp.gov.br/noticias/criancas-do-cei-aparecida-das-gracas-roseira-levam-suas-vozes-a-radio-comunitaria-do-heliopolis/",
     "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
     "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
     "affects": [
@@ -641,7 +641,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Registro público de uma saída pedagógica do CEI à Rádio Comunitária de Heliópolis. A imagem mostra a atividade, e não a fachada da unidade.",
     "recordNo": 19,
     "reviewedAt": "2026-10-16"
   },
@@ -657,16 +657,16 @@
     "address": "Estrada das Lágrimas, 2385",
     "photos": [
       {
-        "src": "assets/web/novo-3-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Simone Agnalda Ferreira",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297563/194291",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-3-registro-real.webp",
+        "alt": "Contação de histórias da Biblioteca Comunitária de Heliópolis com bebês do CEI Simone Agnalda Ferreira, em 2025.",
+        "source": "https://www.unas.org.br/single-post/biblioteca-viva-novo-projeto-da-unas-amplia-o-acesso-a-literatura-com-vivencias-culturais",
+        "credit": "Cindy Tavares / UNAS · 2025",
+        "kind": "documentary"
       }
     ],
     "story": "As primeiras experiências escolares também constroem pertencimento. O CEI Simone faz parte da rede de educação e cuidado de Heliópolis.",
-    "history": "O CEI Simone Agnalda Ferreira está entre as unidades de educação infantil da rede UNAS. Uma reportagem da organização relaciona esse espaço às trajetórias de formação de trabalhadoras da comunidade. A cartografia aproxima o atendimento à infância dos vínculos e das oportunidades construídos no território.",
-    "historySource": "https://www.unas.org.br/single-post/quando-a-educacao-transforma-a-historia-de-marinita-e-jaqueline-na-unas",
+    "history": "O CEI Simone Agnalda Ferreira participa da rede de educação infantil da UNAS. Uma publicação de 2025 registra o encontro de seus bebês com a equipe da Biblioteca Comunitária de Heliópolis para uma contação de histórias. O registro mostra como livros, cuidado e vínculos entre equipamentos do bairro podem fazer parte das primeiras experiências culturais das crianças.",
+    "historySource": "https://www.unas.org.br/single-post/biblioteca-viva-novo-projeto-da-unas-amplia-o-acesso-a-literatura-com-vivencias-culturais",
     "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
     "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
     "affects": [
@@ -679,7 +679,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Fotografia de Cindy Tavares, publicada pela UNAS em 2025, identificando a atividade de contação de histórias com bebês do CEI Simone Agnalda Ferreira.",
     "recordNo": 20,
     "reviewedAt": "2026-10-16"
   },
@@ -695,16 +695,16 @@
     "address": "Rua Japaratuba, 65",
     "photos": [
       {
-        "src": "assets/web/novo-4-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Padre Pedro Ballint",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297553/194284",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-4-registro-real.webp",
+        "alt": "Formação sobre alimentação e porcionamento de alimentos com a equipe do CEI Padre Pedro Ballint, publicada em 2022.",
+        "source": "https://www.unas.org.br/single-post/com-18-mil-refeicoes-diarias-projetos-da-unas-garantem-alimentacao-saudavel-em-meio-alta-da-fome",
+        "credit": "Publicação: UNAS · 2022",
+        "kind": "documentary"
       }
     ],
     "story": "Cuidar da infância também mobiliza a comunidade. O CEI Padre Pedro Ballint participa dos caminhos de educação, trabalho e apoio às famílias.",
-    "history": "Integrante da rede de educação infantil da UNAS, o CEI aparece em uma reportagem da organização como espaço de aproximação entre famílias e trabalho comunitário. A referência publicada fica na Rua Japaratuba. O mapa destaca a participação das famílias e o cuidado como relações construídas no dia a dia.",
-    "historySource": "https://www.unas.org.br/single-post/quando-a-educacao-transforma-a-historia-de-marinita-e-jaqueline-na-unas",
+    "history": "Além do cuidado e da educação infantil, a alimentação faz parte da rotina do CEI Padre Pedro Ballint. Em julho de 2022, a UNAS registrou uma oficina com a equipe da unidade sobre porções, preparo e uso consciente dos alimentos. O trabalho aproximava a formação dos profissionais, a qualidade das refeições e o diálogo com as famílias.",
+    "historySource": "https://www.unas.org.br/single-post/com-18-mil-refeicoes-diarias-projetos-da-unas-garantem-alimentacao-saudavel-em-meio-alta-da-fome",
     "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
     "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
     "affects": [
@@ -717,7 +717,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Registro de uma formação da equipe do CEI Padre Pedro Ballint sobre alimentação, apresentado na reportagem da UNAS de julho de 2022.",
     "recordNo": 21,
     "reviewedAt": "2026-10-16"
   },
@@ -733,11 +733,11 @@
     "address": "Rua Alencar de Araripe, 623",
     "photos": [
       {
-        "src": "assets/web/novo-5-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Paulo Freire",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297549/194281",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-5-registro-real.webp",
+        "alt": "Fachada do prédio do CEI Paulo Freire na Rua Alencar de Araripe, registrada em publicação de 2018.",
+        "source": "https://www.unas.org.br/single-post/2018/06/28/novo-endere%C3%A7oceis",
+        "credit": "Publicação: UNAS · 2018",
+        "kind": "documentary"
       }
     ],
     "story": "O direito à educação começa na primeira infância. A história desta unidade inclui a ampliação do atendimento e a conquista de um novo espaço.",
@@ -755,7 +755,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Fotografia histórica da fachada do CEI Paulo Freire, publicada em 2018. Registra o prédio apresentado na notícia de mudança de endereço; não é uma fotografia atual.",
     "recordNo": 22,
     "reviewedAt": "2026-10-16"
   },
@@ -771,16 +771,16 @@
     "address": "Rua da Fantasia, 63",
     "photos": [
       {
-        "src": "assets/web/novo-6-vista-aerea.webp",
-        "alt": "Vista aérea da região de CEI Margarida Maria Alves",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297546/194285",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-6-registro-real.webp",
+        "alt": "Encontro de crianças e educadoras no acesso entre o CEI Margarida Maria Alves e a EMEF Gonzaguinha, em registro publicado em 2024.",
+        "source": "https://www.unas.org.br/single-post/derrubada-de-muro-que-dividia-escolas-em-heliopolis-tem-promovido-integracao-entre-criancas",
+        "credit": "Publicação: UNAS · 2024",
+        "kind": "documentary"
       }
     ],
     "story": "Brincar, aprender e construir vínculos perto de casa. O CEI Margarida Maria Alves integra a rede de cuidado das crianças e de suas famílias.",
-    "history": "A UNAS relaciona o CEI Margarida Maria Alves entre as unidades de educação infantil sob sua gestão, em parceria com o município. O endereço publicado fica na Rua da Fantasia. Na cartografia, a unidade representa a presença dos serviços de cuidado nos percursos cotidianos das famílias.",
-    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "history": "Em dezembro de 2024, a UNAS contou como a abertura de uma passagem no muro entre o CEI Margarida Maria Alves e a EMEF Gonzaguinha facilitou a convivência entre as crianças. O acesso aproximou espaços de brincadeira, jardim e horta. A história ajuda a perceber a escola como parte de um território compartilhado, onde os encontros também ensinam.",
+    "historySource": "https://www.unas.org.br/single-post/derrubada-de-muro-que-dividia-escolas-em-heliopolis-tem-promovido-integracao-entre-criancas",
     "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
     "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
     "affects": [
@@ -793,7 +793,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Registro público da integração entre o CEI Margarida Maria Alves e a EMEF Gonzaguinha, divulgado pela UNAS em dezembro de 2024.",
     "recordNo": 23,
     "reviewedAt": "2026-10-16"
   },
@@ -809,11 +809,11 @@
     "address": "Rua Alencar de Araripe, 437",
     "photos": [
       {
-        "src": "assets/web/novo-7-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Girassol",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297546/194281",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-7-registro-real.webp",
+        "alt": "Fachada histórica do CEI Girassol na Estrada das Lágrimas, em fotografia publicada em 2018.",
+        "source": "https://www.unas.org.br/single-post/2018/06/28/novo-endere%C3%A7oceis",
+        "credit": "Publicação: UNAS · 2018",
+        "kind": "documentary"
       }
     ],
     "story": "Uma trajetória de educação infantil que acompanha as mudanças do território. O CEI Girassol reúne cuidado, convivência e aprendizagem.",
@@ -831,7 +831,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Registro histórico do CEI Girassol na Estrada das Lágrimas, publicado em 2018. O endereço da lista de unidades de 2026 é Rua Alencar de Araripe, 437. A fotografia não representa a fachada atual.",
     "recordNo": 24,
     "reviewedAt": "2026-10-16"
   },
@@ -847,16 +847,16 @@
     "address": "Rua Alencar de Araripe, 1415",
     "photos": [
       {
-        "src": "assets/web/novo-8-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Josefa Júlia",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297561/194283",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-8-registro-real.webp",
+        "alt": "Fachada do CEI Josefa Júlia na Rua Alencar de Araripe, 1415, em registro publicado em 2016.",
+        "source": "https://www.unas.org.br/single-post/2016/10/03/novo-endere%C3%A7o-cei-josefa-julia",
+        "credit": "Publicação: UNAS · 2016",
+        "kind": "documentary"
       }
     ],
     "story": "Uma referência de educação e cuidado para a primeira infância. O CEI Josefa Júlia se conecta aos trajetos e às redes de apoio das famílias da região.",
-    "history": "O CEI Josefa Júlia integra os serviços de educação infantil da UNAS conveniados com a Secretaria Municipal de Educação. A unidade é relacionada pela organização no endereço da Rua Alencar de Araripe, 1415. Sua presença no mapa evidencia como a rede de cuidados atravessa Heliópolis e os bairros do entorno.",
-    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "history": "Em outubro de 2016, a UNAS anunciou que o CEI Josefa Júlia passava a atender na Rua Alencar de Araripe, 1415. O mesmo endereço aparece na relação de unidades publicada em 2026. A fotografia histórica preserva esse momento da trajetória do espaço e ajuda a ligar a memória da instituição aos caminhos percorridos pelas famílias.",
+    "historySource": "https://www.unas.org.br/single-post/2016/10/03/novo-endere%C3%A7o-cei-josefa-julia",
     "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
     "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
     "affects": [
@@ -869,7 +869,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Fotografia histórica da fachada, publicada pela UNAS na notícia de mudança de endereço do CEI Josefa Júlia, em outubro de 2016.",
     "recordNo": 25,
     "reviewedAt": "2026-10-16"
   },
@@ -885,16 +885,16 @@
     "address": "Rua Caripurá, 281",
     "photos": [
       {
-        "src": "assets/web/novo-9-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Minervino Rodrigues Ferreira",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297562/194286",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-9-registro-real.webp",
+        "alt": "Atividade educativa apresentada pela UNAS na seção sobre a transformação do CEI Minervino Rodrigues Ferreira em CEMEI.",
+        "source": "https://www.unas.org.br/single-post/metade-das-familias-nas-emeis-nao-tem-com-quem-deixar-os-filhos-fora-do-horario-de-aula",
+        "credit": "Publicação: UNAS · 2025",
+        "kind": "documentary"
       }
     ],
     "story": "Infância, convivência e participação comunitária. O CEI Minervino Rodrigues Ferreira compõe a rede educacional de Heliópolis e região.",
-    "history": "A unidade aparece na relação de CEIs da UNAS e também em registros da mobilização pela cultura de paz no território. A referência publicada fica na Rua Caripurá. No mapa afetivo, o serviço aproxima a educação infantil da participação das famílias e do compromisso coletivo com os direitos das crianças.",
-    "historySource": "https://www.unas.org.br/single-post/2017/05/29/heli%C3%B3polis-sair%C3%A1-%C3%A0s-ruas-para-reivindicar-direitos-na-19%C2%BA-caminhada-pela-paz",
+    "history": "Segundo a UNAS, o CEI Minervino Rodrigues Ferreira foi transformado em CEMEI em 2022, após mobilização das famílias por atendimento integral. A experiência ampliou o cuidado na primeira infância e passou a ser referência na discussão comunitária sobre novas unidades. Sua história conecta a educação das crianças às condições de trabalho e às redes de apoio de seus responsáveis.",
+    "historySource": "https://www.unas.org.br/single-post/metade-das-familias-nas-emeis-nao-tem-com-quem-deixar-os-filhos-fora-do-horario-de-aula",
     "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
     "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
     "affects": [
@@ -907,7 +907,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Registro publicado pela UNAS em 2025 na seção que apresenta a experiência de educação integral do Minervino Rodrigues Ferreira.",
     "recordNo": 26,
     "reviewedAt": "2026-10-16"
   },
@@ -923,16 +923,16 @@
     "address": "Estrada das Lágrimas, 475",
     "photos": [
       {
-        "src": "assets/web/novo-10-vista-aerea.webp",
-        "alt": "Vista aérea do endereço de CEI Leonarda Soares Alves",
-        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297538/194279",
-        "kind": "aerial",
-        "credit": "Esri, Maxar, Earthstar Geographics"
+        "src": "assets/web/novo-10-registro-real.webp",
+        "alt": "Entrega de presentes da campanha Papai Noel dos Correios para crianças do CEI Leonarda Soares Alves, na quadra da UNAS, em dezembro de 2023.",
+        "source": "https://saladeimprensa.correios.com.br/wp-content/uploads/2024/02/RevistaCorreios-ajustes_20240220_redux.pdf#page=9",
+        "credit": "Publicação: Revista Correios · fev. 2024",
+        "kind": "documentary"
       }
     ],
     "story": "A educação infantil se espalha pelos caminhos de Heliópolis e do Sacomã. Esta unidade integra a rede de cuidado e aprendizagem da primeira infância.",
-    "history": "O CEI Leonarda Soares Alves é relacionado pela UNAS entre suas unidades de educação infantil conveniadas com o município. A organização publica o endereço da Estrada das Lágrimas, 475. A cartografia o inclui para mostrar a continuidade dos serviços de educação e dos vínculos comunitários no entorno de Heliópolis.",
-    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "history": "Em dezembro de 2023, crianças do CEI Leonarda Soares Alves participaram de uma entrega da campanha Papai Noel dos Correios na quadra da UNAS. A Revista Correios registrou esse encontro em sua edição de fevereiro de 2024. A atividade mostra uma das conexões da unidade com a rede comunitária e com momentos de convivência e celebração fora da sala de aula.",
+    "historySource": "https://saladeimprensa.correios.com.br/wp-content/uploads/2024/02/RevistaCorreios-ajustes_20240220_redux.pdf#page=9",
     "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
     "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
     "affects": [
@@ -945,7 +945,7 @@
     "complementary": true,
     "recordType": "complementar",
     "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "photoNote": "Fotografia de atividade com as crianças do CEI Leonarda Soares Alves na quadra da UNAS, em dezembro de 2023, publicada na Revista Correios. A imagem não mostra a fachada do CEI.",
     "recordNo": 27,
     "reviewedAt": "2026-10-16"
   }

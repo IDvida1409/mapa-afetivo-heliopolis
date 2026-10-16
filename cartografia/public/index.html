@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="style.css?v=5">
 <link rel="stylesheet" href="card-aprovado.css?v=5">
 <link rel="stylesheet" href="card-integrado.css?v=8">
+<link rel="stylesheet" href="tour.css?v=9">
 </head>
 <body>
 <header class="site-header">
@@ -41,7 +42,7 @@
  <footer class="intro-footer"><span>UNIVERSIDADE CRUZEIRO DO SUL · CAMPUS PAULISTA</span><span>Cartografia afetiva e participativa <i class="trans-flag" aria-hidden="true"></i></span></footer>
 </main>
 <main id="territory-screen" hidden>
- <div class="territory-toolbar"><div><p class="eyebrow">UM TERRITÓRIO, MUITAS HISTÓRIAS</p><h1>Heliópolis <em>em primeira pessoa.</em></h1></div><div class="territory-totals"><span><b id="count-services">—</b> espaços e serviços</span><span><b id="count-places">—</b> locais e referências</span><span><b id="count-categories">—</b> categorias</span></div><div class="toolbar-actions"><button id="rail-toggle" class="text-button" aria-expanded="true">▥ Lugares</button><button id="illustration-toggle" class="text-button">Ilustração</button><button id="add-place" class="outline-button">+ Contribuir</button><button id="tour-start" class="purple-button">▶ Apresentar</button></div></div>
+ <div class="territory-toolbar"><div><p class="eyebrow">UM TERRITÓRIO, MUITAS HISTÓRIAS</p><h1>Heliópolis <em>em primeira pessoa.</em></h1></div><div class="territory-totals"><span><b id="count-services">—</b> espaços e serviços</span><span><b id="count-places">—</b> locais e referências</span><span><b id="count-categories">—</b> categorias</span></div><div class="toolbar-actions"><button id="rail-toggle" class="text-button" aria-expanded="true">▥ Lugares</button><button id="illustration-toggle" class="text-button">Ilustração</button><button id="add-place" class="outline-button">+ Contribuir</button><button id="tour-start" class="purple-button">▶ Fazer um tour</button></div></div>
  <div class="territory-layout">
   <section class="territory-map" aria-label="Mapa interativo de Heliópolis">
    <div id="map"></div><div class="map-vignette" aria-hidden="true"></div>
@@ -49,9 +50,7 @@
    <div id="illustration" hidden><img loading="lazy" src="assets/web/heliopolis-ilustrada.webp" alt="Ilustração de Heliópolis em perspectiva"><span>Ilustração do território</span></div>
    <div class="map-topline"><div><span id="map-location">Heliópolis</span><small id="map-street">São Paulo · SP</small></div><button id="overview" aria-label="Ver todos os lugares" title="Visão geral">📍</button></div>
    <div id="placement-hint" class="placement-hint" hidden>Toque no mapa para marcar o lugar <button id="placement-cancel">Cancelar</button></div>
-   <button id="tour-handle" class="tour-handle" hidden>▶ Controles da apresentação</button>
-   <section id="tour-controls" class="tour-controls" hidden><div><span class="live-dot"></span><p><b id="tour-title">Percorrendo as histórias</b><small id="tour-location"></small></p><span id="tour-count"></span></div><div class="tour-progress"><i id="tour-progress"></i></div><div class="tour-buttons"><button id="tour-pause">Ⅱ Pausar</button><button id="tour-next">Próximo →</button><button id="tour-stop">■ Parar</button><button id="tour-exit">Sair ↗</button></div></section>
-   <div id="presentation-exit-wrap" class="presentation-exit" hidden><button id="presentation-exit">← Voltar à navegação</button><button id="fullscreen" aria-label="Tela cheia">⛶</button></div>
+   <section id="tour-controls" class="tour-controls" aria-label="Controles do tour" hidden><div><span class="live-dot" aria-hidden="true"></span><p><b id="tour-title">Histórias do território</b><small id="tour-location"></small></p><span id="tour-count" aria-live="polite"></span></div><div class="tour-progress"><i id="tour-progress"></i></div><div class="tour-buttons"><button id="tour-pause">Pausar</button><button id="tour-next" aria-label="Ir ao próximo lugar">Próximo →</button><button id="tour-exit" aria-label="Fechar tour e voltar à navegação">Fechar tour ×</button></div></section>
    <article id="place-card" class="place-card" hidden></article>
    <div id="map-notice" class="map-notice">17 referências do acervo + 10 locais complementares · fontes nas histórias</div>
   </section>
@@ -63,5 +62,5 @@
 <dialog id="history-dialog" class="history-dialog"><button class="dialog-close" data-close="history-dialog" aria-label="Fechar história completa">×</button><div id="history-content"></div></dialog>
 <dialog id="methodology-dialog" class="methodology-dialog"><button class="dialog-close" data-close="methodology-dialog" aria-label="Fechar fontes e critérios">×</button><p class="eyebrow">PANORAMA 2026 · DADOS DE 2016–2025</p><h2>Fontes e critérios do mapa</h2><p>O mapa reúne registros publicados de assassinatos de pessoas trans. A soma das tabelas de cada UF compõe as cores do mapa. Os totais nacionais publicados aparecem no gráfico e no indicador principal.</p><div id="methodology-content"></div></dialog>
 <div id="toast" class="toast" role="status" hidden></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js?v=8"></script><script src="aprovados.js?v=8"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js?v=9"></script><script src="tour.js?v=9"></script><script src="aprovados.js?v=9"></script>
 </body></html>
