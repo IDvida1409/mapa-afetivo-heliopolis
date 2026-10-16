@@ -5,10 +5,11 @@
   "description": "Formulario participativo para a cartografia afetiva de Heliópolis",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node verificar-publicacao.cjs"
   },
   "dependencies": {
     "express": "^4.21.2",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^2.4.0"
   }
 }

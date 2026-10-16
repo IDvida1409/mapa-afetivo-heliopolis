@@ -1,3 +1,6 @@
 node_modules/
 data/uploads/
 .env
+
+data/
+cartografia/data/

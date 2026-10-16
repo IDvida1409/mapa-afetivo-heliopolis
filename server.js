@@ -5,8 +5,9 @@ const fs = require('fs');
 
 const app = express();
 const port = process.env.PORT || 3000;
-const uploadDir = process.env.UPLOAD_DIR || path.join(__dirname, 'data', 'uploads');
-const submissionsFile = path.join(__dirname, 'data', 'submissions.json');
+const formDataDir = process.env.FORM_DATA_DIR || path.join(__dirname, 'data');
+const uploadDir = process.env.UPLOAD_DIR || path.join(formDataDir, 'uploads');
+const submissionsFile = path.join(formDataDir, 'submissions.json');
 const adminToken = process.env.ADMIN_TOKEN || '';
 
 fs.mkdirSync(uploadDir, { recursive: true });
@@ -28,7 +29,15 @@ const upload = multer({
 });
 
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(__dirname));
+// A cartografia usa o disco persistente já destinado às contribuições.
+process.env.CARTOGRAPHY_DATA_DIR = path.join(path.dirname(submissionsFile), 'cartografia');
+const cartography = require('./cartografia/server.cjs');
+app.get(/^\/cartografia$/, (_req, res) => res.redirect(302, '/cartografia/'));
+app.use('/cartografia', (req, res) => cartography.emit('request', req, res));
+// Somente os arquivos públicos do formulário são servidos na raiz.
+for (const [route, filename] of [['/', 'index.html'], ['/index.html', 'index.html'], ['/obrigado.html', 'obrigado.html'], ['/mural-cartografico-heliopolis.png', 'mural-cartografico-heliopolis.png']]) {
+  app.get(route, (_req, res) => res.sendFile(path.join(__dirname, filename)));
+}
 
 app.post('/enviar', upload.single('foto'), (req, res) => {
   if (!req.file || req.body.autorizacao !== 'sim' || !req.body.local || !req.body.relato) {
@@ -78,4 +87,5 @@ app.get('/contribuicao-foto/:filename', (req, res) => {
   res.sendFile(path.join(uploadDir, filename));
 });
 
-app.listen(port, () => console.log(`Mapa afetivo em http://localhost:${port}`));
+if (require.main === module) app.listen(port, () => console.log(`Mapa afetivo em http://localhost:${port}`));
+module.exports = app;

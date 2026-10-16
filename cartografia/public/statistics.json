@@ -1,0 +1,590 @@
+{
+  "year": 2025,
+  "published": 2026,
+  "total": 1400,
+  "women": 77,
+  "men": 3,
+  "states": [
+    {
+      "code": "11",
+      "uf": "RO",
+      "name": "Rondônia",
+      "count": 17,
+      "annual": {
+        "2016": 0,
+        "2017": 5,
+        "2018": 1,
+        "2019": 2,
+        "2020": 3,
+        "2021": 1,
+        "2022": 1,
+        "2023": 2,
+        "2024": 2,
+        "2025": 0
+      }
+    },
+    {
+      "code": "12",
+      "uf": "AC",
+      "name": "Acre",
+      "count": 4,
+      "annual": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 0,
+        "2019": 0,
+        "2020": 1,
+        "2021": 1,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    {
+      "code": "13",
+      "uf": "AM",
+      "name": "Amazonas",
+      "count": 48,
+      "annual": {
+        "2016": 8,
+        "2017": 5,
+        "2018": 6,
+        "2019": 5,
+        "2020": 3,
+        "2021": 4,
+        "2022": 8,
+        "2023": 7,
+        "2024": 1,
+        "2025": 1
+      }
+    },
+    {
+      "code": "14",
+      "uf": "RR",
+      "name": "Roraima",
+      "count": 5,
+      "annual": {
+        "2016": 0,
+        "2017": 1,
+        "2018": 1,
+        "2019": 1,
+        "2020": 1,
+        "2021": 0,
+        "2022": 1,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    {
+      "code": "15",
+      "uf": "PA",
+      "name": "Pará",
+      "count": 54,
+      "annual": {
+        "2016": 3,
+        "2017": 7,
+        "2018": 10,
+        "2019": 4,
+        "2020": 4,
+        "2021": 6,
+        "2022": 6,
+        "2023": 4,
+        "2024": 5,
+        "2025": 5
+      }
+    },
+    {
+      "code": "16",
+      "uf": "AP",
+      "name": "Amapá",
+      "count": 7,
+      "annual": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 2,
+        "2022": 0,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+      }
+    },
+    {
+      "code": "17",
+      "uf": "TO",
+      "name": "Tocantins",
+      "count": 9,
+      "annual": {
+        "2016": 1,
+        "2017": 3,
+        "2018": 1,
+        "2019": 2,
+        "2020": 1,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 1,
+        "2025": 0
+      }
+    },
+    {
+      "code": "21",
+      "uf": "MA",
+      "name": "Maranhão",
+      "count": 39,
+      "annual": {
+        "2016": 4,
+        "2017": 2,
+        "2018": 3,
+        "2019": 5,
+        "2020": 3,
+        "2021": 4,
+        "2022": 4,
+        "2023": 4,
+        "2024": 5,
+        "2025": 5
+      }
+    },
+    {
+      "code": "22",
+      "uf": "PI",
+      "name": "Piauí",
+      "count": 16,
+      "annual": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 2,
+        "2019": 1,
+        "2020": 2,
+        "2021": 2,
+        "2022": 1,
+        "2023": 2,
+        "2024": 4,
+        "2025": 0
+      }
+    },
+    {
+      "code": "23",
+      "uf": "CE",
+      "name": "Ceará",
+      "count": 121,
+      "annual": {
+        "2016": 6,
+        "2017": 16,
+        "2018": 13,
+        "2019": 11,
+        "2020": 22,
+        "2021": 11,
+        "2022": 11,
+        "2023": 12,
+        "2024": 11,
+        "2025": 8
+      }
+    },
+    {
+      "code": "24",
+      "uf": "RN",
+      "name": "Rio Grande do Norte",
+      "count": 33,
+      "annual": {
+        "2016": 6,
+        "2017": 1,
+        "2018": 6,
+        "2019": 4,
+        "2020": 7,
+        "2021": 1,
+        "2022": 3,
+        "2023": 1,
+        "2024": 0,
+        "2025": 4
+      }
+    },
+    {
+      "code": "25",
+      "uf": "PB",
+      "name": "Paraíba",
+      "count": 53,
+      "annual": {
+        "2016": 6,
+        "2017": 10,
+        "2018": 5,
+        "2019": 5,
+        "2020": 5,
+        "2021": 2,
+        "2022": 4,
+        "2023": 7,
+        "2024": 5,
+        "2025": 4
+      }
+    },
+    {
+      "code": "26",
+      "uf": "PE",
+      "name": "Pernambuco",
+      "count": 89,
+      "annual": {
+        "2016": 6,
+        "2017": 13,
+        "2018": 7,
+        "2019": 8,
+        "2020": 7,
+        "2021": 11,
+        "2022": 13,
+        "2023": 9,
+        "2024": 8,
+        "2025": 7
+      }
+    },
+    {
+      "code": "27",
+      "uf": "AL",
+      "name": "Alagoas",
+      "count": 43,
+      "annual": {
+        "2016": 4,
+        "2017": 7,
+        "2018": 3,
+        "2019": 2,
+        "2020": 8,
+        "2021": 2,
+        "2022": 4,
+        "2023": 5,
+        "2024": 6,
+        "2025": 2
+      }
+    },
+    {
+      "code": "28",
+      "uf": "SE",
+      "name": "Sergipe",
+      "count": 24,
+      "annual": {
+        "2016": 5,
+        "2017": 2,
+        "2018": 5,
+        "2019": 1,
+        "2020": 2,
+        "2021": 1,
+        "2022": 5,
+        "2023": 0,
+        "2024": 2,
+        "2025": 1
+      }
+    },
+    {
+      "code": "29",
+      "uf": "BA",
+      "name": "Bahia",
+      "count": 112,
+      "annual": {
+        "2016": 8,
+        "2017": 17,
+        "2018": 15,
+        "2019": 8,
+        "2020": 19,
+        "2021": 13,
+        "2022": 7,
+        "2023": 10,
+        "2024": 8,
+        "2025": 7
+      }
+    },
+    {
+      "code": "31",
+      "uf": "MG",
+      "name": "Minas Gerais",
+      "count": 109,
+      "annual": {
+        "2016": 9,
+        "2017": 20,
+        "2018": 9,
+        "2019": 5,
+        "2020": 17,
+        "2021": 9,
+        "2022": 9,
+        "2023": 11,
+        "2024": 12,
+        "2025": 8
+      }
+    },
+    {
+      "code": "32",
+      "uf": "ES",
+      "name": "Espírito Santo",
+      "count": 39,
+      "annual": {
+        "2016": 1,
+        "2017": 7,
+        "2018": 6,
+        "2019": 4,
+        "2020": 3,
+        "2021": 3,
+        "2022": 6,
+        "2023": 4,
+        "2024": 3,
+        "2025": 2
+      }
+    },
+    {
+      "code": "33",
+      "uf": "RJ",
+      "name": "Rio de Janeiro",
+      "count": 109,
+      "annual": {
+        "2016": 13,
+        "2017": 14,
+        "2018": 16,
+        "2019": 7,
+        "2020": 10,
+        "2021": 12,
+        "2022": 8,
+        "2023": 16,
+        "2024": 10,
+        "2025": 3
+      }
+    },
+    {
+      "code": "35",
+      "uf": "SP",
+      "name": "São Paulo",
+      "count": 173,
+      "annual": {
+        "2016": 18,
+        "2017": 16,
+        "2018": 14,
+        "2019": 21,
+        "2020": 29,
+        "2021": 25,
+        "2022": 11,
+        "2023": 19,
+        "2024": 16,
+        "2025": 4
+      }
+    },
+    {
+      "code": "41",
+      "uf": "PR",
+      "name": "Paraná",
+      "count": 70,
+      "annual": {
+        "2016": 11,
+        "2017": 9,
+        "2018": 8,
+        "2019": 7,
+        "2020": 5,
+        "2021": 7,
+        "2022": 6,
+        "2023": 12,
+        "2024": 1,
+        "2025": 4
+      }
+    },
+    {
+      "code": "42",
+      "uf": "SC",
+      "name": "Santa Catarina",
+      "count": 22,
+      "annual": {
+        "2016": 1,
+        "2017": 5,
+        "2018": 4,
+        "2019": 0,
+        "2020": 4,
+        "2021": 2,
+        "2022": 2,
+        "2023": 0,
+        "2024": 3,
+        "2025": 1
+      }
+    },
+    {
+      "code": "43",
+      "uf": "RS",
+      "name": "Rio Grande do Sul",
+      "count": 47,
+      "annual": {
+        "2016": 12,
+        "2017": 1,
+        "2018": 8,
+        "2019": 7,
+        "2020": 5,
+        "2021": 4,
+        "2022": 2,
+        "2023": 3,
+        "2024": 4,
+        "2025": 1
+      }
+    },
+    {
+      "code": "50",
+      "uf": "MS",
+      "name": "Mato Grosso do Sul",
+      "count": 25,
+      "annual": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 2,
+        "2019": 1,
+        "2020": 2,
+        "2021": 3,
+        "2022": 5,
+        "2023": 5,
+        "2024": 1,
+        "2025": 2
+      }
+    },
+    {
+      "code": "51",
+      "uf": "MT",
+      "name": "Mato Grosso",
+      "count": 46,
+      "annual": {
+        "2016": 3,
+        "2017": 6,
+        "2018": 8,
+        "2019": 5,
+        "2020": 4,
+        "2021": 3,
+        "2022": 5,
+        "2023": 1,
+        "2024": 8,
+        "2025": 3
+      }
+    },
+    {
+      "code": "52",
+      "uf": "GO",
+      "name": "Goiás",
+      "count": 52,
+      "annual": {
+        "2016": 9,
+        "2017": 5,
+        "2018": 6,
+        "2019": 6,
+        "2020": 4,
+        "2021": 7,
+        "2022": 5,
+        "2023": 3,
+        "2024": 2,
+        "2025": 5
+      }
+    },
+    {
+      "code": "53",
+      "uf": "DF",
+      "name": "Distrito Federal",
+      "count": 16,
+      "annual": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 2,
+        "2019": 0,
+        "2020": 2,
+        "2021": 2,
+        "2022": 2,
+        "2023": 1,
+        "2024": 1,
+        "2025": 2
+      }
+    }
+  ],
+  "source": "https://antrabrasil.org/wp-content/uploads/2026/01/dossie-antra-2026.pdf",
+  "sourcePages": "49 e 55–56",
+  "digital": {
+    "total": 1819,
+    "change": 24.3,
+    "source": "https://arquivos.safernet.org.br/pdfs/INDICADORES-DenunciasSaferNet2025.pdf"
+  },
+  "edition": 2026,
+  "from": 2016,
+  "to": 2025,
+  "period": "2016–2025",
+  "source2016": "https://redetransbrasil.org.br/wp-content/uploads/2019/01/A-Geografia-dos-Corpos-Trans.pdf",
+  "sources": [
+    {
+      "name": "Rede Trans Brasil · 2016",
+      "url": "https://redetransbrasil.org.br/wp-content/uploads/2019/01/A-Geografia-dos-Corpos-Trans.pdf",
+      "page": 63
+    },
+    {
+      "name": "ANTRA · 2017–2025",
+      "url": "https://antrabrasil.org/wp-content/uploads/2026/01/dossie-antra-2026.pdf",
+      "page": 58
+    }
+  ],
+  "series": [
+    {
+      "year": 2016,
+      "total": 141,
+      "mapped": 141,
+      "source": "Rede Trans Brasil"
+    },
+    {
+      "year": 2017,
+      "total": 179,
+      "mapped": 179,
+      "source": "ANTRA"
+    },
+    {
+      "year": 2018,
+      "total": 163,
+      "mapped": 161,
+      "source": "ANTRA"
+    },
+    {
+      "year": 2019,
+      "total": 124,
+      "mapped": 122,
+      "source": "ANTRA"
+    },
+    {
+      "year": 2020,
+      "total": 175,
+      "mapped": 173,
+      "source": "ANTRA"
+    },
+    {
+      "year": 2021,
+      "total": 140,
+      "mapped": 138,
+      "source": "ANTRA"
+    },
+    {
+      "year": 2022,
+      "total": 131,
+      "mapped": 129,
+      "source": "ANTRA"
+    },
+    {
+      "year": 2023,
+      "total": 145,
+      "mapped": 139,
+      "source": "ANTRA"
+    },
+    {
+      "year": 2024,
+      "total": 122,
+      "mapped": 120,
+      "source": "ANTRA"
+    },
+    {
+      "year": 2025,
+      "total": 80,
+      "mapped": 80,
+      "source": "ANTRA"
+    }
+  ],
+  "mappedTotal": 1382,
+  "notes": [
+    "Recorte territorial brasileiro: em 2016 são 141 registros distribuídos nas UFs. O dossiê anuncia 144 e identifica também três brasileiras assassinadas no exterior.",
+    "2016: tabela 9, página impressa 60. Minas Gerais aparece duas vezes com 9 casos; foi contado uma única vez. UFs ausentes da tabela foram registradas com zero ocorrências encontradas, não como ausência de violência.",
+    "2017–2025: transcrição da tabela Ranking por estado, página impressa 56 do Dossiê ANTRA 2026. Cada coluna foi consolidada por UF, independentemente da posição no ranking.",
+    "Os totais nacionais publicados e a soma das tabelas estaduais podem divergir. O painel apresenta os dois valores e não redistribui diferenças por estimativa.",
+    "Mudança de fonte entre 2016 (Rede Trans Brasil) e 2017–2025 (ANTRA). Os registros não constituem um censo nem uma série de metodologia integralmente uniforme.",
+    "Os números são registros de assassinatos de pessoas trans. Não equivalem a todos os crimes, a taxas populacionais ou a condenações judiciais por motivação transfóbica."
+  ]
+}

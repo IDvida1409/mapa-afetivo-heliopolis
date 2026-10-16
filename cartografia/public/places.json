@@ -1,0 +1,952 @@
+[
+  {
+    "id": "gotas",
+    "name": "Gotas de Mel",
+    "category": "Cotidiano",
+    "coord": [
+      -46.591608015165,
+      -23.61398297996
+    ],
+    "approx": true,
+    "address": "Rua Comandante Taylor · referência aproximada",
+    "photos": [
+      {
+        "src": "assets/web/01-Gotas-de-Mel.webp",
+        "alt": "Gotas de Mel",
+        "source": "Material enviado ao projeto"
+      }
+    ],
+    "story": "O comércio de bairro faz parte dos encontros e das escolhas de todos os dias. A loja aparece no material do projeto como referência de preços acessíveis e de proximidade com a vida dos moradores.",
+    "feelings": "pertencimento, proximidade, familiaridade e identificação",
+    "affects": [
+      "Pertencimento",
+      "Cotidiano"
+    ],
+    "source": "",
+    "demo": false,
+    "service": false,
+    "communityQuote": "Essa é a loja de roupas mais barata que existe em Heliópolis. Os preços dela competem com os das lojas da 25 de março. É a melhor alternativa para a população de Heliópolis que deseja comprar roupa no precinho.",
+    "quoteCredit": "Contribuição recebida no projeto · Gotas de Mel",
+    "history": "A presença da loja nesta cartografia vem de uma contribuição recebida pelo projeto. A data de abertura não foi confirmada no material consultado. Seu registro permite pensar como o comércio local participa da circulação, dos encontros e do reconhecimento do bairro.",
+    "historySource": "",
+    "dateNote": "Data de abertura não confirmada.",
+    "recordType": "acervo",
+    "recordNo": 1,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "ceu",
+    "name": "CEU Heliópolis · Professora Arlete Persoli",
+    "category": "Lazer",
+    "coord": [
+      -46.591395199999994,
+      -23.62134655
+    ],
+    "approx": false,
+    "address": "Estrada das Lágrimas, 2385",
+    "photos": [
+      {
+        "src": "assets/web/02-CEU-Heliopolis.webp",
+        "alt": "CEU Heliópolis",
+        "source": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis"
+      }
+    ],
+    "story": "Educação, cultura, esporte e convivência em um mesmo espaço público. O CEU reúne atividades que ampliam os encontros e as possibilidades de lazer no território.",
+    "feelings": "convivência, encontro, alegria e pertencimento",
+    "affects": [
+      "Encontro",
+      "Convivência",
+      "Alegria"
+    ],
+    "source": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis",
+    "demo": false,
+    "service": true,
+    "history": "O antigo Centro de Convivência Educativa e Cultural foi transformado em CEU em 29 de abril de 2015, recebendo o nome da professora Arlete Persoli. Sua trajetória está ligada à mobilização comunitária pela educação e pela cultura. Na cartografia, o equipamento representa o direito de aprender, participar e ocupar os espaços públicos.",
+    "historySource": "https://prefeitura.sp.gov.br/noticia/antigo-centro-de-convivencia-educativa-e-cultural",
+    "since": "2015",
+    "dateNote": "Transformação em CEU em 29 de abril de 2015; o complexo já existia anteriormente.",
+    "recordType": "acervo",
+    "recordNo": 2,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "campos",
+    "name": "EMEF Presidente Campos Salles",
+    "category": "Educação",
+    "coord": [
+      -46.590926985532,
+      -23.621875002804
+    ],
+    "approx": false,
+    "address": "Estrada das Lágrimas, 2385 · complexo do CEU",
+    "photos": [
+      {
+        "src": "assets/web/03-Escola-Campos-Salles.webp",
+        "alt": "Campos Salles",
+        "source": "https://agenciamural.org.br/afastamento-de-diretora-de-escola-em-heliopolis-gera-revolta-na-comunidade/"
+      }
+    ],
+    "story": "Uma escola vinculada às histórias das famílias e à participação comunitária. Aqui, aprender também envolve convivência, memória e a construção coletiva da cultura de paz.",
+    "feelings": "memória, aprendizado, vínculo e esperança",
+    "affects": [
+      "Memória",
+      "Aprendizado"
+    ],
+    "source": "https://agenciamural.org.br/afastamento-de-diretora-de-escola-em-heliopolis-gera-revolta-na-comunidade/",
+    "demo": false,
+    "service": true,
+    "history": "A Campos Salles participa da articulação entre escola e comunidade em Heliópolis. Em 1999, o assassinato da estudante Leonarda mobilizou educadores e lideranças para a primeira Caminhada pela Paz. Essa memória associa a escola à defesa da vida, à participação das famílias e à luta por direitos.",
+    "historySource": "https://www.unas.org.br/single-post/2017/05/29/heli%C3%B3polis-sair%C3%A1-%C3%A0s-ruas-para-reivindicar-direitos-na-19%C2%BA-caminhada-pela-paz",
+    "dateNote": "1999: início da Caminhada pela Paz; a data se refere à mobilização, não à fundação da escola.",
+    "recordType": "acervo",
+    "recordNo": 3,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "etec",
+    "name": "Etec Heliópolis · Arquiteto Ruy Ohtake",
+    "category": "Educação",
+    "coord": [
+      -46.5909237,
+      -23.621337
+    ],
+    "approx": true,
+    "address": "Estrada das Lágrimas, 2461",
+    "photos": [
+      {
+        "src": "assets/web/04-ETEC-Heliopolis.webp",
+        "alt": "ETEC Heliópolis",
+        "source": "https://chgengenharia.com.br/obras-executadas/"
+      }
+    ],
+    "story": "A formação técnica aproxima estudo, trabalho e projetos de futuro. A Etec integra a rede de oportunidades educacionais de Heliópolis e região.",
+    "feelings": "esperança, autonomia, expectativa e realização",
+    "affects": [
+      "Possibilidades",
+      "Futuro"
+    ],
+    "source": "https://etecheliopolis.cps.sp.gov.br/",
+    "demo": false,
+    "service": true,
+    "history": "Implantada no segundo semestre de 2009, a Etec de Heliópolis integra o Centro Paula Souza. Em 2024, passou a receber a denominação Arquiteto Ruy Ohtake. Sua presença permite relacionar o direito à educação às oportunidades de formação e de construção de projetos de vida.",
+    "historySource": "https://www.cps.sp.gov.br/etecs/",
+    "since": "2009",
+    "dateNote": "Implantação em 2009; denominação Arquiteto Ruy Ohtake em 2024.",
+    "recordType": "acervo",
+    "recordNo": 4,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "unas",
+    "name": "UNAS",
+    "category": "Apoio",
+    "coord": [
+      -46.5911151,
+      -23.6190544
+    ],
+    "approx": false,
+    "address": "Rua da Mina Central, 38",
+    "photos": [
+      {
+        "src": "assets/web/05-UNAS-Sede-Central.webp",
+        "alt": "UNAS",
+        "source": "https://www.unas.org.br/contato"
+      }
+    ],
+    "story": "Organização comunitária, redes de apoio e luta por direitos. A sede da UNAS é uma referência de participação dos moradores e de articulação entre projetos do território.",
+    "feelings": "apoio, resistência, união e confiança",
+    "affects": [
+      "Apoio",
+      "Resistência",
+      "Reconhecimento"
+    ],
+    "source": "https://www.unas.org.br/contato",
+    "demo": false,
+    "service": true,
+    "history": "A UNAS articula núcleos e associações de moradores de Heliópolis e região. Sua atuação reúne educação, cultura, assistência social e mobilização por direitos. Nesta cartografia, a sede representa os caminhos coletivos pelos quais as demandas do bairro se transformam em organização e ação comunitária.",
+    "historySource": "https://www.unas.org.br/quem-somos",
+    "recordType": "acervo",
+    "recordNo": 5,
+    "reviewedAt": "2026-10-16",
+    "dateNote": "Data de inauguração não confirmada nas fontes consultadas."
+  },
+  {
+    "id": "biblioteca",
+    "name": "Biblioteca Comunitária de Heliópolis",
+    "category": "Cultura",
+    "coord": [
+      -46.591085,
+      -23.6183013
+    ],
+    "approx": false,
+    "address": "Rua da Mina, 182",
+    "photos": [
+      {
+        "src": "assets/web/06-Biblioteca-Comunitaria.webp",
+        "alt": "Biblioteca Comunitária",
+        "source": "https://www.unas.org.br/single-post/conheca-trajetoria-de-nubia-transformada-pela-biblioteca-comunitaria-de-heliopolis"
+      }
+    ],
+    "story": "Leitura, convivência e descoberta em um espaço construído com a comunidade. A biblioteca aproxima pessoas, histórias e conhecimentos.",
+    "feelings": "acolhimento, curiosidade, descoberta e tranquilidade",
+    "affects": [
+      "Acolhimento",
+      "Descoberta"
+    ],
+    "source": "https://www.unas.org.br/single-post/conheca-trajetoria-de-nubia-transformada-pela-biblioteca-comunitaria-de-heliopolis",
+    "demo": false,
+    "service": true,
+    "since": "2005",
+    "history": "A Biblioteca Comunitária foi inaugurada em 10 de setembro de 2005, após uma experiência de circulação de livros em uma sala da comunidade. Sua criação se relaciona ao projeto Identidade Cultural, desenvolvido pela UNAS com Ruy Ohtake. A leitura se articula com contação de histórias e outras linguagens artísticas, fazendo do espaço um lugar de encontro.",
+    "historySource": "https://www.unas.org.br/single-post/mais-que-um-espaco-cultural-biblioteca-transforma-vidas-em-heliopolis",
+    "dateNote": "Inauguração em 10 de setembro de 2005.",
+    "recordType": "acervo",
+    "recordNo": 6,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "radio",
+    "name": "Rádio Heliópolis",
+    "category": "Cultura",
+    "coord": [
+      -46.5913063,
+      -23.6191061
+    ],
+    "approx": false,
+    "address": "Rua da Mina Central · referência da rede UNAS",
+    "photos": [
+      {
+        "src": "assets/web/07-Radio-Heliopolis.webp",
+        "alt": "Rádio Heliópolis",
+        "source": "https://agemt.pucsp.br/noticias/periferias-mantem-legado-de-democratizar-comunicacao"
+      }
+    ],
+    "story": "Uma comunicação que nasce da própria comunidade. A rádio aproxima notícias, vozes e mobilizações e ajuda os moradores a se reconhecerem nas histórias do território.",
+    "feelings": "reconhecimento, identificação, participação e proximidade",
+    "affects": [
+      "Voz",
+      "Escuta"
+    ],
+    "source": "https://agemt.pucsp.br/noticias/periferias-mantem-legado-de-democratizar-comunicacao",
+    "demo": false,
+    "service": true,
+    "since": "1992",
+    "history": "A Rádio Heliópolis surgiu em 8 de maio de 1992 como Rádio Corneta, com alto-falantes distribuídos pela comunidade. A proposta era informar e mobilizar os moradores. Sua história associa comunicação comunitária, participação e democratização da palavra.",
+    "historySource": "https://www.unas.org.br/single-post/a-voz-das-mulheres-na-radio-comunitaria-de-heliopolis",
+    "dateNote": "Criação em 8 de maio de 1992.",
+    "recordType": "acervo",
+    "recordNo": 7,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "baccarelli",
+    "name": "Instituto Baccarelli",
+    "category": "Cultura",
+    "coord": [
+      -46.591692001834,
+      -23.621675010594
+    ],
+    "approx": false,
+    "address": "Estrada das Lágrimas, 2317",
+    "photos": [
+      {
+        "src": "assets/web/08-Instituto-Baccarelli.webp",
+        "alt": "Baccarelli",
+        "source": "https://pt.linkedin.com/pulse/vagas-instituto-baccarelli-em-s%C3%A3o-paulo-andr%C3%A9-silva-mqsyf"
+      }
+    ],
+    "story": "A música abre espaços de expressão, aprendizado e encontro. O instituto integra a vida cultural de Heliópolis e as possibilidades de formação artística no território.",
+    "feelings": "expressão, inspiração, alegria e esperança",
+    "affects": [
+      "Expressão",
+      "Inspiração"
+    ],
+    "source": "https://pt.linkedin.com/pulse/vagas-instituto-baccarelli-em-s%C3%A3o-paulo-andr%C3%A9-silva-mqsyf",
+    "demo": false,
+    "service": true,
+    "history": "Criado em 1996 pelo maestro Silvio Baccarelli, o instituto começou após a mobilização diante de um incêndio em Heliópolis. O ensino de música tornou-se um caminho de formação e inclusão social. Na cartografia, o espaço se relaciona com expressão, inspiração e oportunidades de participação cultural.",
+    "historySource": "https://baccarelli.org.br/quem-somos/",
+    "since": "1996",
+    "dateNote": "Criação em 1996.",
+    "recordType": "acervo",
+    "recordNo": 8,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "redondinhos",
+    "name": "Residencial Heliópolis · Redondinhos",
+    "category": "Moradia",
+    "coord": [
+      -46.583112730558,
+      -23.61359383142
+    ],
+    "approx": true,
+    "address": "Rua Anísio Spínola Teixeira · referência de área",
+    "photos": [
+      {
+        "src": "assets/web/09-Redondinhos.webp",
+        "alt": "Redondinhos",
+        "source": "https://www.unas.org.br/single-post/centro-educacional-nos-redondinhos-da-novo-passo-e-se-aproxima-do-inicio-das-obras"
+      }
+    ],
+    "story": "Moradia, vizinhança e permanência no bairro. Os edifícios conhecidos como Redondinhos fazem parte da paisagem e das histórias de construção de um lar.",
+    "feelings": "pertencimento, estabilidade, memória e vínculo",
+    "affects": [
+      "Moradia",
+      "Pertencimento"
+    ],
+    "source": "https://www.unas.org.br/single-post/centro-educacional-nos-redondinhos-da-novo-passo-e-se-aproxima-do-inicio-das-obras",
+    "demo": false,
+    "service": false,
+    "history": "Projetados por Ruy Ohtake, os edifícios de formato cilíndrico foram apelidados de Redondinhos pelos moradores. A Prefeitura registra a entrega dos primeiros 162 apartamentos em outubro de 2011. Sua história permite discutir a moradia junto com a necessidade de educação, lazer e infraestrutura no entorno.",
+    "historySource": "https://prefeitura.sp.gov.br/web/habitacao/w/assessoria_de_imprensa/34614",
+    "dateNote": "Outubro de 2011: entrega dos primeiros 162 apartamentos; não corresponde à conclusão de todo o conjunto.",
+    "recordType": "acervo",
+    "recordNo": 9,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "cca",
+    "name": "Quadra do CCA Heliópolis",
+    "category": "Lazer",
+    "coord": [
+      -46.5964186,
+      -23.6059209
+    ],
+    "approx": false,
+    "address": "Referência publicada no mapa da UNAS",
+    "photos": [
+      {
+        "src": "assets/web/10-CCA-Heliopolis-Quadra.webp",
+        "alt": "Quadra do CCA Heliópolis",
+        "source": "https://www.unas.org.br/single-post/quadra-esportiva-do-cca-heliopolis-e-reformada"
+      }
+    ],
+    "story": "Esporte e atividades socioeducativas aproximam crianças, adolescentes e famílias. A quadra é um espaço de convivência e de experiências compartilhadas.",
+    "feelings": "alegria, amizade, convivência e cuidado",
+    "affects": [
+      "Convivência",
+      "Amizade"
+    ],
+    "source": "https://www.unas.org.br/single-post/quadra-esportiva-do-cca-heliopolis-e-reformada",
+    "demo": false,
+    "service": true,
+    "history": "A quadra integra o Centro para Crianças e Adolescentes Heliópolis, vinculado à rede da UNAS. A organização registrou sua reforma e o retorno das atividades esportivas. No mapa afetivo, o espaço representa amizade, movimento e vínculos construídos durante as atividades.",
+    "historySource": "https://www.unas.org.br/single-post/quadra-esportiva-do-cca-heliopolis-e-reformada",
+    "recordType": "acervo",
+    "recordNo": 10,
+    "reviewedAt": "2026-10-16",
+    "dateNote": "Data de inauguração não confirmada nas fontes consultadas."
+  },
+  {
+    "id": "hospital",
+    "name": "Hospital Heliópolis",
+    "category": "Saúde",
+    "coord": [
+      -46.5933797,
+      -23.6087221
+    ],
+    "approx": false,
+    "address": "Rua Cônego Xavier, 276",
+    "photos": [
+      {
+        "src": "assets/web/11-Hospital-Heliopolis.webp",
+        "alt": "Hospital Heliópolis",
+        "source": "https://fuabc.org.br/noticias/fundacao-do-abc-assume-gestao-de-urgencia-e-emergencia-no-hospital-heliopolis/"
+      }
+    ],
+    "story": "O cuidado com a saúde atravessa a vida dos moradores. O hospital aparece no mapa como referência de atendimento e de experiências que envolvem preocupação, acolhimento e alívio.",
+    "feelings": "cuidado, preocupação, expectativa e alívio",
+    "affects": [
+      "Cuidado",
+      "Saúde"
+    ],
+    "source": "https://fuabc.org.br/noticias/fundacao-do-abc-assume-gestao-de-urgencia-e-emergencia-no-hospital-heliopolis/",
+    "demo": false,
+    "service": true,
+    "history": "O Hospital Heliópolis é um equipamento de saúde situado na Rua Cônego Xavier. Sua presença no território se relaciona à busca por atendimento e às redes de cuidado das famílias. A cartografia registra o serviço e os sentidos associados a ele, sem presumir que todas as pessoas tenham a mesma experiência ao procurar ajuda.",
+    "historySource": "https://fuabc.org.br/noticias/fundacao-do-abc-assume-gestao-de-urgencia-e-emergencia-no-hospital-heliopolis/",
+    "recordType": "acervo",
+    "recordNo": 11,
+    "reviewedAt": "2026-10-16",
+    "dateNote": "Data de inauguração não confirmada nas fontes consultadas."
+  },
+  {
+    "id": "iluminacao",
+    "name": "Iluminação pública",
+    "category": "Atenção",
+    "coord": null,
+    "approx": false,
+    "address": "Heliópolis · trecho ainda não identificado",
+    "photos": [
+      {
+        "src": "assets/web/12-Iluminacao-Publica.webp",
+        "alt": "Iluminação pública",
+        "source": "https://www.unas.org.br/single-post/mulheres-de-heliopolis-celebram-10-anos-da-conquista-da-iluminacao-led"
+      }
+    ],
+    "story": "A iluminação interfere na circulação e no uso dos espaços públicos. Este registro aproxima infraestrutura, cuidado coletivo e direito de caminhar pelo bairro.",
+    "feelings": "atenção, proteção, preocupação e busca por segurança",
+    "affects": [
+      "Atenção",
+      "Proteção"
+    ],
+    "source": "https://www.unas.org.br/single-post/mulheres-de-heliopolis-celebram-10-anos-da-conquista-da-iluminacao-led",
+    "demo": false,
+    "service": false,
+    "context": "A reportagem da UNAS registra a conquista da iluminação LED e a importância da manutenção. Esta foto mostra uma lâmpada acesa; não identifica uma rua atualmente sem iluminação.",
+    "history": "Em 2015, a mobilização de mulheres de Heliópolis reivindicou melhorias na iluminação pública. Uma reportagem da UNAS publicada em dezembro de 2025 retomou essa conquista e a necessidade de acompanhar a manutenção das lâmpadas. A fotografia do acervo mostra uma luminária acesa, sem identificação do trecho exato.",
+    "historySource": "https://www.unas.org.br/single-post/mulheres-de-heliopolis-celebram-10-anos-da-conquista-da-iluminacao-led",
+    "dateNote": "2015: mobilização pela iluminação; 2025: reportagem sobre a conquista e a manutenção.",
+    "recordType": "acervo",
+    "recordNo": 12,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "entorno",
+    "name": "Rua do entorno do Parque da Cidadania",
+    "category": "Atenção",
+    "coord": null,
+    "approx": false,
+    "address": "Entorno do Parque da Cidadania · rua a confirmar",
+    "photos": [
+      {
+        "src": "assets/web/13-Rua-Entorno-Parque-da-Cidadania.webp",
+        "alt": "Rua do entorno do Parque da Cidadania",
+        "source": "https://ipiranganews.inf.br/parque-da-cidadania-heliopolis-leva-lazer-a-maior-favela-de-sao-paulo/"
+      }
+    ],
+    "story": "As ruas ligam moradias, serviços e espaços de encontro. O entorno do Parque da Cidadania convida a observar os caminhos e a infraestrutura do cotidiano.",
+    "feelings": "familiaridade, pertencimento, atenção e preocupação",
+    "affects": [
+      "Cotidiano",
+      "Atenção"
+    ],
+    "source": "https://ipiranganews.inf.br/parque-da-cidadania-heliopolis-leva-lazer-a-maior-favela-de-sao-paulo/",
+    "demo": false,
+    "service": false,
+    "context": "Esta fotografia não mostra um alagamento. A reportagem da UNAS de 17/02/2025 trata de alagamentos na Avenida Almirante Delamare. A localização exata da rua fotografada segue em confirmação.",
+    "contextSource": "https://www.unas.org.br/single-post/moradores-de-heliopolis-sofrem-com-alagamentos-e-descaso-publico",
+    "history": "O acervo inclui uma imagem de rua do entorno do Parque da Cidadania. O nome do trecho fotografado não foi confirmado. O registro ajuda a discutir circulação e condições urbanas, mas não identifica o ponto de alagamento citado na reportagem sobre a Avenida Almirante Delamare.",
+    "historySource": "https://ipiranganews.inf.br/parque-da-cidadania-heliopolis-leva-lazer-a-maior-favela-de-sao-paulo/",
+    "recordType": "acervo",
+    "recordNo": 13,
+    "reviewedAt": "2026-10-16",
+    "dateNote": "Data de inauguração não confirmada nas fontes consultadas."
+  },
+  {
+    "id": "cine",
+    "name": "Cine Favela",
+    "category": "Cultura",
+    "coord": [
+      -46.588993029012,
+      -23.612518996751
+    ],
+    "approx": false,
+    "address": "Rua do Pacificador, 288",
+    "photos": [
+      {
+        "src": "assets/web/14-Cine-Favela.webp",
+        "alt": "Cine Favela",
+        "source": "https://iabsp.org.br/wp-content/uploads/2024/09/catalogo_13_bienal.pdf"
+      }
+    ],
+    "story": "Contar histórias e produzir cultura a partir da periferia. O Cine Favela relaciona cinema, expressão artística e participação da comunidade.",
+    "feelings": "expressão, identificação, resistência e encontro",
+    "affects": [
+      "Cultura",
+      "Resistência"
+    ],
+    "source": "https://iabsp.org.br/wp-content/uploads/2024/09/catalogo_13_bienal.pdf",
+    "demo": false,
+    "service": true,
+    "history": "O Cine Favela foi criado em 2003 por moradores de Heliópolis. Sua trajetória envolve exibições, festivais e formação audiovisual, ampliando as possibilidades de produzir e compartilhar narrativas sobre a periferia. O espaço entra na cartografia como referência de expressão, encontro e resistência cultural.",
+    "historySource": "https://prefeitura.sp.gov.br/web/direitos_humanos/w/incubadora/noticias/34738",
+    "since": "2003",
+    "dateNote": "Criação do projeto em 2003.",
+    "recordType": "acervo",
+    "recordNo": 14,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "smartfit",
+    "name": "Smart Fit · Shopping Heliópolis",
+    "category": "Lazer",
+    "coord": [
+      -46.5926910231,
+      -23.6189359825
+    ],
+    "approx": false,
+    "address": "Estrada das Lágrimas, 2008",
+    "photos": [
+      {
+        "src": "assets/web/15-Smart-Fit-Shopping-Heliopolis.webp",
+        "alt": "Smart Fit · Shopping Heliópolis",
+        "source": "https://www.smartfit.com.br/academias/shopping-heliopolis/"
+      }
+    ],
+    "story": "Atividade física e cuidado com o corpo também fazem parte da rotina do bairro. A academia representa uma das possibilidades de movimento e convivência no território.",
+    "feelings": "bem-estar, disposição, autonomia e cuidado consigo",
+    "affects": [
+      "Bem-estar",
+      "Movimento"
+    ],
+    "source": "https://www.smartfit.com.br/academias/shopping-heliopolis/",
+    "demo": false,
+    "service": true,
+    "history": "A unidade do Shopping Heliópolis integra o acervo como espaço privado de atividade física, na Estrada das Lágrimas, 2008. Sua presença permite observar os diferentes modos de cuidar do corpo e circular pelo bairro. O acesso depende de contratação, diferentemente dos equipamentos públicos gratuitos.",
+    "historySource": "https://www.smartfit.com.br/academias/shopping-heliopolis/",
+    "recordType": "acervo",
+    "recordNo": 15,
+    "reviewedAt": "2026-10-16",
+    "dateNote": "Data de inauguração não confirmada nas fontes consultadas."
+  },
+  {
+    "id": "piscinas",
+    "name": "Piscinas do CEU Heliópolis",
+    "category": "Lazer",
+    "coord": [
+      -46.591395199999994,
+      -23.62134655
+    ],
+    "approx": false,
+    "address": "Estrada das Lágrimas, 2385",
+    "photos": [
+      {
+        "src": "assets/web/16-CEU-Heliopolis-Piscinas.webp",
+        "alt": "Piscinas do CEU",
+        "source": "https://ceu.sme.prefeitura.sp.gov.br/unidade/ceu-heliopolis/"
+      }
+    ],
+    "story": "Lazer, descanso e convivência em um equipamento público. As piscinas ampliam a leitura do CEU para além das salas de aula e dos espaços culturais.",
+    "feelings": "convivência, encontro, alegria e pertencimento",
+    "affects": [
+      "Lazer",
+      "Alegria",
+      "Convivência"
+    ],
+    "source": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis",
+    "demo": false,
+    "service": true,
+    "history": "As piscinas fazem parte do CEU Heliópolis e aparecem em uma fotografia específica do acervo. Neste mapa, recebem uma entrada própria para valorizar o lazer e o uso compartilhado dos espaços públicos. A referência territorial é o complexo do CEU; não se trata de outro equipamento independente.",
+    "historySource": "https://ceu.sme.prefeitura.sp.gov.br/unidade/ceu-heliopolis/",
+    "dateNote": "Integra o complexo do CEU; não foi confirmada uma data de inauguração específica das piscinas.",
+    "recordType": "acervo",
+    "recordNo": 16,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "grito",
+    "name": "Movimento O Grito da Diversidade",
+    "category": "Apoio",
+    "coord": [
+      -46.5911151,
+      -23.6190544
+    ],
+    "approx": true,
+    "address": "Rua da Mina Central, 38",
+    "photos": [
+      {
+        "src": "assets/web/17-Grito-da-Diversidade-Referencia-UNAS.webp",
+        "alt": "Grito da Diversidade",
+        "source": "https://www.unas.org.br/single-post/movimentos-populares-da-unas-uma-luta-pela-transformacao-social-e-garantia-de-direitos"
+      }
+    ],
+    "story": "Articulação comunitária LGBTQIA+ e luta por respeito. O movimento aparece como referência de apoio, participação e reconhecimento no território.",
+    "feelings": "apoio, resistência, união e confiança",
+    "affects": [
+      "Resistência",
+      "Reconhecimento",
+      "Pertencimento"
+    ],
+    "source": "https://www.unas.org.br/contato",
+    "demo": false,
+    "service": true,
+    "history": "O Grito da Diversidade integra os movimentos de base articulados pela UNAS. A organização publica a sede da Rua da Mina Central, 38, como referência de suas plenárias. O movimento é apresentado separadamente para evidenciar a defesa dos direitos LGBTQIA+ e as redes de pertencimento. A foto representa a sede da UNAS, e não um prédio exclusivo do movimento.",
+    "historySource": "https://www.unas.org.br/single-post/movimentos-populares-da-unas-uma-luta-pela-transformacao-social-e-garantia-de-direitos",
+    "dateNote": "A data de criação do movimento não foi confirmada nas fontes consultadas.",
+    "recordType": "acervo",
+    "recordNo": 17,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-1",
+    "name": "CEI Mina",
+    "category": "Educação",
+    "coord": [
+      -46.59135999465,
+      -23.619389014141
+    ],
+    "approx": false,
+    "address": "Rua da Mina, 53, Heliópolis",
+    "photos": [
+      {
+        "src": "assets/web/novo-1-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Mina",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297560/194290",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "Educar e cuidar caminham juntos neste ponto da rede comunitária. O CEI Mina participa da história da educação infantil construída pelas famílias e pela UNAS.",
+    "history": "A atuação da UNAS na educação infantil nasceu da mobilização de mulheres por um lugar de cuidado para seus filhos. O CEI Mina é uma referência dessa trajetória; uma imagem histórica publicada pela organização registra crianças na unidade em 2003. A experiência liga educação, participação das famílias e vida comunitária.",
+    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 18,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-2",
+    "name": "CEI Aparecida das Graças Silva Roseira",
+    "category": "Educação",
+    "coord": [
+      -46.5909737,
+      -23.6213178
+    ],
+    "approx": true,
+    "address": "Estrada das Lágrimas, 2385",
+    "photos": [
+      {
+        "src": "assets/web/novo-2-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Aparecida das Graças Silva Roseira",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297563/194291",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "Um lugar de cuidado e aprendizagem na primeira infância. A unidade aproxima famílias, educadores e os equipamentos do complexo educacional de Heliópolis.",
+    "history": "A unidade integra a rede de CEIs administrada pela UNAS em parceria com a Secretaria Municipal de Educação. A organização a inclui entre os serviços do complexo da Estrada das Lágrimas. Seu registro na cartografia destaca os vínculos entre o cuidado das crianças, a educação e os percursos cotidianos das famílias.",
+    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 19,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-3",
+    "name": "CEI Simone Agnalda Ferreira",
+    "category": "Educação",
+    "coord": [
+      -46.5907323,
+      -23.6212982
+    ],
+    "approx": true,
+    "address": "Estrada das Lágrimas, 2385",
+    "photos": [
+      {
+        "src": "assets/web/novo-3-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Simone Agnalda Ferreira",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297563/194291",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "As primeiras experiências escolares também constroem pertencimento. O CEI Simone faz parte da rede de educação e cuidado de Heliópolis.",
+    "history": "O CEI Simone Agnalda Ferreira está entre as unidades de educação infantil da rede UNAS. Uma reportagem da organização relaciona esse espaço às trajetórias de formação de trabalhadoras da comunidade. A cartografia aproxima o atendimento à infância dos vínculos e das oportunidades construídos no território.",
+    "historySource": "https://www.unas.org.br/single-post/quando-a-educacao-transforma-a-historia-de-marinita-e-jaqueline-na-unas",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 20,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-4",
+    "name": "CEI Padre Pedro Ballint",
+    "category": "Educação",
+    "coord": [
+      -46.595412980111,
+      -23.615297010921
+    ],
+    "approx": false,
+    "address": "Rua Japaratuba, 65",
+    "photos": [
+      {
+        "src": "assets/web/novo-4-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Padre Pedro Ballint",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297553/194284",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "Cuidar da infância também mobiliza a comunidade. O CEI Padre Pedro Ballint participa dos caminhos de educação, trabalho e apoio às famílias.",
+    "history": "Integrante da rede de educação infantil da UNAS, o CEI aparece em uma reportagem da organização como espaço de aproximação entre famílias e trabalho comunitário. A referência publicada fica na Rua Japaratuba. O mapa destaca a participação das famílias e o cuidado como relações construídas no dia a dia.",
+    "historySource": "https://www.unas.org.br/single-post/quando-a-educacao-transforma-a-historia-de-marinita-e-jaqueline-na-unas",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 21,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-5",
+    "name": "CEI Paulo Freire",
+    "category": "Educação",
+    "coord": [
+      -46.597138981613,
+      -23.612909006706
+    ],
+    "approx": false,
+    "address": "Rua Alencar de Araripe, 623",
+    "photos": [
+      {
+        "src": "assets/web/novo-5-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Paulo Freire",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297549/194281",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "O direito à educação começa na primeira infância. A história desta unidade inclui a ampliação do atendimento e a conquista de um novo espaço.",
+    "history": "Em junho de 2018, a UNAS registrou a mudança do CEI Paulo Freire para a Rua Alencar de Araripe, 623, após 15 anos de atividades em outro endereço. A mudança ampliou a capacidade de atendimento. Esse marco ajuda a contar uma história de mobilização por vagas e por melhores condições para a educação infantil.",
+    "historySource": "https://www.unas.org.br/single-post/2018/06/28/novo-endere%C3%A7oceis",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 22,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-6",
+    "name": "CEI Margarida Maria Alves",
+    "category": "Educação",
+    "coord": [
+      -46.594651,
+      -23.6109346
+    ],
+    "approx": true,
+    "address": "Rua da Fantasia, 63",
+    "photos": [
+      {
+        "src": "assets/web/novo-6-vista-aerea.webp",
+        "alt": "Vista aérea da região de CEI Margarida Maria Alves",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297546/194285",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "Brincar, aprender e construir vínculos perto de casa. O CEI Margarida Maria Alves integra a rede de cuidado das crianças e de suas famílias.",
+    "history": "A UNAS relaciona o CEI Margarida Maria Alves entre as unidades de educação infantil sob sua gestão, em parceria com o município. O endereço publicado fica na Rua da Fantasia. Na cartografia, a unidade representa a presença dos serviços de cuidado nos percursos cotidianos das famílias.",
+    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 23,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-7",
+    "name": "CEI Girassol",
+    "category": "Educação",
+    "coord": [
+      -46.597485992404,
+      -23.611036992451
+    ],
+    "approx": false,
+    "address": "Rua Alencar de Araripe, 437",
+    "photos": [
+      {
+        "src": "assets/web/novo-7-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Girassol",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297546/194281",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "Uma trajetória de educação infantil que acompanha as mudanças do território. O CEI Girassol reúne cuidado, convivência e aprendizagem.",
+    "history": "A UNAS registrou, em 2018, uma mudança de prédio e a ampliação do atendimento do CEI Girassol. A relação de unidades publicada em 2026 informa o endereço da Rua Alencar de Araripe, 437. O registro acompanha essa trajetória sem confundir os endereços históricos com a referência mais recente.",
+    "historySource": "https://www.unas.org.br/single-post/2018/06/28/novo-endere%C3%A7oceis",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 24,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-8",
+    "name": "CEI Josefa Júlia",
+    "category": "Educação",
+    "coord": [
+      -46.596085963117,
+      -23.620072013522
+    ],
+    "approx": false,
+    "address": "Rua Alencar de Araripe, 1415",
+    "photos": [
+      {
+        "src": "assets/web/novo-8-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Josefa Júlia",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297561/194283",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "Uma referência de educação e cuidado para a primeira infância. O CEI Josefa Júlia se conecta aos trajetos e às redes de apoio das famílias da região.",
+    "history": "O CEI Josefa Júlia integra os serviços de educação infantil da UNAS conveniados com a Secretaria Municipal de Educação. A unidade é relacionada pela organização no endereço da Rua Alencar de Araripe, 1415. Sua presença no mapa evidencia como a rede de cuidados atravessa Heliópolis e os bairros do entorno.",
+    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 25,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-9",
+    "name": "CEI Minervino Rodrigues Ferreira",
+    "category": "Educação",
+    "coord": [
+      -46.593704999701,
+      -23.621203989545
+    ],
+    "approx": false,
+    "address": "Rua Caripurá, 281",
+    "photos": [
+      {
+        "src": "assets/web/novo-9-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Minervino Rodrigues Ferreira",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297562/194286",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "Infância, convivência e participação comunitária. O CEI Minervino Rodrigues Ferreira compõe a rede educacional de Heliópolis e região.",
+    "history": "A unidade aparece na relação de CEIs da UNAS e também em registros da mobilização pela cultura de paz no território. A referência publicada fica na Rua Caripurá. No mapa afetivo, o serviço aproxima a educação infantil da participação das famílias e do compromisso coletivo com os direitos das crianças.",
+    "historySource": "https://www.unas.org.br/single-post/2017/05/29/heli%C3%B3polis-sair%C3%A1-%C3%A0s-ruas-para-reivindicar-direitos-na-19%C2%BA-caminhada-pela-paz",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 26,
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "id": "demo-10",
+    "name": "CEI Leonarda Soares Alves",
+    "category": "Educação",
+    "coord": [
+      -46.598782924283,
+      -23.605574799518
+    ],
+    "approx": false,
+    "address": "Estrada das Lágrimas, 475",
+    "photos": [
+      {
+        "src": "assets/web/novo-10-vista-aerea.webp",
+        "alt": "Vista aérea do endereço de CEI Leonarda Soares Alves",
+        "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/19/297538/194279",
+        "kind": "aerial",
+        "credit": "Esri, Maxar, Earthstar Geographics"
+      }
+    ],
+    "story": "A educação infantil se espalha pelos caminhos de Heliópolis e do Sacomã. Esta unidade integra a rede de cuidado e aprendizagem da primeira infância.",
+    "history": "O CEI Leonarda Soares Alves é relacionado pela UNAS entre suas unidades de educação infantil conveniadas com o município. A organização publica o endereço da Estrada das Lágrimas, 475. A cartografia o inclui para mostrar a continuidade dos serviços de educação e dos vínculos comunitários no entorno de Heliópolis.",
+    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
+    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "affects": [
+      "Cuidado",
+      "Aprendizagem",
+      "Pertencimento"
+    ],
+    "demo": false,
+    "service": true,
+    "complementary": true,
+    "recordType": "complementar",
+    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
+    "photoNote": "Vista aérea de referência do endereço ou da região indicada. A imagem não é uma fotografia de fachada nem foi produzida pelo grupo.",
+    "recordNo": 27,
+    "reviewedAt": "2026-10-16"
+  }
+]

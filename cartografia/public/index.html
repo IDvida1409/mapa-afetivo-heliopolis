@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f3ed">
+<title>Cartografia afetiva de Heliópolis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="card-aprovado.css?v=5">
+<link rel="stylesheet" href="card-integrado.css?v=8">
+</head>
+<body>
+<header class="site-header">
+ <a class="brand" href="#brasil" aria-label="Voltar à abertura"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><span>Cartografia afetiva<small>HELIÓPOLIS · SÃO PAULO</small></span></a>
+ <nav aria-label="Etapas do projeto"><button id="nav-brasil" class="nav-item active"><span>01</span> Brasil e direitos</button><button id="nav-territorio" class="nav-item"><span>02</span> O território</button></nav>
+ <span class="preview-label">PSICOLOGIA SOCIAL COMUNITÁRIA <i class="trans-flag" aria-label="Bandeira trans"></i></span>
+</header>
+<main id="brasil-screen" class="brasil-screen">
+ <div class="opening-line"><div><p class="eyebrow">CUIDADO, RESISTÊNCIA E DIREITO À CIDADE</p><h1>Todo território <em>começa com uma vida.</em></h1></div><span class="edition">PANORAMA<br><b>2026</b><small>Dados: 2016–2025</small></span></div>
+ <div class="national-layout">
+  <section class="brazil-visual" aria-label="Mapa de conscientização do Brasil">
+   <div class="brazil-heading"><div class="data-tabs"><button id="tab-deaths" class="selected">Assassinatos registrados</button><button id="tab-digital">Violência digital <span>↗</span></button></div><span class="map-index">01 / BR</span></div>
+   <div class="period-controls"><button id="period-all" class="selected" aria-pressed="true">Década 2016–2025</button><label>Consultar um ano <select id="period-year" aria-label="Ano dos dados"><option value="all">Todos os dez anos</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option></select></label></div><div class="brazil-stage">
+    <span class="brazil-compass">N <b>↑</b></span>
+    <svg id="brazil-map" viewBox="0 0 620 610" role="group" aria-label="Estados do Brasil; selecione para consultar os registros"></svg>
+    <aside id="state-card" class="state-card" aria-live="polite" hidden></aside>
+    <div class="map-caption"><span>⌁</span> Passe o mouse ou toque no estado.</div>
+    <div class="map-legend"><span>0</span><i></i><span id="legend-maximum">173 registros</span></div>
+   </div>
+   <section class="trend-section" aria-label="Evolução dos assassinatos registrados"><div class="trend-heading"><div><p class="eyebrow">2016–2025</p><h2>Uma década de registros</h2></div><button id="trend-reset" class="text-button">Ver acumulado ↗</button></div><div id="trend-chart"></div><p id="trend-caption">Selecione um ano para consultar o mapa.</p></section><div id="digital-card" class="digital-card" hidden><button id="close-digital" aria-label="Voltar aos estados">×</button><p class="eyebrow">UM OUTRO ESPAÇO DE VIOLÊNCIA</p><strong>1.819</strong><h2>denúncias únicas de LGBTfobia</h2><p>Recebidas pela SaferNet em 2025. O indicador inclui LGBTfobia; não permite separar apenas a transfobia.</p><span>+24,3% em relação a 2024</span><small>Dado nacional. Não há distribuição por estado nesta fonte.</small><a href="https://arquivos.safernet.org.br/pdfs/INDICADORES-DenunciasSaferNet2025.pdf" target="_blank" rel="noopener">Consultar a fonte ↗</a></div>
+   <div class="brazil-source"><span>Rede Trans Brasil (2016) · ANTRA (2017–2025)</span><button id="open-methodology">Fontes, dados e critérios ↗</button></div>
+  </section>
+  <aside class="national-story">
+   <div class="story-number"><span class="eyebrow" id="national-period">ACUMULADO · 2016–2025</span><div><strong id="national-count">1.400</strong></div><p class="national-count-label">assassinatos registrados<br>em território brasileiro</p></div>
+   <div class="national-breakdown"><div><b>10</b><span>anos de<br>levantamentos</span></div><div><b>27</b><span>unidades da<br>Federação</span></div></div>
+   <p class="national-context" id="national-context">O mapa reúne os registros estaduais ao longo da década. Toque no estado para conhecer seu histórico.</p>
+   <p class="data-note" id="reconciliation-note">1.382 registros nas tabelas de UF; diferença de 18 em relação aos totais nacionais publicados.</p><p class="data-note">Levantamentos de fontes distintas. Subnotificação pode ocorrer; redução dos registros não comprova redução da violência.</p>
+   <div class="territory-invitation"><div class="invitation-photos" aria-hidden="true"><img src="assets/web/05-UNAS-Sede-Central.webp" alt=""><img src="assets/web/02-CEU-Heliopolis.webp" alt=""></div><span>DO BRASIL A HELIÓPOLIS</span><h2>Onde a vida<br><em>encontra apoio.</em></h2><button id="explore" class="cream-button">Entrar no território <span>↗</span></button></div>
+  </aside>
+ </div>
+ <footer class="intro-footer"><span>UNIVERSIDADE CRUZEIRO DO SUL · CAMPUS PAULISTA</span><span>Cartografia afetiva e participativa <i class="trans-flag" aria-hidden="true"></i></span></footer>
+</main>
+<main id="territory-screen" hidden>
+ <div class="territory-toolbar"><div><p class="eyebrow">UM TERRITÓRIO, MUITAS HISTÓRIAS</p><h1>Heliópolis <em>em primeira pessoa.</em></h1></div><div class="territory-totals"><span><b id="count-services">—</b> espaços e serviços</span><span><b id="count-places">—</b> locais e referências</span><span><b id="count-categories">—</b> categorias</span></div><div class="toolbar-actions"><button id="rail-toggle" class="text-button" aria-expanded="true">▥ Lugares</button><button id="illustration-toggle" class="text-button">Ilustração</button><button id="add-place" class="outline-button">+ Contribuir</button><button id="tour-start" class="purple-button">▶ Apresentar</button></div></div>
+ <div class="territory-layout">
+  <section class="territory-map" aria-label="Mapa interativo de Heliópolis">
+   <div id="map"></div><div class="map-vignette" aria-hidden="true"></div>
+   <aside class="places-sidebar" aria-label="Faixa fotográfica dos lugares"><div class="sidebar-head"><span class="rail-index">O ACERVO</span><button id="filter-toggle" aria-label="Buscar e filtrar lugares">⌕</button></div><div id="rail-filters" class="rail-filters" hidden><label class="search-box"><input id="search" type="search" placeholder="Buscar lugar ou afeto" aria-label="Buscar lugar ou afeto"></label><div id="category-filters" class="category-filters"></div><label class="demo-toggle" hidden><input id="show-demos" type="checkbox" checked><span>Locais complementares</span></label><span class="list-title"><b id="visible-count"></b> lugares na seleção</span></div><div id="places-list" class="places-list"></div></aside>
+   <div id="illustration" hidden><img loading="lazy" src="assets/web/heliopolis-ilustrada.webp" alt="Ilustração de Heliópolis em perspectiva"><span>Ilustração do território</span></div>
+   <div class="map-topline"><div><span id="map-location">Heliópolis</span><small id="map-street">São Paulo · SP</small></div><button id="overview" aria-label="Ver todos os lugares" title="Visão geral">📍</button></div>
+   <div id="placement-hint" class="placement-hint" hidden>Toque no mapa para marcar o lugar <button id="placement-cancel">Cancelar</button></div>
+   <button id="tour-handle" class="tour-handle" hidden>▶ Controles da apresentação</button>
+   <section id="tour-controls" class="tour-controls" hidden><div><span class="live-dot"></span><p><b id="tour-title">Percorrendo as histórias</b><small id="tour-location"></small></p><span id="tour-count"></span></div><div class="tour-progress"><i id="tour-progress"></i></div><div class="tour-buttons"><button id="tour-pause">Ⅱ Pausar</button><button id="tour-next">Próximo →</button><button id="tour-stop">■ Parar</button><button id="tour-exit">Sair ↗</button></div></section>
+   <div id="presentation-exit-wrap" class="presentation-exit" hidden><button id="presentation-exit">← Voltar à navegação</button><button id="fullscreen" aria-label="Tela cheia">⛶</button></div>
+   <article id="place-card" class="place-card" hidden></article>
+   <div id="map-notice" class="map-notice">17 referências do acervo + 10 locais complementares · fontes nas histórias</div>
+  </section>
+ </div>
+</main>
+<dialog id="photo-dialog" class="photo-dialog"><button class="dialog-close" data-close="photo-dialog" aria-label="Fechar fotografia">×</button><img id="large-photo" alt=""><p id="large-caption"></p></dialog>
+<dialog id="place-dialog" class="place-dialog"><button class="dialog-close" data-close="place-dialog" aria-label="Fechar formulário">×</button><p class="eyebrow">O MAPA TAMBÉM É SEU</p><h2>Compartilhe <em>um lugar.</em></h2><p class="dialog-intro">Uma lembrança, um encontro, um cuidado. Conte o que este lugar significa para você.</p><form id="place-form"><label>Nome do lugar<input name="name" required maxlength="100" placeholder="Como esse lugar é conhecido?"></label><label>O que ele representa?<textarea name="story" required maxlength="1200" rows="3" placeholder="Compartilhe uma pequena história…"></textarea></label><div class="form-columns"><label>Seu nome <small>opcional</small><input name="author" maxlength="40" placeholder="Pode ser anônimo"></label><label>Um afeto<select name="affect"><option>Pertencimento</option><option>Resistência</option><option>Memória</option><option>Encontro</option><option>Cuidado</option><option>Atenção</option></select></label></div><label>Fotografia <small>opcional · JPG, PNG ou WebP · até 2 MB</small><input name="photo" type="file" accept="image/jpeg,image/png,image/webp"></label><div class="point-choice"><button id="choose-point" type="button">📍 Escolher ponto no mapa</button><span id="point-chosen">Localização ainda não escolhida</span></div><label class="consent"><input name="consent" type="checkbox" required><span>Autorizo o uso desta contribuição na cartografia do projeto. Não estou enviando entrevistas, endereços particulares ou imagens de pessoas sem autorização.</span></label><button type="submit" class="purple-button">Adicionar ao mapa <span>↗</span></button><p id="place-feedback" role="status"></p></form></dialog>
+
+<dialog id="history-dialog" class="history-dialog"><button class="dialog-close" data-close="history-dialog" aria-label="Fechar história completa">×</button><div id="history-content"></div></dialog>
+<dialog id="methodology-dialog" class="methodology-dialog"><button class="dialog-close" data-close="methodology-dialog" aria-label="Fechar fontes e critérios">×</button><p class="eyebrow">PANORAMA 2026 · DADOS DE 2016–2025</p><h2>Fontes e critérios do mapa</h2><p>O mapa reúne registros publicados de assassinatos de pessoas trans. A soma das tabelas de cada UF compõe as cores do mapa. Os totais nacionais publicados aparecem no gráfico e no indicador principal.</p><div id="methodology-content"></div></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js?v=8"></script><script src="aprovados.js?v=8"></script>
+</body></html>
