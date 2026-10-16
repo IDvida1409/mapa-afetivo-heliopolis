@@ -66,7 +66,7 @@ function startTour(){
  tourReturn={center:map.getCenter(),zoom:map.getZoom(),activeId,cardHidden:$('#place-card').hidden,illustration:showIllustration,category,query:$('#search').value,location:$('#map-location').textContent,street:$('#map-street').textContent};
  setPlacing(false);showIllustration=false;$('#illustration').hidden=true;$('#rail-filters').hidden=true;
  category='Todos';$('#search').value='';buildFilters();refreshMarkers();renderList();
- const available=places.filter(p=>!p.demo),preferred=['unas','radio','biblioteca','gotas','cine','redondinhos','hospital','cca','smartfit','etec','campos','baccarelli','ceu'];
+ const available=places.filter(p=>!p.demo),preferred=['unas','mec-favela','biblioteca','radio','tia-lu','cozinha-dilza','gotas','cine','arena-heliopolis','gula-bar','parque-cidadania','figueira-lagrimas','shopping-heliopolis','smartfit','redondinhos','hospital','cca','etec','campos','baccarelli','ceu','sao-joao-climaco','piscinas','grito','baile-helipa'];
  tourStops=preferred.map(id=>available.find(p=>p.id===id)).filter(Boolean);
  tourStops.push(...available.filter(p=>!tourStops.some(stop=>stop.id===p.id)));
  if(!tourStops.length)return;

@@ -14,7 +14,7 @@ function scenario(reducedMotion=false){let now=0,next=1,jobs=new Map(),events={}
 for(const reduced of [false,true]){
  const s=scenario(reduced);s.run('startTour()');assert(s.classes.has('presenting'));assert.equal(s.ctx.tourStops.length,27);s.tick(1700);assert.equal(s.opened.at(-1),'unas');assert.equal(s.zoomHistory[0],19);assert(s.el('.card-summary').textContent.length>80);
  s.run('pauseTour()');const held=s.ctx.tourIndex;s.tick(35000);assert.equal(s.ctx.tourIndex,held);assert.equal(s.ctx.tourState,'paused');s.run('resumeTour()');s.tick(28000);assert(s.ctx.tourIndex>held);
- s.run('pauseTour();visitStop(26)');s.tick(1700);assert.equal(s.opened.at(-1),'demo-10');assert.equal(s.ctx.tourState,'paused');s.run('resumeTour()');s.tick(30000);assert.equal(s.ctx.tourState,'complete');
+ const lastIndex=s.ctx.tourStops.length-1,lastId=s.ctx.tourStops[lastIndex].id;s.run('pauseTour();visitStop('+lastIndex+')');s.tick(1700);assert.equal(s.opened.at(-1),lastId);assert.equal(s.ctx.tourState,'paused');s.run('resumeTour()');s.tick(30000);assert.equal(s.ctx.tourState,'complete');
  s.run('stopTour()');assert(!s.classes.has('presenting'));assert.equal(s.ctx.category,'Saúde');assert.equal(s.el('#search').value,'saúde');assert.equal(s.ctx.activeId,'gotas');assert.equal(s.view().zoom,17);assert.equal(s.el('#map-location').textContent,'Local inicial');
  s.run('startTour();pauseTour()');s.tick(1700);assert.equal(s.ctx.tourState,'paused');s.run('stopTour()');const count=s.opened.length;s.tick(40000);assert.equal(s.opened.length,count);
  const all=scenario(reduced);all.run('startTour()');all.tick(800000);assert.equal(all.ctx.tourState,'complete');for(const p of records)assert(all.opened.includes(p.id),p.id);

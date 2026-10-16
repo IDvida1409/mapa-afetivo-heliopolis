@@ -2,7 +2,7 @@
   {
     "id": "gotas",
     "name": "Gotas de Mel",
-    "category": "Cotidiano",
+    "category": "Comércio",
     "coord": [
       -46.591608015165,
       -23.61398297996
@@ -570,383 +570,390 @@
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-1",
-    "name": "CEI Mina",
-    "category": "Educação",
+    "id": "mec-favela",
+    "name": "Mec Favela",
+    "category": "Comércio",
     "coord": [
-      -46.59135999465,
-      -23.619389014141
+      -46.5911099,
+      -23.6182603
     ],
     "approx": false,
-    "address": "Rua da Mina, 53, Heliópolis",
+    "address": "Rua da Mina Central, 366",
     "photos": [
       {
-        "src": "assets/web/novo-1-registro-real.webp",
-        "alt": "Sala de atividades do CEI Mina na reabertura após a reforma, em fevereiro de 2024.",
-        "source": "https://www.unas.org.br/single-post/cei-mina-reabre-para-atendimento-as-criancas-apos-fechamento-para-reformas",
-        "credit": "Publicação: UNAS · 2024",
+        "src": "assets/web/mec-favela-referencia.webp",
+        "alt": "Fachada do Mec Favela, em fotografia publicada pelo R7 em 2018.",
+        "source": "https://noticias.r7.com/economia/negocios-da-quebrada-superam-barreiras-e-transformam-vidas-16092018/",
+        "credit": "Publicação: R7 · registro de 2018",
         "kind": "documentary"
       }
     ],
-    "story": "Educar e cuidar caminham juntos neste ponto da rede comunitária. O CEI Mina participa da história da educação infantil construída pelas famílias e pela UNAS.",
-    "history": "A atuação da UNAS na educação infantil nasceu da mobilização de mulheres por um lugar de cuidado para seus filhos. O CEI Mina é uma referência dessa trajetória; uma imagem histórica publicada pela organização registra crianças na unidade em 2003. A experiência liga educação, participação das famílias e vida comunitária.",
-    "historySource": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "Um lanche pode virar referência de um bairro inteiro. O Mec Favela liga a comida de rua à memória, ao trabalho e aos encontros de Heliópolis.",
+    "history": "Segundo reportagem do R7 de 2018, o nome Mec Favela nasceu de um apelido dado pelas crianças aos lanches vendidos por Adelmo Siqueira. O estabelecimento ganhou reconhecimento pelas porções generosas e pelo atendimento aos moradores. Sua trajetória mostra como um pequeno comércio pode se tornar uma referência cultural do território.",
+    "historySource": "https://noticias.r7.com/economia/negocios-da-quebrada-superam-barreiras-e-transformam-vidas-16092018/",
+    "source": "https://restaurantguru.com.br/Mec-Favela-Lanches-Sao-Paulo",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
-      "Pertencimento"
+      "Memória",
+      "Encontro",
+      "Cotidiano"
     ],
+    "feelings": "Memória, Encontro, Cotidiano",
+    "service": false,
     "demo": false,
-    "service": true,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Registro público da reabertura do CEI Mina, em 2024, divulgado pela UNAS. Mostra o espaço de atividades; não integra as fotografias produzidas pelo grupo.",
     "recordNo": 18,
+    "dateNote": "A trajetória do comércio está documentada na imprensa em 2009 e 2018; esses anos não são datas de inauguração.",
+    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-2",
-    "name": "CEI Aparecida das Graças Silva Roseira",
-    "category": "Educação",
+    "id": "tia-lu",
+    "name": "Padaria e Restaurante da Tia Lú",
+    "category": "Comércio",
     "coord": [
-      -46.5909737,
-      -23.6213178
+      -46.590941,
+      -23.617694
     ],
-    "approx": true,
-    "address": "Estrada das Lágrimas, 2385",
+    "approx": false,
+    "address": "Rua da Mina Central, 109",
     "photos": [
       {
-        "src": "assets/web/novo-2-registro-real.webp",
-        "alt": "Crianças do CEI Aparecida das Graças Roseira visitam a Rádio Comunitária de Heliópolis em atividade pedagógica publicada em 2025.",
-        "source": "https://educacao.sme.prefeitura.sp.gov.br/noticias/criancas-do-cei-aparecida-das-gracas-roseira-levam-suas-vozes-a-radio-comunitaria-do-heliopolis/",
-        "credit": "Publicação: SME / Prefeitura de São Paulo · 2025",
+        "src": "assets/web/tia-lu-referencia.webp",
+        "alt": "Fachada e placa da Padaria e Restaurante da Tia Lú, na Rua da Mina Central.",
+        "source": "https://wanderlog.com/place/details/3450027/restaurante-e-padaria-da-tia-l%C3%BA",
+        "credit": "Registro público: Wanderlog · autoria não identificada",
         "kind": "documentary"
       }
     ],
-    "story": "Um lugar de cuidado e aprendizagem na primeira infância. A unidade aproxima famílias, educadores e os equipamentos do complexo educacional de Heliópolis.",
-    "history": "Em 2025, a Secretaria Municipal de Educação publicou uma saída pedagógica das crianças do Minigrupo II à Rádio Comunitária de Heliópolis. A caminhada pelas ruas e a participação na rádio ampliaram as experiências de escuta, expressão e convivência. Essa atividade aproxima a educação infantil da memória do bairro e do direito das crianças de ocupar a cidade.",
-    "historySource": "https://educacao.sme.prefeitura.sp.gov.br/noticias/criancas-do-cei-aparecida-das-gracas-roseira-levam-suas-vozes-a-radio-comunitaria-do-heliopolis/",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "O pão, o café e a conversa rápida também desenham o bairro. A Tia Lú representa o comércio de proximidade presente nos trajetos pela Rua da Mina Central.",
+    "history": "A Padaria e Restaurante da Tia Lú aparece nos registros públicos do comércio na Rua da Mina Central, 109, perto de outras referências comunitárias. A cartografia a inclui para dar lugar às compras pequenas, às refeições e às pausas que fazem parte do cotidiano. Esse sentido afetivo é uma leitura do projeto, sem atribuição de depoimentos a moradores.",
+    "historySource": "https://wanderlog.com/place/details/3450027/restaurante-e-padaria-da-tia-l%C3%BA",
+    "source": "https://wanderlog.com/place/details/3450027/restaurante-e-padaria-da-tia-l%C3%BA",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
-      "Pertencimento"
+      "Proximidade",
+      "Cotidiano",
+      "Encontro"
     ],
+    "feelings": "Proximidade, Cotidiano, Encontro",
+    "service": false,
     "demo": false,
-    "service": true,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Registro público de uma saída pedagógica do CEI à Rádio Comunitária de Heliópolis. A imagem mostra a atividade, e não a fachada da unidade.",
     "recordNo": 19,
+    "dateNote": "Endereço conferido no registro público do estabelecimento, consultado em outubro de 2026.",
+    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-3",
-    "name": "CEI Simone Agnalda Ferreira",
-    "category": "Educação",
+    "id": "gula-bar",
+    "name": "Gula Bar",
+    "category": "Comércio",
     "coord": [
-      -46.5907323,
-      -23.6212982
+      -46.594926997365,
+      -23.605354020188
     ],
     "approx": true,
-    "address": "Estrada das Lágrimas, 2385",
+    "address": "Avenida Almirante Delamare, 592",
     "photos": [
       {
-        "src": "assets/web/novo-3-registro-real.webp",
-        "alt": "Contação de histórias da Biblioteca Comunitária de Heliópolis com bebês do CEI Simone Agnalda Ferreira, em 2025.",
-        "source": "https://www.unas.org.br/single-post/biblioteca-viva-novo-projeto-da-unas-amplia-o-acesso-a-literatura-com-vivencias-culturais",
-        "credit": "Cindy Tavares / UNAS · 2025",
+        "src": "assets/web/gula-bar-referencia.webp",
+        "alt": "Balcão e ambiente interno do Gula Bar, em imagem de seu site oficial.",
+        "source": "https://gula-bar-oficial.webnode.page/",
+        "credit": "Divulgação: Gula Bar",
         "kind": "documentary"
       }
     ],
-    "story": "As primeiras experiências escolares também constroem pertencimento. O CEI Simone faz parte da rede de educação e cuidado de Heliópolis.",
-    "history": "O CEI Simone Agnalda Ferreira participa da rede de educação infantil da UNAS. Uma publicação de 2025 registra o encontro de seus bebês com a equipe da Biblioteca Comunitária de Heliópolis para uma contação de histórias. O registro mostra como livros, cuidado e vínculos entre equipamentos do bairro podem fazer parte das primeiras experiências culturais das crianças.",
-    "historySource": "https://www.unas.org.br/single-post/biblioteca-viva-novo-projeto-da-unas-amplia-o-acesso-a-literatura-com-vivencias-culturais",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "Comida, conversa e encontros ao redor da mesa. O Gula Bar acrescenta ao mapa a vida comercial e os espaços de convivência da Avenida Almirante Delamare.",
+    "history": "O Gula Bar divulga em seu site um espaço para lanches, almoços, jantares e encontros entre amigos e familiares. Seu endereço fica na Avenida Almirante Delamare. A presença no mapa amplia o olhar para os pequenos e médios negócios que também sustentam o movimento das ruas e a convivência no entorno de Heliópolis.",
+    "historySource": "https://gula-bar-oficial.webnode.page/",
+    "source": "https://gula-bar-oficial.webnode.page/",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
-      "Pertencimento"
+      "Encontro",
+      "Convivência",
+      "Cotidiano"
     ],
+    "feelings": "Encontro, Convivência, Cotidiano",
+    "service": false,
     "demo": false,
-    "service": true,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Fotografia de Cindy Tavares, publicada pela UNAS em 2025, identificando a atividade de contação de histórias com bebês do CEI Simone Agnalda Ferreira.",
     "recordNo": 20,
+    "dateNote": "Referência comercial consultada em outubro de 2026. O ponto indica aproximadamente o endereço publicado.",
+    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-4",
-    "name": "CEI Padre Pedro Ballint",
-    "category": "Educação",
+    "id": "shopping-heliopolis",
+    "name": "Shopping Heliópolis",
+    "category": "Comércio",
     "coord": [
-      -46.595412980111,
-      -23.615297010921
+      -46.5926910231,
+      -23.6189359825
     ],
     "approx": false,
-    "address": "Rua Japaratuba, 65",
+    "address": "Estrada das Lágrimas, 2008",
     "photos": [
       {
-        "src": "assets/web/novo-4-registro-real.webp",
-        "alt": "Formação sobre alimentação e porcionamento de alimentos com a equipe do CEI Padre Pedro Ballint, publicada em 2022.",
-        "source": "https://www.unas.org.br/single-post/com-18-mil-refeicoes-diarias-projetos-da-unas-garantem-alimentacao-saudavel-em-meio-alta-da-fome",
-        "credit": "Publicação: UNAS · 2022",
+        "src": "assets/web/shopping-heliopolis-referencia.webp",
+        "alt": "Fachada do Shopping Heliópolis na Estrada das Lágrimas, em fotografia do portfólio da Tozzo Engenharia.",
+        "source": "https://www.tozzoengenharia.com.br/obra-gerenciamento-da-obra-do-shopping-heliopolis-sp/",
+        "credit": "Acervo público: Tozzo Engenharia · publicado em 2018",
         "kind": "documentary"
       }
     ],
-    "story": "Cuidar da infância também mobiliza a comunidade. O CEI Padre Pedro Ballint participa dos caminhos de educação, trabalho e apoio às famílias.",
-    "history": "Além do cuidado e da educação infantil, a alimentação faz parte da rotina do CEI Padre Pedro Ballint. Em julho de 2022, a UNAS registrou uma oficina com a equipe da unidade sobre porções, preparo e uso consciente dos alimentos. O trabalho aproximava a formação dos profissionais, a qualidade das refeições e o diálogo com as famílias.",
-    "historySource": "https://www.unas.org.br/single-post/com-18-mil-refeicoes-diarias-projetos-da-unas-garantem-alimentacao-saudavel-em-meio-alta-da-fome",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "Um ponto de compras e encontros na Estrada das Lágrimas. O Shopping Heliópolis ajuda a mostrar a circulação comercial que atravessa o bairro.",
+    "history": "O Shopping Heliópolis reúne lojas e serviços na Estrada das Lágrimas. A Tozzo Engenharia documenta em seu portfólio o planejamento e o gerenciamento da construção, desde a fundação até a entrega. Na cartografia, o shopping aparece como referência do comércio; a academia Smart Fit permanece em um registro próprio, no mesmo complexo.",
+    "historySource": "https://www.tozzoengenharia.com.br/obra-gerenciamento-da-obra-do-shopping-heliopolis-sp/",
+    "source": "https://www.smartfit.com.br/academias/shopping-heliopolis",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
-      "Pertencimento"
+      "Circulação",
+      "Encontro",
+      "Cotidiano"
     ],
+    "feelings": "Circulação, Encontro, Cotidiano",
+    "service": false,
     "demo": false,
-    "service": true,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Registro de uma formação da equipe do CEI Padre Pedro Ballint sobre alimentação, apresentado na reportagem da UNAS de julho de 2022.",
     "recordNo": 21,
+    "dateNote": "Fotografia publicada no portfólio da obra em 2018; não representa uma data de inauguração confirmada.",
+    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-5",
-    "name": "CEI Paulo Freire",
-    "category": "Educação",
+    "id": "arena-heliopolis",
+    "name": "Arena Heliópolis",
+    "category": "Lazer",
     "coord": [
-      -46.597138981613,
-      -23.612909006706
+      -46.5931,
+      -23.6101
     ],
     "approx": false,
-    "address": "Rua Alencar de Araripe, 623",
+    "address": "Rua Cristo Redentor, 890",
     "photos": [
       {
-        "src": "assets/web/novo-5-registro-real.webp",
-        "alt": "Fachada do prédio do CEI Paulo Freire na Rua Alencar de Araripe, registrada em publicação de 2018.",
-        "source": "https://www.unas.org.br/single-post/2018/06/28/novo-endere%C3%A7oceis",
-        "credit": "Publicação: UNAS · 2018",
+        "src": "assets/web/arena-heliopolis-referencia.webp",
+        "alt": "Partida de futebol na Arena Heliópolis durante a Taça das Favelas de 2023.",
+        "source": "https://sp.tacadasfavelas.com.br/taca-das-favelas-agita-a-arena-heliopolis-adidas-com-tempo-nublado-e-chuva-de-gols/",
+        "credit": "Ítalo Clicks / Taça das Favelas · 2023",
         "kind": "documentary"
       }
     ],
-    "story": "O direito à educação começa na primeira infância. A história desta unidade inclui a ampliação do atendimento e a conquista de um novo espaço.",
-    "history": "Em junho de 2018, a UNAS registrou a mudança do CEI Paulo Freire para a Rua Alencar de Araripe, 623, após 15 anos de atividades em outro endereço. A mudança ampliou a capacidade de atendimento. Esse marco ajuda a contar uma história de mobilização por vagas e por melhores condições para a educação infantil.",
-    "historySource": "https://www.unas.org.br/single-post/2018/06/28/novo-endere%C3%A7oceis",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "O campo vira lugar de torcida, amizade e reconhecimento. A Arena Heliópolis representa o futebol de várzea e o direito de praticar esporte perto de casa.",
+    "history": "A reforma do campo, em parceria entre Adidas e CUFA, foi anunciada em 2022. Em 2023, a Arena Heliópolis recebeu partidas femininas e masculinas da Taça das Favelas. O espaço liga a prática esportiva ao encontro entre comunidades, à participação da torcida e à valorização de atletas das periferias.",
+    "historySource": "https://sp.tacadasfavelas.com.br/taca-das-favelas-agita-a-arena-heliopolis-adidas-com-tempo-nublado-e-chuva-de-gols/",
+    "source": "https://sp.tacadasfavelas.com.br/taca-das-favelas-agita-a-arena-heliopolis-adidas-com-tempo-nublado-e-chuva-de-gols/",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
+      "Torcida",
+      "Amizade",
       "Pertencimento"
     ],
-    "demo": false,
+    "feelings": "Torcida, Amizade, Pertencimento",
     "service": true,
+    "demo": false,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Fotografia histórica da fachada do CEI Paulo Freire, publicada em 2018. Registra o prédio apresentado na notícia de mudança de endereço; não é uma fotografia atual.",
     "recordNo": 22,
-    "reviewedAt": "2026-10-16"
+    "dateNote": "2022: anúncio da revitalização. 2023: partidas da Taça das Favelas registradas na fotografia.",
+    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
+    "reviewedAt": "2026-10-16",
+    "additionalSources": [
+      {
+        "label": "Sobre a revitalização",
+        "url": "https://baccarelli.org.br/wp-content/uploads/2024/11/2022-04.pdf"
+      }
+    ]
   },
   {
-    "id": "demo-6",
-    "name": "CEI Margarida Maria Alves",
-    "category": "Educação",
+    "id": "parque-cidadania",
+    "name": "Parque da Cidadania de Heliópolis",
+    "category": "Lazer",
     "coord": [
-      -46.594651,
-      -23.6109346
+      -46.587098251034,
+      -23.610417996433
     ],
     "approx": true,
-    "address": "Rua da Fantasia, 63",
+    "address": "Avenida Almirante Delamare · oposto ao nº 3043",
     "photos": [
       {
-        "src": "assets/web/novo-6-registro-real.webp",
-        "alt": "Encontro de crianças e educadoras no acesso entre o CEI Margarida Maria Alves e a EMEF Gonzaguinha, em registro publicado em 2024.",
-        "source": "https://www.unas.org.br/single-post/derrubada-de-muro-que-dividia-escolas-em-heliopolis-tem-promovido-integracao-entre-criancas",
-        "credit": "Publicação: UNAS · 2024",
+        "src": "assets/web/parque-cidadania-referencia.webp",
+        "alt": "Área e quadra em obras do Parque da Cidadania de Heliópolis, registradas em 2024.",
+        "source": "https://agenciamural.org.br/parque-em-heliopolis-atraso-ha-dois-anos/",
+        "credit": "Isabela do Carmo / Agência Mural · 2024",
         "kind": "documentary"
       }
     ],
-    "story": "Brincar, aprender e construir vínculos perto de casa. O CEI Margarida Maria Alves integra a rede de cuidado das crianças e de suas famílias.",
-    "history": "Em dezembro de 2024, a UNAS contou como a abertura de uma passagem no muro entre o CEI Margarida Maria Alves e a EMEF Gonzaguinha facilitou a convivência entre as crianças. O acesso aproximou espaços de brincadeira, jardim e horta. A história ajuda a perceber a escola como parte de um território compartilhado, onde os encontros também ensinam.",
-    "historySource": "https://www.unas.org.br/single-post/derrubada-de-muro-que-dividia-escolas-em-heliopolis-tem-promovido-integracao-entre-criancas",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "Um espaço de lazer também pode representar uma espera coletiva. O parque permite falar sobre áreas verdes, esporte e o direito da comunidade a espaços públicos de qualidade.",
+    "history": "Anunciado em 2021, o Parque da Cidadania é uma referência na demanda por lazer e áreas verdes em Heliópolis. A fotografia registra a obra em 2024. A agenda oficial da Prefeitura ainda registra uma visita às obras em 25 de setembro de 2026; por isso, o mapa não o apresenta como parque plenamente entregue.",
+    "historySource": "https://agenciamural.org.br/parque-em-heliopolis-atraso-ha-dois-anos/",
+    "source": "https://prefeitura.sp.gov.br/l/61757669",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
-      "Pertencimento"
+      "Expectativa",
+      "Direito à cidade",
+      "Cuidado"
     ],
+    "feelings": "Expectativa, Direito à cidade, Cuidado",
+    "service": false,
     "demo": false,
-    "service": true,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Registro público da integração entre o CEI Margarida Maria Alves e a EMEF Gonzaguinha, divulgado pela UNAS em dezembro de 2024.",
     "recordNo": 23,
+    "dateNote": "Projeto anunciado em 2021. Fotografia de 2024. Visita oficial às obras registrada em 25/09/2026.",
+    "photoNote": "Fotografia histórica da obra em 2024, sem representar a situação atual de todo o parque.",
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-7",
-    "name": "CEI Girassol",
-    "category": "Educação",
+    "id": "figueira-lagrimas",
+    "name": "Praça Figueira das Lágrimas",
+    "category": "Memória",
     "coord": [
-      -46.597485992404,
-      -23.611036992451
+      -46.598699021432,
+      -23.605919002372
     ],
     "approx": false,
-    "address": "Rua Alencar de Araripe, 437",
+    "address": "Estrada das Lágrimas, altura do nº 515",
     "photos": [
       {
-        "src": "assets/web/novo-7-registro-real.webp",
-        "alt": "Fachada histórica do CEI Girassol na Estrada das Lágrimas, em fotografia publicada em 2018.",
-        "source": "https://www.unas.org.br/single-post/2018/06/28/novo-endere%C3%A7oceis",
-        "credit": "Publicação: UNAS · 2018",
+        "src": "assets/web/figueira-lagrimas-referencia.webp",
+        "alt": "Troncos da Figueira das Lágrimas, em registro histórico de Ricardo Cardim publicado em 2009.",
+        "source": "https://arvoresdesaopaulo.wordpress.com/2009/04/19/a-resistente-e-centenaria-figueira-das-lagrimas/",
+        "credit": "Ricardo Cardim / Árvores de São Paulo · 2009",
         "kind": "documentary"
       }
     ],
-    "story": "Uma trajetória de educação infantil que acompanha as mudanças do território. O CEI Girassol reúne cuidado, convivência e aprendizagem.",
-    "history": "A UNAS registrou, em 2018, uma mudança de prédio e a ampliação do atendimento do CEI Girassol. A relação de unidades publicada em 2026 informa o endereço da Rua Alencar de Araripe, 437. O registro acompanha essa trajetória sem confundir os endereços históricos com a referência mais recente.",
-    "historySource": "https://www.unas.org.br/single-post/2018/06/28/novo-endere%C3%A7oceis",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "Uma árvore guarda histórias de partida e saudade. A Figueira das Lágrimas aproxima os caminhos do presente da memória da estrada que liga Heliópolis ao Sacomã.",
+    "history": "A tradição local associa a figueira às despedidas de viajantes que seguiam para o litoral. Em janeiro de 2020, a Prefeitura entregou melhorias na pequena praça, com bancos, iluminação e referências à sua memória. Esse marco histórico do entorno ajuda a compreender por que os caminhos também carregam afetos e lembranças.",
+    "historySource": "https://prefeitura.sp.gov.br/w/noticia/prefeitura-entrega-praca-onde-vive-a-arvore-mais-antiga-da-cidade-de-sao-paulo",
+    "source": "https://prefeitura.sp.gov.br/w/noticia/prefeitura-entrega-praca-onde-vive-a-arvore-mais-antiga-da-cidade-de-sao-paulo",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
+      "Saudade",
+      "Memória",
       "Pertencimento"
     ],
+    "feelings": "Saudade, Memória, Pertencimento",
+    "service": false,
     "demo": false,
-    "service": true,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Registro histórico do CEI Girassol na Estrada das Lágrimas, publicado em 2018. O endereço da lista de unidades de 2026 é Rua Alencar de Araripe, 437. A fotografia não representa a fachada atual.",
     "recordNo": 24,
+    "dateNote": "2009: registro fotográfico. 30/01/2020: publicação da entrega da praça revitalizada.",
+    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-8",
-    "name": "CEI Josefa Júlia",
-    "category": "Educação",
+    "id": "sao-joao-climaco",
+    "name": "Paróquia São João Clímaco",
+    "category": "Memória",
     "coord": [
-      -46.596085963117,
-      -23.620072013522
+      -46.59096696721,
+      -23.623545013193
     ],
     "approx": false,
-    "address": "Rua Alencar de Araripe, 1415",
+    "address": "Largo São João Clímaco, 4 · entorno de Heliópolis",
     "photos": [
       {
-        "src": "assets/web/novo-8-registro-real.webp",
-        "alt": "Fachada do CEI Josefa Júlia na Rua Alencar de Araripe, 1415, em registro publicado em 2016.",
-        "source": "https://www.unas.org.br/single-post/2016/10/03/novo-endere%C3%A7o-cei-josefa-julia",
-        "credit": "Publicação: UNAS · 2016",
+        "src": "assets/web/sao-joao-climaco-referencia.webp",
+        "alt": "Fachada da Paróquia São João Clímaco, conforme registro da Arquidiocese de São Paulo.",
+        "source": "https://arquisp.org.br/regiao-ipiranga/paroquia-sao-joao-climaco/",
+        "credit": "Acervo público: Arquidiocese de São Paulo",
         "kind": "documentary"
       }
     ],
-    "story": "Uma referência de educação e cuidado para a primeira infância. O CEI Josefa Júlia se conecta aos trajetos e às redes de apoio das famílias da região.",
-    "history": "Em outubro de 2016, a UNAS anunciou que o CEI Josefa Júlia passava a atender na Rua Alencar de Araripe, 1415. O mesmo endereço aparece na relação de unidades publicada em 2026. A fotografia histórica preserva esse momento da trajetória do espaço e ajuda a ligar a memória da instituição aos caminhos percorridos pelas famílias.",
-    "historySource": "https://www.unas.org.br/single-post/2016/10/03/novo-endere%C3%A7o-cei-josefa-julia",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "Um lugar de fé também pode guardar a memória de uma região. A paróquia acrescenta ao percurso as relações entre vizinhança, celebrações e história do entorno de Heliópolis.",
+    "history": "A Arquidiocese registra a fundação da Paróquia São João Clímaco em 29 de junho de 1953. Sua origem remonta à capela em torno da qual o bairro vizinho se desenvolveu. O registro amplia a cartografia para uma referência histórica do entorno, respeitando a diversidade de crenças e de formas de pertencimento.",
+    "historySource": "https://arquisp.org.br/regiao-ipiranga/paroquia-sao-joao-climaco/",
+    "source": "https://arquisp.org.br/regiao-ipiranga/paroquia-sao-joao-climaco/",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
+      "Memória",
+      "Vizinhança",
       "Pertencimento"
     ],
-    "demo": false,
+    "feelings": "Memória, Vizinhança, Pertencimento",
     "service": true,
+    "demo": false,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Fotografia histórica da fachada, publicada pela UNAS na notícia de mudança de endereço do CEI Josefa Júlia, em outubro de 2016.",
     "recordNo": 25,
+    "dateNote": "Fundação da paróquia: 29/06/1953, segundo a Arquidiocese de São Paulo.",
+    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-9",
-    "name": "CEI Minervino Rodrigues Ferreira",
-    "category": "Educação",
+    "id": "cozinha-dilza",
+    "name": "Cozinha Comunitária Dilza Maria Dias",
+    "category": "Apoio",
     "coord": [
-      -46.593704999701,
-      -23.621203989545
+      -46.5911816,
+      -23.6192118
     ],
-    "approx": false,
-    "address": "Rua Caripurá, 281",
+    "approx": true,
+    "address": "Rua da Mina Central, 37-B · quadra da UNAS",
     "photos": [
       {
-        "src": "assets/web/novo-9-registro-real.webp",
-        "alt": "Atividade educativa apresentada pela UNAS na seção sobre a transformação do CEI Minervino Rodrigues Ferreira em CEMEI.",
-        "source": "https://www.unas.org.br/single-post/metade-das-familias-nas-emeis-nao-tem-com-quem-deixar-os-filhos-fora-do-horario-de-aula",
-        "credit": "Publicação: UNAS · 2025",
+        "src": "assets/web/cozinha-dilza-referencia.webp",
+        "alt": "Dilza Maria Dias e Cleide Alves diante da Cozinha Comunitária da UNAS, em registro publicado em 2025.",
+        "source": "https://www.unas.org.br/single-post/cozinha-comunitaria-da-unas-atua-no-combate-a-inseguranca-alimentar-em-heliopolis",
+        "credit": "Douglas Cavalcante / UNAS · 2025",
         "kind": "documentary"
       }
     ],
-    "story": "Infância, convivência e participação comunitária. O CEI Minervino Rodrigues Ferreira compõe a rede educacional de Heliópolis e região.",
-    "history": "Segundo a UNAS, o CEI Minervino Rodrigues Ferreira foi transformado em CEMEI em 2022, após mobilização das famílias por atendimento integral. A experiência ampliou o cuidado na primeira infância e passou a ser referência na discussão comunitária sobre novas unidades. Sua história conecta a educação das crianças às condições de trabalho e às redes de apoio de seus responsáveis.",
-    "historySource": "https://www.unas.org.br/single-post/metade-das-familias-nas-emeis-nao-tem-com-quem-deixar-os-filhos-fora-do-horario-de-aula",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "Comer também é um direito e um gesto de cuidado. A cozinha aproxima alimentação, dignidade e os vínculos construídos na vida comunitária.",
+    "history": "A Cozinha Comunitária Dilza Maria Dias foi inaugurada em 19 de outubro de 2023, na quadra da UNAS. Sua criação deu continuidade às ações de distribuição de alimentos articuladas durante a pandemia. O espaço reúne oferta de refeições e cuidado comunitário, permitindo ler a alimentação como parte das redes de apoio do território.",
+    "historySource": "https://www.unas.org.br/single-post/cozinha-comunitaria-da-unas-atua-no-combate-a-inseguranca-alimentar-em-heliopolis",
+    "source": "https://www.unas.org.br/single-post/cozinha-comunitaria-da-unas-atua-no-combate-a-inseguranca-alimentar-em-heliopolis",
     "affects": [
       "Cuidado",
-      "Aprendizagem",
-      "Pertencimento"
+      "Dignidade",
+      "Acolhimento"
     ],
-    "demo": false,
+    "feelings": "Cuidado, Dignidade, Acolhimento",
     "service": true,
+    "demo": false,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Registro publicado pela UNAS em 2025 na seção que apresenta a experiência de educação integral do Minervino Rodrigues Ferreira.",
     "recordNo": 26,
+    "dateNote": "Inauguração: 19/10/2023. O ponto usa a referência aproximada da quadra da UNAS, publicada pela organização.",
+    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
-    "id": "demo-10",
-    "name": "CEI Leonarda Soares Alves",
-    "category": "Educação",
+    "id": "baile-helipa",
+    "name": "Baile do Helipa",
+    "category": "Cultura",
     "coord": [
-      -46.598782924283,
-      -23.605574799518
+      -46.591520005181,
+      -23.619562016623
     ],
-    "approx": false,
-    "address": "Estrada das Lágrimas, 475",
+    "approx": true,
+    "address": "Rua da Mina Central e ruas próximas · referência de área",
     "photos": [
       {
-        "src": "assets/web/novo-10-registro-real.webp",
-        "alt": "Entrega de presentes da campanha Papai Noel dos Correios para crianças do CEI Leonarda Soares Alves, na quadra da UNAS, em dezembro de 2023.",
-        "source": "https://saladeimprensa.correios.com.br/wp-content/uploads/2024/02/RevistaCorreios-ajustes_20240220_redux.pdf#page=9",
-        "credit": "Publicação: Revista Correios · fev. 2024",
+        "src": "assets/web/baile-helipa-referencia.webp",
+        "alt": "Público nas ruas do Baile do Helipa, em reportagem fotográfica publicada em 2024.",
+        "source": "https://www.agenciamural.org.br/especiais/baile-do-helipa-funk-sao-paulo/",
+        "credit": "Bianca Sales / Agência Mural · 2024",
         "kind": "documentary"
       }
     ],
-    "story": "A educação infantil se espalha pelos caminhos de Heliópolis e do Sacomã. Esta unidade integra a rede de cuidado e aprendizagem da primeira infância.",
-    "history": "Em dezembro de 2023, crianças do CEI Leonarda Soares Alves participaram de uma entrega da campanha Papai Noel dos Correios na quadra da UNAS. A Revista Correios registrou esse encontro em sua edição de fevereiro de 2024. A atividade mostra uma das conexões da unidade com a rede comunitária e com momentos de convivência e celebração fora da sala de aula.",
-    "historySource": "https://saladeimprensa.correios.com.br/wp-content/uploads/2024/02/RevistaCorreios-ajustes_20240220_redux.pdf#page=9",
-    "source": "https://www.unas.org.br/single-post/saiba-como-realizar-a-inscricao-em-uma-creche-da-unas",
-    "feelings": "cuidado, vínculo, aprendizagem e pertencimento",
+    "story": "A música transforma a rua em ponto de encontro. O Baile do Helipa conecta a cultura funk, a juventude e o comércio que participa da vida noturna da comunidade.",
+    "history": "A história do Baile do Helipa passa pelas festas de black music e pela atuação de DJs e MCs entre 2000 e 2010. Com a expansão do funk, ganhou projeção para além do bairro. A reportagem da Agência Mural também registra o comércio local e os dilemas da convivência com moradores. O marcador indica uma área de referência, pois o baile ocupa diferentes ruas.",
+    "historySource": "https://www.agenciamural.org.br/especiais/baile-do-helipa-funk-sao-paulo/",
+    "source": "https://www.agenciamural.org.br/especiais/baile-do-helipa-funk-sao-paulo/",
     "affects": [
-      "Cuidado",
-      "Aprendizagem",
-      "Pertencimento"
+      "Cultura",
+      "Juventude",
+      "Encontro"
     ],
+    "feelings": "Cultura, Juventude, Encontro",
+    "service": false,
     "demo": false,
-    "service": true,
     "complementary": true,
     "recordType": "complementar",
-    "dateNote": "Data de inauguração da unidade não confirmada nas fontes consultadas.",
-    "photoNote": "Fotografia de atividade com as crianças do CEI Leonarda Soares Alves na quadra da UNAS, em dezembro de 2023, publicada na Revista Correios. A imagem não mostra a fachada do CEI.",
     "recordNo": 27,
-    "reviewedAt": "2026-10-16"
+    "dateNote": "Trajetória documentada entre 2000 e 2010 e expansão a partir de 2010. Registro cultural, sem agenda de eventos.",
+    "photoNote": "Registro de uma manifestação cultural que ocupa diferentes ruas. A fotografia não identifica uma sede fixa.",
+    "reviewedAt": "2026-10-16",
+    "locationSource": "https://noticias.r7.com/sao-paulo/madrugada-de-natal-e-marcado-por-varios-bailes-funks-em-sp-25122023/"
   }
 ]
