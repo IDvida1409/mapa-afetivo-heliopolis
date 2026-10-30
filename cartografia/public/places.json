@@ -163,6 +163,7 @@
     "source": "https://www.unas.org.br/contato",
     "demo": false,
     "service": true,
+    "support": true,
     "history": "A UNAS articula núcleos e associações de moradores de Heliópolis e região. Sua atuação reúne educação, cultura, assistência social e mobilização por direitos. Nesta cartografia, a sede representa os caminhos coletivos pelos quais as demandas do bairro se transformam em organização e ação comunitária.",
     "historySource": "https://www.unas.org.br/quem-somos",
     "recordType": "acervo",
@@ -230,6 +231,7 @@
     "source": "https://agemt.pucsp.br/noticias/periferias-mantem-legado-de-democratizar-comunicacao",
     "demo": false,
     "service": true,
+    "support": true,
     "since": "1992",
     "history": "A Rádio Heliópolis surgiu em 8 de maio de 1992 como Rádio Corneta, com alto-falantes distribuídos pela comunidade. A proposta era informar e mobilizar os moradores. Sua história associa comunicação comunitária, participação e democratização da palavra.",
     "historySource": "https://www.unas.org.br/single-post/a-voz-das-mulheres-na-radio-comunitaria-de-heliopolis",
@@ -559,12 +561,14 @@
       "Reconhecimento",
       "Pertencimento"
     ],
-    "source": "https://www.unas.org.br/contato",
+    "source": "https://www.unas.org.br/single-post/2015/06/08/o-grito-da-diversidade",
     "demo": false,
     "service": true,
-    "history": "O Grito da Diversidade integra os movimentos de base articulados pela UNAS. A organização publica a sede da Rua da Mina Central, 38, como referência de suas plenárias. O movimento é apresentado separadamente para evidenciar a defesa dos direitos LGBTQIA+ e as redes de pertencimento. A foto representa a sede da UNAS, e não um prédio exclusivo do movimento.",
+    "support": true,
+    "history": "Em 30 de maio de 2015, o movimento realizou seu primeiro bate-papo no cinema do CEU Heliópolis, discutindo homofobia e direitos LGBT. A UNAS registra encontros mensais na sede da Rua da Mina Central, 38. O movimento é apresentado separadamente para evidenciar a defesa dos direitos LGBTQIA+ e as redes de pertencimento; a foto representa a sede da UNAS, e não um prédio exclusivo do movimento.",
     "historySource": "https://www.unas.org.br/single-post/movimentos-populares-da-unas-uma-luta-pela-transformacao-social-e-garantia-de-direitos",
-    "dateNote": "A data de criação do movimento não foi confirmada nas fontes consultadas.",
+    "since": "2015",
+    "dateNote": "Primeiro bate-papo registrado em 30 de maio de 2015; encontros e programação devem ser confirmados.",
     "recordType": "acervo",
     "recordNo": 17,
     "reviewedAt": "2026-10-16"
@@ -981,6 +985,7 @@
     "affects": ["Acesso", "Formação", "Trabalho"],
     "feelings": "Acesso, Formação, Trabalho",
     "service": true,
+    "support": true,
     "demo": false,
     "complementary": true,
     "recordType": "complementar",
@@ -1013,6 +1018,7 @@
     "affects": ["Cuidado", "Saúde", "Acesso"],
     "feelings": "Cuidado, Saúde, Acesso",
     "service": true,
+    "support": true,
     "demo": false,
     "complementary": true,
     "recordType": "complementar",
@@ -1058,6 +1064,14 @@
     ],
     "approx": true,
     "address": "Rua Coronel Silva Castro, 151 · Cidade Nova Heliópolis",
+    "photos": [
+      {
+        "src": "https://images.metroimg.com/2023/03/25160617/favela-ibge-censo.jpg",
+        "alt": "CUFA Heliópolis durante a mobilização Favela no Mapa",
+        "source": "https://www.metropoles.com/sao-paulo/censo-2022-ibge-faz-parceria-para-abrir-porta-em-favelas",
+        "credit": "Imagem publicada em reportagem sobre CUFA e Favela no Mapa"
+      }
+    ],
     "story": "Ponto de ação social e cultural ligado à CUFA e ao Instituto Heliópolis Forte. Entra no mapa como uma referência complementar de cuidado, direitos e iniciativas comunitárias.",
     "history": "Registros públicos identificam a CUFA Heliópolis neste endereço e documentam projetos como o Sentir-se Bem em Movimento. O card não afirma que a iniciativa seja exclusiva para pessoas trans; ela integra a rede comunitária que pode ser acessada por diferentes moradores.",
     "source": "https://www.prefeitura.sp.gov.br/cidade/secretarias/governo/noticias/?p=350616",
@@ -1068,6 +1082,7 @@
     ],
     "feelings": "Cuidado, Direitos, Participação",
     "service": true,
+    "support": true,
     "demo": false,
     "complementary": true,
     "recordType": "complementar",
@@ -1086,6 +1101,14 @@
     ],
     "approx": true,
     "address": "Estrada das Lágrimas, 1403 · Sacomã",
+    "photos": [
+      {
+        "src": "https://prefeitura.sp.gov.br/documents/34276/18843527/20240107_UPA%2BSacoma_Base%2BSamu_MP_6381.jpg/ead80e49-abaa-bd1c-a0f2-3a748f855fb7?download=false&t=1736267642526&version=1.0",
+        "alt": "Fachada da UPA 24h Sacomã",
+        "source": "https://prefeitura.sp.gov.br/w/prefeitura-inaugura-em-heli%C3%B3polis-upa-com-pediatra-ortopedista-dentista-e-cirurgia-geral-com-atendimento-24-horas",
+        "credit": "Prefeitura de São Paulo"
+      }
+    ],
     "story": "A UPA integra a rede de urgência que atende Heliópolis e bairros próximos. Ela aparece no recorte para situar o cuidado público que atravessa o território, sem ser apresentada como um serviço exclusivo para pessoas trans.",
     "history": "O Cadastro Nacional de Estabelecimentos de Saúde identifica a UPA Sacomã na Estrada das Lágrimas, 1403. O marcador é aproximado porque a fonte pública informa o endereço, não uma coordenada específica do portão.",
     "source": "https://cnes2.datasus.gov.br/Mod_Ambulatorial.asp?VCo_Unidade=3550307272707",
@@ -1101,6 +1124,80 @@
     "recordType": "complementar",
     "recordNo": 32,
     "dateNote": "Endereço conferido no CNES; horários e fluxos devem ser atualizados antes da apresentação.",
+    "reviewedAt": "2026-10-30"
+  },
+  {
+    "id": "investindo-na-vida",
+    "name": "Heliópolis Investindo na Vida",
+    "category": "Apoio",
+    "priority": 1,
+    "support": true,
+    "coord": [
+      -46.5911151,
+      -23.6190544
+    ],
+    "approx": true,
+    "address": "Rua da Mina Central, 38 · sede da UNAS",
+    "photos": [
+      {
+        "src": "assets/web/05-UNAS-Sede-Central.webp",
+        "alt": "Sede da UNAS, onde a iniciativa é articulada",
+        "source": "https://www.unas.org.br/juventude",
+        "credit": "Imagem de referência da sede da UNAS; o projeto funciona na rede da organização"
+      }
+    ],
+    "story": "Projeto de prevenção ao HIV e a outras ISTs, com informação, testagem, métodos preventivos e cuidado integral para adolescentes e jovens de Heliópolis e região.",
+    "history": "A iniciativa é conveniada com a Prefeitura de São Paulo por meio do Programa Municipal de DST/Aids e atende cerca de 558 adolescentes e jovens. Ela entra na rede de apoio porque aproxima saúde sexual, informação e prevenção — sem afirmar que seja um serviço exclusivo para pessoas trans.",
+    "source": "https://www.unas.org.br/juventude",
+    "affects": [
+      "Prevenção",
+      "Saúde sexual",
+      "Direitos"
+    ],
+    "feelings": "Prevenção, Saúde sexual, Direitos",
+    "service": true,
+    "demo": false,
+    "complementary": true,
+    "recordType": "projeto de apoio",
+    "recordNo": 33,
+    "dateNote": "Projeto identificado na página de Juventude da UNAS; calendário e formas de acesso devem ser confirmados.",
+    "reviewedAt": "2026-10-30"
+  },
+  {
+    "id": "gerohannah",
+    "name": "Gerohannah Barbosa · liderança e comunicação",
+    "category": "Apoio",
+    "priority": 1,
+    "support": true,
+    "coord": [
+      -46.5913063,
+      -23.6191061
+    ],
+    "approx": true,
+    "address": "Rádio Heliópolis · Rua da Mina Central · referência da rede UNAS",
+    "photos": [
+      {
+        "src": "assets/web/18-gerohannah-radio-comunitaria.jpg",
+        "alt": "Gerohannah Barbosa na Rádio Comunitária de Heliópolis",
+        "source": "https://www.unas.org.br/single-post/a-voz-das-mulheres-na-radio-comunitaria-de-heliopolis",
+        "credit": "Cindy Tavares / UNAS"
+      }
+    ],
+    "story": "Gerohannah aparece como liderança comunitária, mulher trans e uma das precursoras da Rádio Comunitária Heliópolis. Sua presença ajuda a mostrar que a rede de apoio também é feita de pessoas, voz pública, participação e reconhecimento.",
+    "history": "A reportagem da UNAS registra sua atuação na rádio e no movimento de diversidade. O ponto não marca uma residência: é uma referência narrativa de liderança vinculada à comunicação comunitária e à defesa de direitos.",
+    "source": "https://www.unas.org.br/single-post/a-voz-das-mulheres-na-radio-comunitaria-de-heliopolis",
+    "affects": [
+      "Liderança",
+      "Visibilidade trans",
+      "Comunicação"
+    ],
+    "feelings": "Liderança, Visibilidade trans, Comunicação",
+    "service": false,
+    "demo": false,
+    "complementary": true,
+    "recordType": "referência de liderança",
+    "recordNo": 34,
+    "dateNote": "Referência narrativa baseada em reportagem publicada pela UNAS em 2025.",
     "reviewedAt": "2026-10-30"
   }
 ]
