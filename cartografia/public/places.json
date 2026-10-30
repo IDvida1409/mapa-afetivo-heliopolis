@@ -582,14 +582,14 @@
     "photos": [
       {
         "src": "assets/web/mec-favela-referencia.webp",
-        "alt": "Fachada do Mec Favela, em fotografia publicada pelo R7 em 2018.",
+        "alt": "Fachada do Mec Favela em Heliópolis.",
         "source": "https://noticias.r7.com/economia/negocios-da-quebrada-superam-barreiras-e-transformam-vidas-16092018/",
-        "credit": "Publicação: R7 · registro de 2018",
+        "credit": "Imagem de referência do local",
         "kind": "documentary"
       }
     ],
     "story": "Um lanche pode virar referência de um bairro inteiro. O Mec Favela liga a comida de rua à memória, ao trabalho e aos encontros de Heliópolis.",
-    "history": "Segundo reportagem do R7 de 2018, o nome Mec Favela nasceu de um apelido dado pelas crianças aos lanches vendidos por Adelmo Siqueira. O estabelecimento ganhou reconhecimento pelas porções generosas e pelo atendimento aos moradores. Sua trajetória mostra como um pequeno comércio pode se tornar uma referência cultural do território.",
+    "history": "A lanchonete começou em uma garagem e cresceu com o trabalho de Adelmo Siqueira. O nome brinca com a associação ao fast-food, mas a história é própria: um comércio construído na comunidade, reconhecido pelos moradores e ligado à alimentação, ao trabalho e aos encontros de Heliópolis.",
     "historySource": "https://noticias.r7.com/economia/negocios-da-quebrada-superam-barreiras-e-transformam-vidas-16092018/",
     "source": "https://restaurantguru.com.br/Mec-Favela-Lanches-Sao-Paulo",
     "affects": [
@@ -603,8 +603,8 @@
     "complementary": true,
     "recordType": "complementar",
     "recordNo": 18,
-    "dateNote": "A trajetória do comércio está documentada na imprensa em 2009 e 2018; esses anos não são datas de inauguração.",
-    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
+    "dateNote": "A história do comércio é usada como referência de alimentação, trabalho e convivência; não indica uma data confirmada de inauguração.",
+    "photoNote": "Imagem de referência do local. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
