@@ -307,7 +307,7 @@
   },
   {
     "id": "cca",
-    "name": "Quadra do CCA Heliópolis",
+    "name": "CCA Heliópolis",
     "category": "Lazer",
     "coord": [
       -46.5964186,
@@ -318,7 +318,7 @@
     "photos": [
       {
         "src": "assets/web/10-CCA-Heliopolis-Quadra.webp",
-        "alt": "Quadra do CCA Heliópolis",
+        "alt": "CCA Heliópolis e sua quadra de atividades",
         "source": "https://www.unas.org.br/single-post/quadra-esportiva-do-cca-heliopolis-e-reformada"
       }
     ],
@@ -1018,6 +1018,89 @@
     "recordType": "complementar",
     "recordNo": 29,
     "dateNote": "Equipamentos e nomes de serviços conferidos em páginas oficiais; fluxos de atendimento devem ser atualizados antes da apresentação.",
+    "reviewedAt": "2026-10-30"
+  },
+  {
+    "id": "maktub",
+    "name": "Maktub Lounge",
+    "category": "Lazer",
+    "coord": [
+      -46.5923172,
+      -23.6181065
+    ],
+    "approx": true,
+    "address": "Rua Capitão do Mato, 157 · Vila Heliópolis",
+    "story": "Referência afetiva de lazer mencionada por Eduarda em sua entrevista. O ponto aparece como uma experiência individual de circulação, não como uma avaliação de todo o território.",
+    "history": "A presença do Maktub Lounge nesta cartografia vem do relato de Eduarda, que o reconhece como um lugar ligado ao lazer em Heliópolis. A fonte pública é usada apenas para localizar o endereço; o significado afetivo vem da entrevista.",
+    "source": "https://www.benditoguia.com.br/empresa/mansao-maktub-lounge-cidade-nova-heliopolis-sao-paulo-sp",
+    "affects": [
+      "Lazer",
+      "Circulação",
+      "Memória"
+    ],
+    "feelings": "Lazer, Circulação, Memória",
+    "service": false,
+    "demo": false,
+    "complementary": true,
+    "recordType": "referência afetiva",
+    "recordNo": 30,
+    "dateNote": "Ponto incluído a partir da entrevista de Eduarda; a fonte pública é usada apenas para localização.",
+    "reviewedAt": "2026-10-30"
+  },
+  {
+    "id": "cufa-heliopolis",
+    "name": "CUFA Heliópolis · Instituto Heliópolis Forte",
+    "category": "Apoio",
+    "priority": 1,
+    "coord": [
+      -46.596066,
+      -23.6064696
+    ],
+    "approx": true,
+    "address": "Rua Coronel Silva Castro, 151 · Cidade Nova Heliópolis",
+    "story": "Ponto de ação social e cultural ligado à CUFA e ao Instituto Heliópolis Forte. Entra no mapa como uma referência complementar de cuidado, direitos e iniciativas comunitárias.",
+    "history": "Registros públicos identificam a CUFA Heliópolis neste endereço e documentam projetos como o Sentir-se Bem em Movimento. O card não afirma que a iniciativa seja exclusiva para pessoas trans; ela integra a rede comunitária que pode ser acessada por diferentes moradores.",
+    "source": "https://www.prefeitura.sp.gov.br/cidade/secretarias/governo/noticias/?p=350616",
+    "affects": [
+      "Cuidado",
+      "Direitos",
+      "Participação"
+    ],
+    "feelings": "Cuidado, Direitos, Participação",
+    "service": true,
+    "demo": false,
+    "complementary": true,
+    "recordType": "complementar",
+    "recordNo": 31,
+    "dateNote": "Endereço e iniciativa conferidos em registros públicos; programação deve ser confirmada antes da apresentação.",
+    "reviewedAt": "2026-10-30"
+  },
+  {
+    "id": "upa-sacoma",
+    "name": "UPA Sacomã",
+    "category": "Saúde",
+    "priority": 1,
+    "coord": [
+      -46.5909483,
+      -23.6242891
+    ],
+    "approx": true,
+    "address": "Estrada das Lágrimas, 1403 · Sacomã",
+    "story": "A UPA integra a rede de urgência que atende Heliópolis e bairros próximos. Ela aparece no recorte para situar o cuidado público que atravessa o território, sem ser apresentada como um serviço exclusivo para pessoas trans.",
+    "history": "O Cadastro Nacional de Estabelecimentos de Saúde identifica a UPA Sacomã na Estrada das Lágrimas, 1403. O marcador é aproximado porque a fonte pública informa o endereço, não uma coordenada específica do portão.",
+    "source": "https://cnes2.datasus.gov.br/Mod_Ambulatorial.asp?VCo_Unidade=3550307272707",
+    "affects": [
+      "Cuidado",
+      "Urgência",
+      "Acesso"
+    ],
+    "feelings": "Cuidado, Urgência, Acesso",
+    "service": true,
+    "demo": false,
+    "complementary": true,
+    "recordType": "complementar",
+    "recordNo": 32,
+    "dateNote": "Endereço conferido no CNES; horários e fluxos devem ser atualizados antes da apresentação.",
     "reviewedAt": "2026-10-30"
   }
 ]
