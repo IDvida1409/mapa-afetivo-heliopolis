@@ -368,12 +368,12 @@
     "source": "https://fuabc.org.br/noticias/fundacao-do-abc-assume-gestao-de-urgencia-e-emergencia-no-hospital-heliopolis/",
     "demo": false,
     "service": true,
-    "history": "O Hospital Heliópolis é um equipamento de saúde situado na Rua Cônego Xavier. Sua presença no território se relaciona à busca por atendimento e às redes de cuidado das famílias. A cartografia registra o serviço e os sentidos associados a ele, sem presumir que todas as pessoas tenham a mesma experiência ao procurar ajuda.",
-    "historySource": "https://fuabc.org.br/noticias/fundacao-do-abc-assume-gestao-de-urgencia-e-emergencia-no-hospital-heliopolis/",
+  "history": "Em 1969, o IAPAS construiu o Hospital Heliópolis e o Posto de Assistência Médica (PAM). A presença desses equipamentos contribuiu para a formação da ocupação no entorno, quando trabalhadores das obras passaram a construir moradias no local. Hoje, o hospital é uma referência pública de cuidado; a cartografia registra o serviço sem presumir que todas as pessoas tenham a mesma experiência ao procurar ajuda.",
+  "historySource": "https://prefeitura.sp.gov.br/w/prefeitura-entrega-523-t%C3%ADtulos-de-regulariza%C3%A7%C3%A3o-de-im%C3%B3veis-em-heli%C3%B3polis-na-zona-sul",
     "recordType": "acervo",
     "recordNo": 11,
     "reviewedAt": "2026-10-16",
-    "dateNote": "Data de inauguração não confirmada nas fontes consultadas."
+  "dateNote": "Hospital e PAM construídos pelo IAPAS em 1969."
   },
   {
     "id": "iluminacao",
@@ -551,9 +551,10 @@
     "address": "Rua da Mina Central, 38",
     "photos": [
       {
-        "src": "assets/web/17-Grito-da-Diversidade-Referencia-UNAS.webp",
+      "src": "assets/web/19-radio-comunitaria-estudio.jpg",
         "alt": "Grito da Diversidade",
-        "source": "https://www.unas.org.br/single-post/movimentos-populares-da-unas-uma-luta-pela-transformacao-social-e-garantia-de-direitos"
+      "source": "https://www.unas.org.br/single-post/a-voz-das-mulheres-na-radio-comunitaria-de-heliopolis",
+      "credit": "Imagem do acervo sobre comunicação comunitária e diversidade"
       }
     ],
     "story": "Articulação comunitária LGBTQIA+ e luta por respeito. O movimento aparece como referência de apoio, participação e reconhecimento no território.",
@@ -974,10 +975,10 @@
     "address": "Estrada das Lágrimas, 2385 · dentro do CEU",
     "photos": [
       {
-        "src": "assets/web/02-CEU-Heliopolis.webp",
+      "src": "https://prefeitura.sp.gov.br/documents/34276/1452288/20220609_telecentro_ceu_heliopolis_mp_5097.jpg/a1928460-a89c-162a-77fa-ef26c0392907?t=1739561026789",
         "alt": "CEU Heliópolis, onde funciona o Telecentro",
         "source": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis",
-        "credit": "Imagem do complexo do CEU; o Telecentro funciona no local"
+      "credit": "Prefeitura de São Paulo · inauguração do Telecentro em 9 de junho de 2022"
       }
     ],
     "story": "Inclusão digital também é uma forma de acesso a direitos. O Telecentro oferece internet, cursos e apoio para currículo, trabalho e uso de tecnologias.",
@@ -1007,10 +1008,10 @@
     "address": "Av. Almirante Delamare, 3033 · Cidade Nova Heliópolis",
     "photos": [
       {
-        "src": "assets/web/11-Hospital-Heliopolis.webp",
-        "alt": "Hospital Heliópolis e referência da rede de saúde",
-        "source": "https://prefeitura.sp.gov.br/web/saude/w/prefeitura-presente-destaca-melhorias-e-amplia%C3%A7%C3%A3o-da-rede-de-sa%C3%BAde-no-ipiranga-onde-vivem-cerca-de-500-mil-pessoas",
-        "credit": "Imagem de referência do Hospital Heliópolis"
+        "src": "https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/heliopolis1.jpg",
+        "alt": "UBS Heliópolis no Espaço de Saúde Heliópolis",
+        "source": "https://prefeitura.sp.gov.br/web/saude/w/noticias/266420",
+        "credit": "Heloisa Ballarini / Prefeitura de São Paulo · 2018"
       }
     ],
     "story": "A rede de saúde aparece como cuidado cotidiano: Hospital, UBS Heliópolis, CAPS, CECCO e SIAT são serviços diferentes que se articulam no território.",
@@ -1025,7 +1026,7 @@
     "complementary": true,
     "recordType": "complementar",
     "recordNo": 29,
-    "dateNote": "Equipamentos e nomes de serviços conferidos em páginas oficiais; fluxos de atendimento devem ser atualizados antes da apresentação.",
+    "dateNote": "Espaço de Saúde Heliópolis ampliado em 2018; equipamentos e fluxos devem ser atualizados antes da apresentação.",
     "reviewedAt": "2026-10-30"
   },
   {
@@ -1038,6 +1039,14 @@
     ],
     "approx": true,
     "address": "Rua Capitão do Mato, 157 · Vila Heliópolis",
+    "photos": [
+      {
+        "src": "https://img.restaurantguru.com/c32d-Pub-and-bar-Maktub-Tabacariah-and-Pub-meals.jpg",
+        "alt": "Imagem pública associada ao Maktub Lounge",
+        "source": "https://restaurantguru.com/Maktub-lounge-bar-Sao-Paulo",
+        "credit": "Imagem pública do Restaurant Guru; endereço do ponto deve ser conferido"
+      }
+    ],
     "story": "Referência afetiva de lazer mencionada por Eduarda em sua entrevista. O ponto aparece como uma experiência individual de circulação, não como uma avaliação de todo o território.",
     "history": "A presença do Maktub Lounge nesta cartografia vem do relato de Eduarda, que o reconhece como um lugar ligado ao lazer em Heliópolis. A fonte pública é usada apenas para localizar o endereço; o significado afetivo vem da entrevista.",
     "source": "https://www.benditoguia.com.br/empresa/mansao-maktub-lounge-cidade-nova-heliopolis-sao-paulo-sp",
@@ -1125,7 +1134,7 @@
     "complementary": true,
     "recordType": "complementar",
     "recordNo": 32,
-    "dateNote": "Endereço conferido no CNES; horários e fluxos devem ser atualizados antes da apresentação.",
+    "dateNote": "Inaugurada em janeiro de 2025; horários e fluxos devem ser atualizados antes da apresentação.",
     "reviewedAt": "2026-10-30"
   },
   {
@@ -1142,10 +1151,10 @@
     "address": "Av. Almirante Delamare, 3033 · referência aproximada do núcleo de saúde",
     "photos": [
       {
-        "src": "assets/web/11-Hospital-Heliopolis.webp",
-        "alt": "Imagem de referência do núcleo de saúde de Heliópolis",
-        "source": "https://prefeitura.sp.gov.br/web/saude/w/heli%C3%B3polis-completa-53-anos-com-avan%C3%A7os-na-%C3%A1rea-da-sa%C3%BAde",
-        "credit": "Imagem de referência do núcleo de saúde; não é uma fachada específica do CAPS ou CECCO"
+        "src": "https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/heliopolis2.jpg",
+        "alt": "CAPS Infantojuvenil III Heliópolis",
+        "source": "https://prefeitura.sp.gov.br/web/saude/w/noticias/266420",
+        "credit": "Heloisa Ballarini / Prefeitura de São Paulo · 2018"
       }
     ],
     "story": "O CAPS Infantojuvenil III Heliópolis, o CAPS Adulto III Sacomã e o CECCO compõem a atenção psicossocial e a convivência da rede pública que atravessa o território.",
@@ -1179,10 +1188,10 @@
     "address": "Rua da Mina Central, 38 · sede da UNAS",
     "photos": [
       {
-        "src": "assets/web/05-UNAS-Sede-Central.webp",
-        "alt": "Sede da UNAS, onde a iniciativa é articulada",
+      "src": "assets/web/14-Cine-Favela.webp",
+      "alt": "Imagem de referência de cultura e juventude em Heliópolis",
         "source": "https://www.unas.org.br/juventude",
-        "credit": "Imagem de referência da sede da UNAS; o projeto funciona na rede da organização"
+      "credit": "Imagem de referência do território; o projeto é articulado pela rede da UNAS"
       }
     ],
     "story": "Projeto de prevenção ao HIV e a outras ISTs, com informação, testagem, métodos preventivos e cuidado integral para adolescentes e jovens de Heliópolis e região.",
