@@ -38,6 +38,7 @@
     "id": "ceu",
     "name": "CEU Heliópolis · Professora Arlete Persoli",
     "category": "Lazer",
+    "support": true,
     "coord": [
       -46.591395199999994,
       -23.62134655
@@ -51,7 +52,7 @@
         "source": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis"
       }
     ],
-    "story": "Educação, cultura, esporte e convivência em um mesmo espaço público. O CEU reúne atividades que ampliam os encontros e as possibilidades de lazer no território.",
+    "story": "Educação, cultura, esporte e convivência em um mesmo espaço público. O CEU reúne atividades que ampliam os encontros e as possibilidades de lazer no território — e aparece no relato de Eduarda como uma referência de circulação e participação.",
     "feelings": "convivência, encontro, alegria e pertencimento",
     "affects": [
       "Encontro",
@@ -61,7 +62,7 @@
     "source": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis",
     "demo": false,
     "service": true,
-    "history": "O antigo Centro de Convivência Educativa e Cultural foi transformado em CEU em 29 de abril de 2015, recebendo o nome da professora Arlete Persoli. Sua trajetória está ligada à mobilização comunitária pela educação e pela cultura. Na cartografia, o equipamento representa o direito de aprender, participar e ocupar os espaços públicos.",
+    "history": "O antigo Centro de Convivência Educativa e Cultural foi transformado em CEU em 29 de abril de 2015, recebendo o nome da professora Arlete Persoli. Sua trajetória está ligada à mobilização comunitária pela educação e pela cultura. Na cartografia, o equipamento representa o direito de aprender, participar e ocupar os espaços públicos; para Eduarda, foi também um lugar lembrado de esporte, cultura e convivência.",
     "historySource": "https://prefeitura.sp.gov.br/noticia/antigo-centro-de-convivencia-educativa-e-cultural",
     "since": "2015",
     "dateNote": "Transformação em CEU em 29 de abril de 2015; o complexo já existia anteriormente.",
@@ -311,6 +312,7 @@
     "id": "cca",
     "name": "CCA Heliópolis",
     "category": "Lazer",
+    "support": true,
     "coord": [
       -46.5964186,
       -23.6059209
@@ -324,7 +326,7 @@
         "source": "https://www.unas.org.br/single-post/quadra-esportiva-do-cca-heliopolis-e-reformada"
       }
     ],
-    "story": "Esporte e atividades socioeducativas aproximam crianças, adolescentes e famílias. A quadra é um espaço de convivência e de experiências compartilhadas.",
+    "story": "Esporte e atividades socioeducativas aproximam crianças, adolescentes e famílias. A quadra é um espaço de convivência e de experiências compartilhadas; Eduarda reconhece o CCA entre os projetos que fizeram parte de sua memória em Heliópolis.",
     "feelings": "alegria, amizade, convivência e cuidado",
     "affects": [
       "Convivência",
@@ -333,7 +335,7 @@
     "source": "https://www.unas.org.br/single-post/quadra-esportiva-do-cca-heliopolis-e-reformada",
     "demo": false,
     "service": true,
-    "history": "A quadra integra o Centro para Crianças e Adolescentes Heliópolis, vinculado à rede da UNAS. A organização registrou sua reforma e o retorno das atividades esportivas. No mapa afetivo, o espaço representa amizade, movimento e vínculos construídos durante as atividades.",
+    "history": "A quadra integra o Centro para Crianças e Adolescentes Heliópolis, vinculado à rede da UNAS. A organização registrou sua reforma e o retorno das atividades esportivas. No mapa afetivo, o espaço representa amizade, movimento e vínculos construídos durante as atividades. O relato de Eduarda ajuda a localizar esse equipamento como uma referência concreta de sua circulação no bairro, sem transformar o CCA em projeto exclusivo para pessoas trans.",
     "historySource": "https://www.unas.org.br/single-post/quadra-esportiva-do-cca-heliopolis-e-reformada",
     "recordType": "acervo",
     "recordNo": 10,
@@ -1235,6 +1237,40 @@
     "recordType": "referência de liderança",
     "recordNo": 35,
     "dateNote": "Referência narrativa baseada em reportagem publicada pela UNAS em 2025.",
+    "reviewedAt": "2026-10-30"
+  },
+  {
+    "id": "centro-lgbti-sul-edson-neris",
+    "name": "Centro de Referência LGBTI+ Sul Edson Néris",
+    "category": "Apoio",
+    "priority": 2,
+    "support": true,
+    "coord": null,
+    "approx": true,
+    "address": "Rede regional Sul · fora do núcleo de Heliópolis",
+    "photos": [
+      {
+        "src": "assets/web/19-centro-referencia-lgbti-edson-neris.jpg",
+        "alt": "Centro de Referência LGBTI+ Sul Edson Néris",
+        "source": "https://www.unas.org.br/single-post/10-anos-do-centro-de-referencia-lgbti-edson-neris",
+        "credit": "Douglas Cavalcante / UNAS"
+      }
+    ],
+    "story": "Referência regional de acolhimento, orientação e defesa de direitos LGBTI+. Entra na cartografia como uma possibilidade de encaminhamento para quem precisa de atendimento especializado, sem afirmar que esteja dentro do núcleo de Heliópolis.",
+    "history": "A UNAS registra a trajetória do Centro de Referência LGBTI+ Sul Edson Néris e sua atuação na rede de direitos. O ponto é apresentado com transparência como equipamento regional, fora do núcleo cartografado, para que a rede de apoio não fique restrita ao que tem endereço dentro do bairro.",
+    "source": "https://www.unas.org.br/single-post/10-anos-do-centro-de-referencia-lgbti-edson-neris",
+    "affects": [
+      "Direitos",
+      "Acolhimento",
+      "Encaminhamento"
+    ],
+    "feelings": "Direitos, Acolhimento, Encaminhamento",
+    "service": true,
+    "demo": false,
+    "complementary": true,
+    "recordType": "rede regional",
+    "recordNo": 36,
+    "dateNote": "Referência regional; endereço e fluxo devem ser confirmados antes da apresentação.",
     "reviewedAt": "2026-10-30"
   }
 ]
