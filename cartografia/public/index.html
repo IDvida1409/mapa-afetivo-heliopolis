@@ -5,7 +5,7 @@
 <title>Cartografia afetiva de Heliópolis</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="style.css?v=6">
 <link rel="stylesheet" href="card-aprovado.css?v=5">
 <link rel="stylesheet" href="card-integrado.css?v=8">
 <link rel="stylesheet" href="tour.css?v=10">
@@ -42,6 +42,20 @@
  <footer class="intro-footer"><span>UNIVERSIDADE CRUZEIRO DO SUL · CAMPUS PAULISTA</span><span>Cartografia afetiva e participativa <i class="trans-flag" aria-hidden="true"></i></span></footer>
 </main>
 <main id="territory-screen" hidden>
+ <section id="territory-brief" class="territory-brief" hidden aria-label="Conhecer Heliópolis">
+  <div class="territory-brief-shell">
+   <button id="brief-close" class="brief-close" aria-label="Fechar introdução">×</button>
+   <p class="eyebrow">ANTES DE ENTRAR NO MAPA</p>
+   <h2>Conhecer Heliópolis é conhecer uma história de organização.</h2>
+   <p class="brief-lead">O mapa reúne um recorte de 27 referências. Ele começa pela formação do território e chega às redes de educação, saúde, cultura, direitos, lazer e convivência que fazem parte da vida comunitária.</p>
+   <div class="brief-cards">
+    <article><img src="assets/web/figueira-lagrimas-referencia.webp" alt="Figueira das Lágrimas, referência histórica do entorno"><span>MEMÓRIA E TRANSFORMAÇÃO</span><h3>De ocupação e luta por moradia a um território reconhecido por suas conquistas comunitárias.</h3></article>
+    <article><img src="assets/web/02-CEU-Heliopolis.webp" alt="CEU Heliópolis"><span>BAIRRO EDUCADOR</span><h3>Escolas, CEU, telecentro, cultura e esporte aproximam direitos da vida cotidiana.</h3></article>
+    <article><img src="assets/web/05-UNAS-Sede-Central.webp" alt="Sede da UNAS"><span>REDE DE APOIO</span><h3>UNAS, O Grito da Diversidade, lideranças e comunicação comunitária fortalecem participação e direitos.</h3></article>
+   </div>
+   <div class="brief-footer"><small>17 referências do trabalho + 10 referências complementares · 9 categorias</small><button id="brief-enter" class="purple-button">Explorar o território <span>↗</span></button></div>
+  </div>
+ </section>
  <div class="territory-toolbar"><div><p class="eyebrow">UM TERRITÓRIO, MUITAS HISTÓRIAS</p><h1>Heliópolis <em>em primeira pessoa.</em></h1></div><div class="territory-totals"><span><b id="count-services">—</b> espaços e serviços</span><span><b id="count-places">—</b> locais e referências</span><span><b id="count-categories">—</b> categorias</span></div><div class="toolbar-actions"><button id="rail-toggle" class="text-button" aria-expanded="true">▥ Lugares</button><button id="illustration-toggle" class="text-button">Ilustração</button><button id="add-place" class="outline-button">+ Contribuir</button><button id="tour-start" class="purple-button">▶ Fazer um tour</button></div></div>
  <div class="territory-layout">
   <section class="territory-map" aria-label="Mapa interativo de Heliópolis">
@@ -62,5 +76,5 @@
 <dialog id="history-dialog" class="history-dialog"><button class="dialog-close" data-close="history-dialog" aria-label="Fechar história completa">×</button><div id="history-content"></div></dialog>
 <dialog id="methodology-dialog" class="methodology-dialog"><button class="dialog-close" data-close="methodology-dialog" aria-label="Fechar fontes e critérios">×</button><p class="eyebrow">PANORAMA 2026 · DADOS DE 2016–2025</p><h2>Fontes e critérios do mapa</h2><p>O mapa reúne registros publicados de assassinatos de pessoas trans. A soma das tabelas de cada UF compõe as cores do mapa. Os totais nacionais publicados aparecem no gráfico e no indicador principal.</p><div id="methodology-content"></div></dialog>
 <div id="toast" class="toast" role="status" hidden></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js?v=10"></script><script src="tour.js?v=10"></script><script src="aprovados.js?v=10"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js?v=11"></script><script src="tour.js?v=10"></script><script src="aprovados.js?v=10"></script>
 </body></html>
