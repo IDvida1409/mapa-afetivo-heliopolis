@@ -36,7 +36,7 @@
    <div class="national-breakdown"><div><b>10</b><span>anos de<br>levantamentos</span></div><div><b>27</b><span>unidades da<br>Federação</span></div></div>
    <p class="national-context" id="national-context">O mapa reúne os registros estaduais ao longo da década. Toque no estado para conhecer seu histórico.</p>
    <p class="data-note" id="reconciliation-note">1.382 registros nas tabelas de UF; diferença de 18 em relação aos totais nacionais publicados.</p><p class="data-note">Levantamentos de fontes distintas. Subnotificação pode ocorrer; redução dos registros não comprova redução da violência.</p>
-   <div class="territory-invitation"><div class="invitation-photos" aria-hidden="true"><img src="assets/web/05-UNAS-Sede-Central.webp" alt=""><img src="assets/web/02-CEU-Heliopolis.webp" alt=""></div><span>DO BRASIL A HELIÓPOLIS</span><h2>Onde a vida<br><em>encontra apoio.</em></h2><button id="explore" class="cream-button">Entrar no território <span>↗</span></button></div>
+<div class="territory-invitation"><div class="invitation-photos" aria-hidden="true"><img src="assets/web/05-UNAS-Sede-Central.webp" alt=""><img src="assets/web/02-CEU-Heliopolis.webp" alt=""></div><span>DO BRASIL A HELIÓPOLIS</span><h2>Conhecer<br><em>o território.</em></h2><button id="explore" class="cream-button">Conhecer o território <span>↗</span></button></div>
   </aside>
  </div>
  <footer class="intro-footer"><span>UNIVERSIDADE CRUZEIRO DO SUL · CAMPUS PAULISTA</span><span>Cartografia afetiva e participativa <i class="trans-flag" aria-hidden="true"></i></span></footer>
@@ -44,21 +44,60 @@
 <main id="territory-screen" hidden>
  <section id="territory-brief" class="territory-brief" hidden aria-label="Conhecer Heliópolis">
   <div class="territory-brief-shell">
-   <button id="brief-close" class="brief-close" aria-label="Fechar introdução">×</button>
-   <p class="eyebrow">CONHEÇA O TERRITÓRIO</p>
-   <h2>Heliópolis: uma história de luta, redes e transformação.</h2>
-   <p class="brief-lead">Antes de abrir o mapa afetivo, conheça rapidamente como o território se formou, quais equipamentos aproximam direitos do cotidiano e onde aparecem as redes de apoio para pessoas trans e LGBTQIA+.</p>
-   <div class="brief-story-grid">
-    <article class="brief-story-main"><img src="assets/web/figueira-lagrimas-referencia.webp" alt="Figueira das Lágrimas"><div><span>ORIGEM E MEMÓRIA</span><h3>Dos alojamentos provisórios à organização comunitária</h3><p>Heliópolis se formou nos anos 1970. A permanência no território e a conquista de infraestrutura foram construídas por mobilização dos moradores.</p></div></article>
-    <article><span>1978</span><h3>Nasce a UNAS</h3><p>A luta por moradia se amplia para educação, cultura, saúde, assistência e direitos.</p></article>
-    <article><span>HOJE</span><h3>Bairro Educador</h3><p>CEU, escolas, telecentro, biblioteca, projetos e movimentos conectam formação, convivência e participação.</p></article>
-    <article><span>REDE TRANS</span><h3>Direitos e pertencimento</h3><p>UNAS, O Grito da Diversidade, Rádio Heliópolis e lideranças ajudam a tornar visíveis pautas de gênero, sexualidade e respeito.</p></article>
+   <div class="brief-topbar"><button id="brief-back" class="brief-back">← Voltar ao Brasil</button><span id="brief-count">01 / 04</span><button id="brief-close" class="brief-close" aria-label="Fechar introdução">×</button></div>
+   <div class="brief-progress" aria-hidden="true"><i id="brief-progress-bar"></i></div>
+   <div class="brief-panel is-active" data-brief-panel="1">
+    <p class="eyebrow">CONHEÇA O TERRITÓRIO</p>
+    <h2>Heliópolis: uma história de luta, redes e transformação</h2>
+    <div class="timeline-strip" role="tablist" aria-label="Linha do tempo de Heliópolis">
+     <button class="timeline-node" data-timeline="1969"><b>1969</b><span>Hospital e PAM</span></button>
+     <button class="timeline-node active" data-timeline="1971"><b>1971–72</b><span>Famílias chegam aos alojamentos</span></button>
+     <button class="timeline-node" data-timeline="1978"><b>1978</b><span>Nasce a UNAS</span></button>
+     <button class="timeline-node" data-timeline="1987"><b>1987</b><span>Urbanização e COHAB</span></button>
+     <button class="timeline-node" data-timeline="1992"><b>1992</b><span>Rádio Comunitária</span></button>
+     <button class="timeline-node" data-timeline="1998"><b>1998–2012</b><span>Movimento LGBT</span></button>
+     <button class="timeline-node" data-timeline="2006"><b>2006</b><span>Cidade Nova Heliópolis</span></button>
+     <button class="timeline-node" data-timeline="hoje"><b>Hoje</b><span>Redes e transformação</span></button>
+    </div>
+    <article class="timeline-card" id="timeline-card" hidden><span>SELECIONE UM MARCO</span><h3>Toque em um ano para abrir a história</h3><p>A linha do tempo reúne os momentos que ajudam a entender a formação e as transformações de Heliópolis.</p></article>
    </div>
-   <div class="brief-stats"><strong>29</strong><span>pontos atuais do mapa</span><strong>17</strong><span>registros do trabalho</span><strong>+12</strong><span>pontos complementares</span></div>
-   <div class="brief-footer"><small>Os números indicam o recorte do mapa, não um cadastro completo de Heliópolis.</small><button id="brief-enter" class="purple-button">Abrir o mapa afetivo <span>↗</span></button></div>
+   <div class="brief-panel" data-brief-panel="2">
+    <p class="eyebrow">UM TERRITÓRIO CONCRETO</p>
+    <h2>Quem vive aqui e o que existe hoje?</h2>
+    <div class="territory-data-grid">
+     <article><strong>55.583</strong><span>moradores registrados pelo Censo 2022 no recorte de Heliópolis</span></article>
+     <button class="territory-data-card" data-brief-category="Educação"><strong id="brief-education-count">—</strong><span>educação · clique para conhecer os espaços</span></button>
+     <button class="territory-data-card" data-brief-category="Saúde"><strong id="brief-health-count">—</strong><span>saúde · clique para conhecer os equipamentos</span></button>
+     <button class="territory-data-card" data-brief-category="Cultura"><strong id="brief-culture-count">—</strong><span>cultura · clique para conhecer os lugares</span></button>
+    </div>
+    <div id="brief-category-breakdown" class="brief-category-breakdown" aria-label="Categorias do levantamento"></div>
+    <div id="brief-category-detail" class="brief-category-detail" hidden></div>
+    <p class="brief-note">O número de moradores é do Censo 2022. O mapa não inventa uma quantidade de pessoas trans: esse dado não está disponível para o recorte estudado.</p>
+   </div>
+   <div class="brief-panel" data-brief-panel="3">
+    <p class="eyebrow">O QUE A COMUNIDADE CONSTRUIU</p>
+    <h2>Educação, comunicação, cultura e cuidado.</h2>
+    <div class="territory-offer-grid">
+     <article><b>CEU Heliópolis</b><p>Um complexo com escolas, biblioteca, telecentro, cursos, piscinas, quadras e atividades culturais.</p></article>
+     <article><b>UNAS e projetos sociais</b><p>Organização comunitária que articula educação, assistência, cultura, trabalho, direitos e participação.</p></article>
+     <article><b>Rádio Heliópolis</b><p>Comunicação feita no território, próxima das pessoas, que divulga informações, serviços e mobilizações.</p></article>
+     <article><b>CCA e Baccarelli</b><p>Espaços de convivência, formação, música, esporte, alimentação e construção de oportunidades.</p></article>
+    </div>
+    <p class="brief-lead compact">Esses equipamentos não são apresentados como “projetos trans”. Eles fazem parte do território que a população trans precisa percorrer, ocupar e avaliar a partir de suas próprias experiências.</p>
+   </div>
+   <div class="brief-panel" data-brief-panel="4">
+    <p class="eyebrow">POR QUE ESTE MAPA É AFETIVO?</p>
+    <h2>As experiências que orientaram a cartografia.</h2>
+    <div class="experience-grid">
+     <article><span>UMA EXPERIÊNCIA DE MORADIA</span><h3>Uma mulher trans que viveu em Heliópolis</h3><p>O relato de uma ex-moradora apresentou os lugares que fizeram sentido em sua trajetória e comparou as possibilidades de convivência, projetos e circulação de Heliópolis com o bairro onde vive atualmente.</p></article>
+     <article><span>UMA LIDERANÇA NO TERRITÓRIO</span><h3>Uma mulher trans, professora e comunicadora</h3><p>Sua atuação mostra como uma liderança pode participar da educação, da comunicação comunitária e da defesa da diversidade, criando espaços de reconhecimento e participação.</p></article>
+    </div>
+    <p class="brief-lead compact">Agora vamos conhecer os lugares que ganharam significado nessa cartografia: suas histórias, imagens, afetos, redes de apoio e também as tensões que atravessam a vida comunitária.</p>
+   </div>
+   <div class="brief-footer"><button id="brief-prev" class="outline-button" hidden>← Anterior</button><small id="brief-hint">Linha do tempo · clique em um ano</small><button id="brief-next" class="purple-button">Avançar <span>→</span></button><button id="brief-enter" class="purple-button" hidden>Conhecer os lugares <span>↗</span></button></div>
   </div>
  </section>
- <div class="territory-toolbar"><div><p class="eyebrow">UM TERRITÓRIO, MUITAS HISTÓRIAS</p><h1>Heliópolis <em>em primeira pessoa.</em></h1></div><div class="territory-totals"><span><b id="count-services">—</b> espaços e serviços</span><span><b id="count-places">—</b> locais e referências</span><span><b id="count-categories">—</b> categorias</span></div><div class="toolbar-actions"><button id="rail-toggle" class="text-button" aria-expanded="true">▥ Lugares</button><button id="illustration-toggle" class="text-button">Rede de apoio</button><button id="add-place" class="outline-button">+ Contribuir</button><button id="tour-start" class="purple-button">▶ Fazer um tour</button></div></div>
+ <div class="territory-toolbar"><button id="territory-back" class="back-territory">← Brasil</button><div><p class="eyebrow">MAPA AFETIVO · HELIÓPOLIS</p><h1>Conheça os lugares <em>que fazem sentido.</em></h1></div><div class="territory-totals"><span><b id="count-services">—</b> espaços e serviços</span><span><b id="count-places">—</b> locais e referências</span><span><b id="count-categories">—</b> categorias</span></div><div class="toolbar-actions"><button id="rail-toggle" class="text-button" aria-expanded="true">▥ Lugares</button><button id="illustration-toggle" class="text-button">Rede de apoio</button><button id="add-place" class="outline-button">+ Contribuir</button><button id="tour-start" class="purple-button">▶ Fazer um tour</button></div></div>
  <div class="territory-layout">
   <section class="territory-map" aria-label="Mapa interativo de Heliópolis">
    <div id="map"></div><div class="map-vignette" aria-hidden="true"></div>
