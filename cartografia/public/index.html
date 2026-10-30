@@ -49,23 +49,27 @@
    <div class="brief-panel is-active" data-brief-panel="1">
     <p class="eyebrow">CONHEÇA O TERRITÓRIO</p>
     <h2>Heliópolis: uma história de luta, redes e transformação</h2>
-    <div class="timeline-strip" role="tablist" aria-label="Linha do tempo de Heliópolis">
-     <button class="timeline-node" data-timeline="1969"><b>1969</b><span>Hospital e PAM</span></button>
-     <button class="timeline-node active" data-timeline="1971"><b>1971–72</b><span>Famílias chegam aos alojamentos</span></button>
+    <p class="brief-lead timeline-intro">Clique nos marcos para acompanhar como o território se formou, se organizou e criou suas próprias redes.</p>
+    <div class="timeline-stage">
+     <div class="timeline-strip" role="tablist" aria-label="Linha do tempo de Heliópolis">
+     <button class="timeline-node active" data-timeline="1969"><b>1969</b><span>Hospital e PAM</span></button>
+     <button class="timeline-node" data-timeline="1971"><b>1971–72</b><span>Famílias chegam aos alojamentos</span></button>
      <button class="timeline-node" data-timeline="1978"><b>1978</b><span>Nasce a UNAS</span></button>
      <button class="timeline-node" data-timeline="1987"><b>1987</b><span>Urbanização e COHAB</span></button>
      <button class="timeline-node" data-timeline="1992"><b>1992</b><span>Rádio Comunitária</span></button>
      <button class="timeline-node" data-timeline="1998"><b>1998–2012</b><span>Movimento LGBT</span></button>
      <button class="timeline-node" data-timeline="2006"><b>2006</b><span>Cidade Nova Heliópolis</span></button>
      <button class="timeline-node" data-timeline="hoje"><b>Hoje</b><span>Redes e transformação</span></button>
+     </div>
+     <article class="timeline-card" id="timeline-card" hidden><span>SELECIONE UM MARCO</span><h3>Toque em um ano para abrir a história</h3><p>A linha do tempo reúne os momentos que ajudam a entender a formação e as transformações de Heliópolis.</p></article>
     </div>
-    <article class="timeline-card" id="timeline-card" hidden><span>SELECIONE UM MARCO</span><h3>Toque em um ano para abrir a história</h3><p>A linha do tempo reúne os momentos que ajudam a entender a formação e as transformações de Heliópolis.</p></article>
    </div>
    <div class="brief-panel" data-brief-panel="2">
     <p class="eyebrow">UM TERRITÓRIO CONCRETO</p>
-    <h2>Quem vive aqui e o que existe hoje?</h2>
+    <h2>Heliópolis hoje: população, lugares e redes</h2>
     <div class="territory-data-grid">
-     <article><strong>55.583</strong><span>moradores registrados pelo Censo 2022 no recorte de Heliópolis</span></article>
+     <article><strong>55.583</strong><span>moradores no recorte de Heliópolis registrado pelo Censo 2022</span></article>
+     <button class="territory-data-card" data-brief-category="Todos"><strong id="brief-place-count">—</strong><span>referências no mapa atual · clique para abrir os cards</span></button>
      <button class="territory-data-card" data-brief-category="Educação"><strong id="brief-education-count">—</strong><span>educação · clique para conhecer os espaços</span></button>
      <button class="territory-data-card" data-brief-category="Saúde"><strong id="brief-health-count">—</strong><span>saúde · clique para conhecer os equipamentos</span></button>
      <button class="territory-data-card" data-brief-category="Cultura"><strong id="brief-culture-count">—</strong><span>cultura · clique para conhecer os lugares</span></button>
@@ -79,8 +83,8 @@
     <h2>Educação, comunicação, cultura e cuidado.</h2>
     <div class="territory-offer-grid">
      <article><b>CEU Heliópolis</b><p>Um complexo com escolas, biblioteca, telecentro, cursos, piscinas, quadras e atividades culturais.</p></article>
-     <article><b>UNAS e projetos sociais</b><p>Organização comunitária que articula educação, assistência, cultura, trabalho, direitos e participação.</p></article>
-     <article><b>Rádio Heliópolis</b><p>Comunicação feita no território, próxima das pessoas, que divulga informações, serviços e mobilizações.</p></article>
+     <article><b>UNAS e projetos sociais</b><p>A UNAS é a União de Núcleos, Associações dos Moradores de Heliópolis e Região. Surgiu da luta por moradia e articula educação, assistência, cultura, trabalho, direitos e participação.</p></article>
+     <article><b>Rádio Heliópolis</b><p>Nascida da comunicação comunitária conhecida como Rádio Corneta, a rádio aproxima informação, serviços, mobilizações e pautas de diversidade.</p></article>
      <article><b>CCA e Baccarelli</b><p>Espaços de convivência, formação, música, esporte, alimentação e construção de oportunidades.</p></article>
     </div>
     <p class="brief-lead compact">Esses equipamentos não são apresentados como “projetos trans”. Eles fazem parte do território que a população trans precisa percorrer, ocupar e avaliar a partir de suas próprias experiências.</p>
@@ -119,3 +123,4 @@
 <div id="toast" class="toast" role="status" hidden></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js?v=12"></script><script src="tour.js?v=10"></script><script src="aprovados.js?v=10"></script>
 </body></html>
+
