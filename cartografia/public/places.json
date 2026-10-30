@@ -1127,6 +1127,43 @@
     "reviewedAt": "2026-10-30"
   },
   {
+    "id": "caps-cecco-heliopolis",
+    "name": "CAPS e CECCO Heliópolis",
+    "category": "Saúde",
+    "priority": 1,
+    "support": true,
+    "coord": [
+      -46.5933797,
+      -23.6087221
+    ],
+    "approx": true,
+    "address": "Av. Almirante Delamare, 3033 · referência aproximada do núcleo de saúde",
+    "photos": [
+      {
+        "src": "assets/web/11-Hospital-Heliopolis.webp",
+        "alt": "Imagem de referência do núcleo de saúde de Heliópolis",
+        "source": "https://prefeitura.sp.gov.br/web/saude/w/heli%C3%B3polis-completa-53-anos-com-avan%C3%A7os-na-%C3%A1rea-da-sa%C3%BAde",
+        "credit": "Imagem de referência do núcleo de saúde; não é uma fachada específica do CAPS ou CECCO"
+      }
+    ],
+    "story": "O CAPS Infantojuvenil III Heliópolis, o CAPS Adulto III Sacomã e o CECCO compõem a atenção psicossocial e a convivência da rede pública que atravessa o território.",
+    "history": "A Prefeitura lista dois CAPS, um CECCO, o SIAT III e cinco UBS entre os dez equipamentos públicos de saúde da rede territorial. Este card reúne CAPS e CECCO para explicar a rede de cuidado em liberdade; não são serviços exclusivos para pessoas trans, mas são portas públicas que podem ser acessadas conforme a necessidade e o fluxo de atendimento.",
+    "source": "https://prefeitura.sp.gov.br/web/saude/w/heli%C3%B3polis-completa-53-anos-com-avan%C3%A7os-na-%C3%A1rea-da-sa%C3%BAde",
+    "affects": [
+      "Saúde mental",
+      "Cuidado",
+      "Convivência"
+    ],
+    "feelings": "Saúde mental, Cuidado, Convivência",
+    "service": true,
+    "demo": false,
+    "complementary": true,
+    "recordType": "equipamento público",
+    "recordNo": 33,
+    "dateNote": "Card agrupado para apresentação; endereço exato de cada serviço deve ser conferido antes da fala.",
+    "reviewedAt": "2026-10-30"
+  },
+  {
     "id": "investindo-na-vida",
     "name": "Heliópolis Investindo na Vida",
     "category": "Apoio",
@@ -1159,7 +1196,7 @@
     "demo": false,
     "complementary": true,
     "recordType": "projeto de apoio",
-    "recordNo": 33,
+    "recordNo": 34,
     "dateNote": "Projeto identificado na página de Juventude da UNAS; calendário e formas de acesso devem ser confirmados.",
     "reviewedAt": "2026-10-30"
   },
@@ -1196,7 +1233,7 @@
     "demo": false,
     "complementary": true,
     "recordType": "referência de liderança",
-    "recordNo": 34,
+    "recordNo": 35,
     "dateNote": "Referência narrativa baseada em reportagem publicada pela UNAS em 2025.",
     "reviewedAt": "2026-10-30"
   }
