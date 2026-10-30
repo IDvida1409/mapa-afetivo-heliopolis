@@ -955,5 +955,69 @@
     "photoNote": "Registro de uma manifestação cultural que ocupa diferentes ruas. A fotografia não identifica uma sede fixa.",
     "reviewedAt": "2026-10-16",
     "locationSource": "https://noticias.r7.com/sao-paulo/madrugada-de-natal-e-marcado-por-varios-bailes-funks-em-sp-25122023/"
+  },
+  {
+    "id": "telecentro-ceu",
+    "name": "Telecentro do CEU Heliópolis",
+    "category": "Apoio",
+    "priority": 1,
+    "coord": [
+      -46.5913952,
+      -23.62134655
+    ],
+    "address": "Estrada das Lágrimas, 2385 · dentro do CEU",
+    "photos": [
+      {
+        "src": "assets/web/02-CEU-Heliopolis.webp",
+        "alt": "CEU Heliópolis, onde funciona o Telecentro",
+        "source": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis",
+        "credit": "Imagem do complexo do CEU; o Telecentro funciona no local"
+      }
+    ],
+    "story": "Inclusão digital também é uma forma de acesso a direitos. O Telecentro oferece internet, cursos e apoio para currículo, trabalho e uso de tecnologias.",
+    "history": "O Telecentro do CEU Heliópolis foi entregue em 2022. A unidade oferece acesso à internet, letramento digital e oficinas de elaboração de currículo, atendendo pessoas de diferentes idades.",
+    "historySource": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis",
+    "source": "https://prefeitura.sp.gov.br/w/noticia/novo-telecentro-e-entregue-no-ceu-heliopolis",
+    "affects": ["Acesso", "Formação", "Trabalho"],
+    "feelings": "Acesso, Formação, Trabalho",
+    "service": true,
+    "demo": false,
+    "complementary": true,
+    "recordType": "complementar",
+    "recordNo": 28,
+    "dateNote": "Equipamento entregue em 2022; programação e horários devem ser conferidos antes da apresentação.",
+    "reviewedAt": "2026-10-30"
+  },
+  {
+    "id": "complexo-saude-heliopolis",
+    "name": "Complexo de Saúde Heliópolis",
+    "category": "Saúde",
+    "priority": 1,
+    "coord": [
+      -46.5933797,
+      -23.6087221
+    ],
+    "address": "Av. Almirante Delamare, 3033 · Cidade Nova Heliópolis",
+    "photos": [
+      {
+        "src": "assets/web/11-Hospital-Heliopolis.webp",
+        "alt": "Hospital Heliópolis e referência da rede de saúde",
+        "source": "https://prefeitura.sp.gov.br/web/saude/w/prefeitura-presente-destaca-melhorias-e-amplia%C3%A7%C3%A3o-da-rede-de-sa%C3%BAde-no-ipiranga-onde-vivem-cerca-de-500-mil-pessoas",
+        "credit": "Imagem de referência do Hospital Heliópolis"
+      }
+    ],
+    "story": "A rede de saúde aparece como cuidado cotidiano: Hospital, UBS Heliópolis, CAPS, CECCO e SIAT são serviços diferentes que se articulam no território.",
+    "history": "O Complexo de Saúde Heliópolis reúne serviços de atenção e cuidado, entre eles a UBS Heliópolis, o CAPS AD III Heliópolis, o CAPS Infantojuvenil III Heliópolis e o CECCO. O mapa apresenta o conjunto como uma referência de saúde, sem transformar todos os serviços em projetos exclusivos para pessoas trans.",
+    "historySource": "https://prefeitura.sp.gov.br/web/saude/w/prefeitura-presente-destaca-melhorias-e-amplia%C3%A7%C3%A3o-da-rede-de-sa%C3%BAde-no-ipiranga-onde-vivem-cerca-de-500-mil-pessoas",
+    "source": "https://prefeitura.sp.gov.br/web/saude/w/coordenadorias-regionais-de-saude-sudeste",
+    "affects": ["Cuidado", "Saúde", "Acesso"],
+    "feelings": "Cuidado, Saúde, Acesso",
+    "service": true,
+    "demo": false,
+    "complementary": true,
+    "recordType": "complementar",
+    "recordNo": 29,
+    "dateNote": "Equipamentos e nomes de serviços conferidos em páginas oficiais; fluxos de atendimento devem ser atualizados antes da apresentação.",
+    "reviewedAt": "2026-10-30"
   }
 ]

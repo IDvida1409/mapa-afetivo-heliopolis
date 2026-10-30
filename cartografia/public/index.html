@@ -45,18 +45,20 @@
  <section id="territory-brief" class="territory-brief" hidden aria-label="Conhecer Heliópolis">
   <div class="territory-brief-shell">
    <button id="brief-close" class="brief-close" aria-label="Fechar introdução">×</button>
-   <p class="eyebrow">ANTES DE ENTRAR NO MAPA</p>
-   <h2>Conhecer Heliópolis é conhecer uma história de organização.</h2>
-   <p class="brief-lead">O mapa reúne um recorte de 27 referências. Ele começa pela formação do território e chega às redes de educação, saúde, cultura, direitos, lazer e convivência que fazem parte da vida comunitária.</p>
-   <div class="brief-cards">
-    <article><img src="assets/web/figueira-lagrimas-referencia.webp" alt="Figueira das Lágrimas, referência histórica do entorno"><span>MEMÓRIA E TRANSFORMAÇÃO</span><h3>De ocupação e luta por moradia a um território reconhecido por suas conquistas comunitárias.</h3></article>
-    <article><img src="assets/web/02-CEU-Heliopolis.webp" alt="CEU Heliópolis"><span>BAIRRO EDUCADOR</span><h3>Escolas, CEU, telecentro, cultura e esporte aproximam direitos da vida cotidiana.</h3></article>
-    <article><img src="assets/web/05-UNAS-Sede-Central.webp" alt="Sede da UNAS"><span>REDE DE APOIO</span><h3>UNAS, O Grito da Diversidade, lideranças e comunicação comunitária fortalecem participação e direitos.</h3></article>
+   <p class="eyebrow">CONHEÇA O TERRITÓRIO</p>
+   <h2>Heliópolis: uma história de luta, redes e transformação.</h2>
+   <p class="brief-lead">Antes de abrir o mapa afetivo, conheça rapidamente como o território se formou, quais equipamentos aproximam direitos do cotidiano e onde aparecem as redes de apoio para pessoas trans e LGBTQIA+.</p>
+   <div class="brief-story-grid">
+    <article class="brief-story-main"><img src="assets/web/figueira-lagrimas-referencia.webp" alt="Figueira das Lágrimas"><div><span>ORIGEM E MEMÓRIA</span><h3>Dos alojamentos provisórios à organização comunitária</h3><p>Heliópolis se formou nos anos 1970. A permanência no território e a conquista de infraestrutura foram construídas por mobilização dos moradores.</p></div></article>
+    <article><span>1978</span><h3>Nasce a UNAS</h3><p>A luta por moradia se amplia para educação, cultura, saúde, assistência e direitos.</p></article>
+    <article><span>HOJE</span><h3>Bairro Educador</h3><p>CEU, escolas, telecentro, biblioteca, projetos e movimentos conectam formação, convivência e participação.</p></article>
+    <article><span>REDE TRANS</span><h3>Direitos e pertencimento</h3><p>UNAS, O Grito da Diversidade, Rádio Heliópolis e lideranças ajudam a tornar visíveis pautas de gênero, sexualidade e respeito.</p></article>
    </div>
-   <div class="brief-footer"><small>17 referências do trabalho + 10 referências complementares · 9 categorias</small><button id="brief-enter" class="purple-button">Explorar o território <span>↗</span></button></div>
+   <div class="brief-stats"><strong>29</strong><span>pontos atuais do mapa</span><strong>17</strong><span>registros do trabalho</span><strong>+12</strong><span>pontos complementares</span></div>
+   <div class="brief-footer"><small>Os números indicam o recorte do mapa, não um cadastro completo de Heliópolis.</small><button id="brief-enter" class="purple-button">Abrir o mapa afetivo <span>↗</span></button></div>
   </div>
  </section>
- <div class="territory-toolbar"><div><p class="eyebrow">UM TERRITÓRIO, MUITAS HISTÓRIAS</p><h1>Heliópolis <em>em primeira pessoa.</em></h1></div><div class="territory-totals"><span><b id="count-services">—</b> espaços e serviços</span><span><b id="count-places">—</b> locais e referências</span><span><b id="count-categories">—</b> categorias</span></div><div class="toolbar-actions"><button id="rail-toggle" class="text-button" aria-expanded="true">▥ Lugares</button><button id="illustration-toggle" class="text-button">Ilustração</button><button id="add-place" class="outline-button">+ Contribuir</button><button id="tour-start" class="purple-button">▶ Fazer um tour</button></div></div>
+ <div class="territory-toolbar"><div><p class="eyebrow">UM TERRITÓRIO, MUITAS HISTÓRIAS</p><h1>Heliópolis <em>em primeira pessoa.</em></h1></div><div class="territory-totals"><span><b id="count-services">—</b> espaços e serviços</span><span><b id="count-places">—</b> locais e referências</span><span><b id="count-categories">—</b> categorias</span></div><div class="toolbar-actions"><button id="rail-toggle" class="text-button" aria-expanded="true">▥ Lugares</button><button id="illustration-toggle" class="text-button">Rede de apoio</button><button id="add-place" class="outline-button">+ Contribuir</button><button id="tour-start" class="purple-button">▶ Fazer um tour</button></div></div>
  <div class="territory-layout">
   <section class="territory-map" aria-label="Mapa interativo de Heliópolis">
    <div id="map"></div><div class="map-vignette" aria-hidden="true"></div>
@@ -66,7 +68,7 @@
    <div id="placement-hint" class="placement-hint" hidden>Toque no mapa para marcar o lugar <button id="placement-cancel">Cancelar</button></div>
    <section id="tour-controls" class="tour-controls" aria-label="Controles do tour" hidden><div><span class="live-dot" aria-hidden="true"></span><p><b id="tour-title">Histórias do território</b><small id="tour-location"></small></p><span id="tour-count" aria-live="polite"></span></div><div class="tour-progress"><i id="tour-progress"></i></div><div class="tour-buttons"><button id="tour-pause">Pausar</button><button id="tour-next" aria-label="Ir ao próximo lugar">Próximo →</button><button id="tour-exit" aria-label="Fechar tour e voltar à navegação">Fechar tour ×</button></div></section>
    <article id="place-card" class="place-card" hidden></article>
-   <div id="map-notice" class="map-notice">17 registros do trabalho + 10 referências de comércio, cultura, lazer e memória</div>
+   <div id="map-notice" class="map-notice">17 registros do trabalho + 12 pontos complementares de apoio, cultura, lazer e memória</div>
   </section>
  </div>
 </main>
@@ -76,5 +78,5 @@
 <dialog id="history-dialog" class="history-dialog"><button class="dialog-close" data-close="history-dialog" aria-label="Fechar história completa">×</button><div id="history-content"></div></dialog>
 <dialog id="methodology-dialog" class="methodology-dialog"><button class="dialog-close" data-close="methodology-dialog" aria-label="Fechar fontes e critérios">×</button><p class="eyebrow">PANORAMA 2026 · DADOS DE 2016–2025</p><h2>Fontes e critérios do mapa</h2><p>O mapa reúne registros publicados de assassinatos de pessoas trans. A soma das tabelas de cada UF compõe as cores do mapa. Os totais nacionais publicados aparecem no gráfico e no indicador principal.</p><div id="methodology-content"></div></dialog>
 <div id="toast" class="toast" role="status" hidden></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js?v=11"></script><script src="tour.js?v=10"></script><script src="aprovados.js?v=10"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js?v=12"></script><script src="tour.js?v=10"></script><script src="aprovados.js?v=10"></script>
 </body></html>
