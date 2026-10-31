@@ -5,7 +5,7 @@
 .card-header{right:10px;top:10px;padding:0;height:26px;background:transparent;border:0;border-radius:50%;z-index:4}
 .card-header>span{display:none}.card-header button{width:26px;height:26px;border-radius:50%;background:#fcfaf6dd;color:#657a73;font:20px/1 var(--font);border:1px solid #cbd4cc}
 .card-photo,.demo-picture{grid-column:1;grid-row:1;border-radius:16px 0 0 16px;margin:1px 0 1px 1px}
-.card-photo figcaption{font-size:9px;bottom:13px;left:17px}.card-photo:after{inset:70% 0 0;background:linear-gradient(transparent,#10241a75)}
+.card-photo figcaption{display:none}.card-photo:after{inset:70% 0 0;background:linear-gradient(transparent,#10241a75)}
 .photo-nav{border-radius:5px;overflow:hidden;background:#fcfaf6e6}.photo-zoom{top:auto;bottom:12px;right:12px;font-size:10px}
 .card-body{grid-column:2;grid-row:1;display:flex;flex-direction:column;justify-content:center;padding:24px 28px;overflow:auto;color:#183c3a}
 .card-body .eyebrow{color:#4c6968;font-size:9px;letter-spacing:1.4px}.card-body h2{font-size:38px;line-height:1.1;color:#102f2f;margin:17px 0 9px;letter-spacing:-.6px}.card-address{font-size:13px;color:#557073;line-height:1.5}
