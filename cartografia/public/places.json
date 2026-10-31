@@ -611,7 +611,6 @@
     "recordType": "complementar",
     "recordNo": 18,
     "dateNote": "A história do comércio é usada como referência de alimentação, trabalho e convivência; não indica uma data confirmada de inauguração.",
-    "photoNote": "Imagem de referência do local. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
@@ -649,7 +648,6 @@
     "recordType": "complementar",
     "recordNo": 19,
     "dateNote": "Endereço conferido no registro público do estabelecimento, consultado em outubro de 2026.",
-    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
@@ -687,7 +685,6 @@
     "recordType": "complementar",
     "recordNo": 20,
     "dateNote": "Referência comercial consultada em outubro de 2026. O ponto indica aproximadamente o endereço publicado.",
-    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
@@ -725,7 +722,6 @@
     "recordType": "complementar",
     "recordNo": 21,
     "dateNote": "Fotografia publicada no portfólio da obra em 2018; não representa uma data de inauguração confirmada.",
-    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
@@ -763,7 +759,6 @@
     "recordType": "complementar",
     "recordNo": 22,
     "dateNote": "2022: anúncio da revitalização. 2023: partidas da Taça das Favelas registradas na fotografia.",
-    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16",
     "additionalSources": [
       {
@@ -807,7 +802,6 @@
     "recordType": "complementar",
     "recordNo": 23,
     "dateNote": "Projeto anunciado em 2021. Fotografia de 2024. Visita oficial às obras registrada em 25/09/2026.",
-    "photoNote": "Fotografia histórica da obra em 2024, sem representar a situação atual de todo o parque.",
     "reviewedAt": "2026-10-16"
   },
   {
@@ -845,7 +839,6 @@
     "recordType": "complementar",
     "recordNo": 24,
     "dateNote": "2009: registro fotográfico. 30/01/2020: publicação da entrega da praça revitalizada.",
-    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
@@ -883,7 +876,6 @@
     "recordType": "complementar",
     "recordNo": 25,
     "dateNote": "Fundação da paróquia: 29/06/1953, segundo a Arquidiocese de São Paulo.",
-    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
@@ -921,7 +913,6 @@
     "recordType": "complementar",
     "recordNo": 26,
     "dateNote": "Inauguração: 19/10/2023. O ponto usa a referência aproximada da quadra da UNAS, publicada pela organização.",
-    "photoNote": "Fotografia de referência publicada em fonte pública, com crédito e contexto. Não foi produzida pelo grupo.",
     "reviewedAt": "2026-10-16"
   },
   {
@@ -959,7 +950,6 @@
     "recordType": "complementar",
     "recordNo": 27,
     "dateNote": "Trajetória documentada entre 2000 e 2010 e expansão a partir de 2010. Registro cultural, sem agenda de eventos.",
-    "photoNote": "Registro de uma manifestação cultural que ocupa diferentes ruas. A fotografia não identifica uma sede fixa.",
     "reviewedAt": "2026-10-16",
     "locationSource": "https://noticias.r7.com/sao-paulo/madrugada-de-natal-e-marcado-por-varios-bailes-funks-em-sp-25122023/"
   },
@@ -1075,7 +1065,14 @@
     ],
     "approx": true,
     "address": "Rua Coronel Silva Castro, 151 · Cidade Nova Heliópolis",
-    "photos": [],
+    "photos": [
+      {
+        "src": "https://ipiranganews.inf.br/wp-content/uploads/Heliopolis-4.jpg",
+        "alt": "Ação comunitária da CUFA em Heliópolis",
+        "source": "https://ipiranganews.inf.br/fotografo-retrata-cotidiano-de-moradores-de-heliopolis-me-meio-a-pandemia/",
+        "credit": "André Pera / Ipiranga News · 2020"
+      }
+    ],
     "story": "Ponto de ação social e cultural ligado à CUFA e ao Instituto Heliópolis Forte. Entra no mapa como uma referência complementar de cuidado, direitos e iniciativas comunitárias.",
     "history": "Registros públicos identificam a CUFA Heliópolis neste endereço e documentam projetos como o Sentir-se Bem em Movimento. O card não afirma que a iniciativa seja exclusiva para pessoas trans; ela integra a rede comunitária que pode ser acessada por diferentes moradores.",
     "source": "https://www.prefeitura.sp.gov.br/cidade/secretarias/governo/noticias/?p=350616",
@@ -1142,7 +1139,14 @@
     ],
     "approx": true,
     "address": "Av. Almirante Delamare, 3033 · referência aproximada do núcleo de saúde",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/assets/11-Hospital-Heliopolis.jpg",
+        "alt": "Imagem de apoio do complexo de saúde Heliópolis",
+        "source": "https://prefeitura.sp.gov.br/web/saude/w/noticias/266420",
+        "credit": "Imagem de apoio do acervo do projeto"
+      }
+    ],
     "story": "O CAPS Infantojuvenil III Heliópolis, o CAPS Adulto III Sacomã e o CECCO compõem a atenção psicossocial e a convivência da rede pública que atravessa o território.",
     "history": "A Prefeitura lista dois CAPS, um CECCO, o SIAT III e cinco UBS entre os dez equipamentos públicos de saúde da rede territorial. Este card reúne CAPS e CECCO para explicar a rede de cuidado em liberdade; não são serviços exclusivos para pessoas trans, mas são portas públicas que podem ser acessadas conforme a necessidade e o fluxo de atendimento.",
     "source": "https://prefeitura.sp.gov.br/web/saude/w/heli%C3%B3polis-completa-53-anos-com-avan%C3%A7os-na-%C3%A1rea-da-sa%C3%BAde",

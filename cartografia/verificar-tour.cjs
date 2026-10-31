@@ -12,11 +12,11 @@ function scenario(reducedMotion=false){let now=0,next=1,jobs=new Map(),events={}
  return {ctx,el,tick,opened,classes,zoomHistory,view:()=>view,run:s=>vm.runInContext(s,ctx)};
 }
 for(const reduced of [false,true]){
- const s=scenario(reduced);s.run('startTour()');assert(s.classes.has('presenting'));assert.equal(s.ctx.tourStops.length,27);s.tick(1700);assert.equal(s.opened.at(-1),'unas');assert.equal(s.zoomHistory[0],19);assert(s.el('.card-summary').textContent.length>80);
+ const s=scenario(reduced);s.run('startTour()');assert(s.classes.has('presenting'));assert.equal(s.ctx.tourStops.length,records.length);s.tick(1700);assert.equal(s.opened.at(-1),'unas');assert.equal(s.zoomHistory[0],19);assert(s.el('.card-summary').textContent.length>80);
  s.run('pauseTour()');const held=s.ctx.tourIndex;s.tick(35000);assert.equal(s.ctx.tourIndex,held);assert.equal(s.ctx.tourState,'paused');s.run('resumeTour()');s.tick(28000);assert(s.ctx.tourIndex>held);
  const lastIndex=s.ctx.tourStops.length-1,lastId=s.ctx.tourStops[lastIndex].id;s.run('pauseTour();visitStop('+lastIndex+')');s.tick(1700);assert.equal(s.opened.at(-1),lastId);assert.equal(s.ctx.tourState,'paused');s.run('resumeTour()');s.tick(30000);assert.equal(s.ctx.tourState,'complete');
  s.run('stopTour()');assert(!s.classes.has('presenting'));assert.equal(s.ctx.category,'Saúde');assert.equal(s.el('#search').value,'saúde');assert.equal(s.ctx.activeId,'gotas');assert.equal(s.view().zoom,17);assert.equal(s.el('#map-location').textContent,'Local inicial');
  s.run('startTour();pauseTour()');s.tick(1700);assert.equal(s.ctx.tourState,'paused');s.run('stopTour()');const count=s.opened.length;s.tick(40000);assert.equal(s.opened.length,count);
  const all=scenario(reduced);all.run('startTour()');all.tick(800000);assert.equal(all.ctx.tourState,'complete');for(const p of records)assert(all.opened.includes(p.id),p.id);
 }
-console.log('OK: tour visita os 27 locais; aproxima o mapa; abre a história ao chegar; pausa, continua e conclui; inclui pontos sem coordenada sem inventar posição; restaura navegação e cancela tarefas ao sair; movimento reduzido verificado.');
+console.log(`OK: tour visita os ${records.length} locais; aproxima o mapa; abre a história ao chegar; pausa, continua e conclui; inclui pontos sem coordenada sem inventar posição; restaura navegação e cancela tarefas ao sair; movimento reduzido verificado.`);
